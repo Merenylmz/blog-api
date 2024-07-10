@@ -23,8 +23,8 @@ return new class extends Migration
             $table->json("comments")->nullable();
             $table->json("tags")->nullable();
             $table->integer("viewsCount")->default(0);
-            $table->integer("starterDate");
-            $table->integer("finishDate");
+            $table->date("starterDate");
+            $table->date("finishDate");
             $table->timestamps();
         });
     }

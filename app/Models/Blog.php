@@ -12,6 +12,11 @@ class Blog extends Model
     protected $table = "blogs";
     protected $fillable = ["title", "description", "userId", "categories", "fileUrl", "isitActive", "viewsCount", "comments", "tags"];
 
+    protected $casts = [
+        'tags' => 'array',
+        'categories'=> 'array',
+    ];
+
     public function categories(){
         return $this->hasMany(Category::class);
     }
