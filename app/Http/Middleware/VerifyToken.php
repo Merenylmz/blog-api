@@ -5,10 +5,11 @@ namespace App\Http\Middleware;
 use App\Models\User;
 use Closure;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 use Jerry\JWT\JWT;
 use Symfony\Component\HttpFoundation\Response;
 
-class IsItAdmin
+class VerifyToken
 {
     /**
      * Handle an incoming request.
@@ -22,10 +23,13 @@ class IsItAdmin
         if (!$user) {
             return response()->json(["status"=>"Is Not OK", "msg"=>"User is not found"]);
         }
-        else if (!$user->isitAdmin) {
-            return response()->json(["status"=>"Is Not OK", "msg"=>"Unauthorized Entry"]);
+        else if (!Cache::has("loginToken:{$user->id}")) {
+            return response()->json(["status"=>"Is Not OK", "msg"=>"Token is Expired"]);
+        } 
+        else if (Cache::get("loginToken:{$user->id}") != $req->query("token") || $req->query("loginToken:{$user->id}") != $user->lastLoginToken) {
+            return response()->json(["status"=>"Is Not OK", "msg"=>"Token is Invalid"]);
         }
-        
+        $req->attributes->set("userId", $user->id);
         return $next($req);
     }
 }
