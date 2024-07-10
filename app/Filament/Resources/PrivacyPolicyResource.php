@@ -2,36 +2,32 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\CategoryResource\Pages;
-use App\Filament\Resources\CategoryResource\RelationManagers;
-use App\Models\Category;
+use App\Filament\Resources\PrivacyPolicyResource\Pages;
+use App\Filament\Resources\PrivacyPolicyResource\RelationManagers;
+use App\Models\PrivacyPolicy;
 use Filament\Forms;
-use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
-use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class CategoryResource extends Resource
+class PrivacyPolicyResource extends Resource
 {
-    protected static ?string $model = Category::class;
-    protected static ?string $navigationGroup = "Operation";
-    protected static ?string $navigationIcon = 'heroicon-m-bars-3';
+    protected static ?string $model = PrivacyPolicy::class;
+
+    protected static ?string $navigationGroup = "KVKK and Privacy Policy";
+    protected static ?string $navigationIcon = 'heroicon-o-lock-closed';
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                TextInput::make("title")->required(),
-                Select::make("status")->options([
-                    true=>"Aktif",
-                    false=>"Pasif"
-                ])->label("Durum")->required()
+                TextInput::make("title"),
+                TextInput::make("description")
             ]);
     }
 
@@ -39,12 +35,10 @@ class CategoryResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make("id"),
-                TextColumn::make("title"),
-                IconColumn::make('status')->boolean(),
+                TextColumn::make("title")
             ])
             ->filters([
-                // TextColumn::make("status")
+                //
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
@@ -66,9 +60,9 @@ class CategoryResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListCategories::route('/'),
-            'create' => Pages\CreateCategory::route('/create'),
-            'edit' => Pages\EditCategory::route('/{record}/edit'),
+            'index' => Pages\ListPrivacyPolicies::route('/'),
+            'create' => Pages\CreatePrivacyPolicy::route('/create'),
+            'edit' => Pages\EditPrivacyPolicy::route('/{record}/edit'),
         ];
     }
 }

@@ -18,6 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger("blogId");
             $table->foreign("blogId")->references("id")->on("blogs")->onDelete("cascade");
             $table->text("comment");
+            $table->boolean("status")->default(false);
             $table->timestamps();
         });
     }

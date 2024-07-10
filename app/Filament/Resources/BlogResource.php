@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Actions\Blog\CreateBlogAction;
 use App\Filament\Resources\BlogResource\Pages;
 use App\Filament\Resources\BlogResource\RelationManagers;
 use App\Models\Blog;
@@ -10,6 +11,8 @@ use App\Models\User;
 use DateTime;
 use Faker\Provider\ar_EG\Text;
 use Filament\Forms;
+use Filament\Forms\Components\Actions;
+use Filament\Forms\Components\Actions\Action;
 use Filament\Forms\Components\CheckboxList;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\DateTimePicker;
@@ -19,8 +22,12 @@ use Filament\Forms\Components\TagsInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
+use Filament\Forms\Get;
+use Filament\Forms\Set;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\IconColumn;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -29,22 +36,22 @@ class BlogResource extends Resource
 {
     protected static ?string $model = Blog::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = "Operation";
+
+    protected static ?string $navigationIcon = 'heroicon-o-chat-bubble-left-right';
 
     
     public static function form(Form $form): Form
     {
         $userId = auth()->user()->id;
 
-        // // Filament formunda checkbox alanını ekleyin:
-        // $form->field('categories', 'Kategoriler')
-        // ->checkboxList(Category::all());
+
 
         return $form
             ->schema([
                 TextInput::make("title")->required(),
                 Textarea::make("description")->required(),
-                TextInput::make("userId")->default($userId)->hidden(),
+                TextInput::make("userId")->default($userId),
                 Select::make("isitActive")->options([
                     true=>"Aktif",
                     false=>"Pasif"
@@ -53,7 +60,7 @@ class BlogResource extends Resource
                 CheckboxList::make("categories")->options(Category::where("status", true)->pluck("title", "id")),
                 FileUpload::make("fileUrl")->disk("public")->directory("blogs"),
                 DatePicker::make("starterDate")->label("Starter Date")->minDate(now()),
-                DatePicker::make("finishDate")->label("Finish Date")->after("starterDate"),
+                DatePicker::make("finishDate")->label("Finish Date")->after("starterDate")->minDate(now()->addDay()),
             ]);
     }
 
@@ -61,7 +68,9 @@ class BlogResource extends Resource
     {
         return $table
             ->columns([
-                //
+                TextColumn::make("id"),
+                TextColumn::make("title"),
+                IconColumn::make("isitActive")->boolean()
             ])
             ->filters([
                 //
