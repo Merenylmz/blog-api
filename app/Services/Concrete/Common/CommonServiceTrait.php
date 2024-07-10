@@ -10,19 +10,19 @@ trait CommonServiceTrait
         $this->modelRepository = $modelRepository;
     }
     public function all(){
-        return $this->modelRepository->all();
+        return $this->modelRepository->getAll();
     }
     public function find($id){
-        return $this->modelRepository->findOrFail($id);
+        return $this->modelRepository->getById($id);
     }
     public function create(array $data){
         return $this->modelRepository->create($data);
     }
     public function update(array $data, $id){
-        $modelData = $this->modelRepository->findOrFail($id);
+        $modelData = $this->modelRepository->getById($id);
         return $modelData->update($data);
     }
     public function delete($id){
-        return $this->modelRepository->destroy($id);
+        return $this->modelRepository->delete($id);
     }
 }

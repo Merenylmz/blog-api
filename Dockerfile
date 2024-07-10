@@ -7,7 +7,10 @@ RUN apt-get update -y && apt-get install -y \
     git \
     libpq-dev \
     libonig-dev \
-    libxml2-dev
+    libxml2-dev \
+    libzip-dev \
+    && docker-php-ext-install intl \
+    && docker-php-ext-install zip
 
 RUN docker-php-ext-install pdo_mysql mbstring
 

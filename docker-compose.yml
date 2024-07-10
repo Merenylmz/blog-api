@@ -43,6 +43,11 @@ services:
     container_name: redis
     ports:
       - "6379:6379"
-
+    volumes:
+      - redisdata:/var/lib/redis
+  
 volumes:
   dbdata:
+  redisdata:
+
+  
