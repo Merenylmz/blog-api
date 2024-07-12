@@ -17,6 +17,7 @@ use Filament\Forms\Components\CheckboxList;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\Hidden;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TagsInput;
 use Filament\Forms\Components\Textarea;
@@ -43,21 +44,19 @@ class BlogResource extends Resource
     
     public static function form(Form $form): Form
     {
-        $userId = auth()->user()->id;
-
-
+        $userId = auth()->id();
 
         return $form
             ->schema([
                 TextInput::make("title")->required(),
                 Textarea::make("description")->required(),
-                TextInput::make("userId")->default($userId),
+                Hidden::make("userId")->default($userId),
                 Select::make("isitActive")->options([
                     true=>"Aktif",
                     false=>"Pasif"
                 ])->label("Durum")->required(),
                 TagsInput::make("tags"),
-                CheckboxList::make("categories")->options(Category::where("status", true)->pluck("title", "id")),
+                Select::make("categoryId")->options(Category::where("status", true)->pluck("title", "id"))->label("Kategori"),
                 FileUpload::make("fileUrl")->disk("public")->directory("blogs"),
                 DatePicker::make("starterDate")->label("Starter Date")->minDate(now()),
                 DatePicker::make("finishDate")->label("Finish Date")->after("starterDate")->minDate(now()->addDay()),

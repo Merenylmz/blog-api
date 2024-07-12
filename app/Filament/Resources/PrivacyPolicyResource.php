@@ -6,6 +6,7 @@ use App\Filament\Resources\PrivacyPolicyResource\Pages;
 use App\Filament\Resources\PrivacyPolicyResource\RelationManagers;
 use App\Models\PrivacyPolicy;
 use Filament\Forms;
+use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -27,7 +28,7 @@ class PrivacyPolicyResource extends Resource
         return $form
             ->schema([
                 TextInput::make("title"),
-                TextInput::make("description")
+                MarkdownEditor::make('content')
             ]);
     }
 
@@ -35,6 +36,7 @@ class PrivacyPolicyResource extends Resource
     {
         return $table
             ->columns([
+                
                 TextColumn::make("title")
             ])
             ->filters([

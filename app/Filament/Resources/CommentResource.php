@@ -6,6 +6,7 @@ use App\Filament\Resources\CommentResource\Pages;
 use App\Filament\Resources\CommentResource\RelationManagers;
 use App\Models\Blog;
 use App\Models\Comment;
+use App\Models\User;
 use Filament\Forms;
 use Filament\Forms\Components\Hidden;
 use Filament\Forms\Components\Select;
@@ -18,11 +19,13 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Facades\Auth;
 
 class CommentResource extends Resource
 {
     protected static ?string $model = Comment::class;
 
+    protected static ?string $navigationGroup = "Operation";
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     
@@ -33,7 +36,7 @@ class CommentResource extends Resource
         return $form
             ->schema([
                 TextInput::make("comment")->label("Yorumunuz"),
-                TextInput::make("userId")->default($userId),
+                Hidden::make("userId")->default($userId),
                 Select::make("blogId")->options(Blog::where("isitActive", true)->pluck("title", "id")),
                 Select::make("status")->options([
                     true=>"Aktif",

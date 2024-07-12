@@ -54,4 +54,11 @@ class User extends Authenticatable implements FilamentUser
     //         $user->role = 'panel_user';
     //     });
     // }
+
+    // public function roles(){
+    //     return $this->belongsToMany(Role::class, "role_user");
+    // }
+    // public function hasRole(string $role): bool{
+    //     return $this->roles()->where("name", $role)->exists();
+    // }
 }

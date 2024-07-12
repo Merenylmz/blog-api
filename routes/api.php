@@ -1,7 +1,11 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CategoryController;
+use App\Jobs\NewCommentMailJob;
+use App\Models\Blog;
+use App\Models\Comment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -22,4 +26,13 @@ Route::prefix("/auth")->group(function(){
     Route::post("/login", [AuthController::class, "login"]);
     Route::post("/register", [AuthController::class, "register"]);
     Route::post("/edituser", [AuthController::class, "editUser"])->middleware("verifyToken");
+});
+
+Route::prefix("/blogs")->group(function(){
+    Route::get("/", [BlogController::class, "getAllBlogs"]);
+    Route::get("/popular", [BlogController::class, "getPopularBlogs"]);
+    Route::get("/{id}", [BlogController::class, "getBlogById"]);
+    Route::put("/edit/{id}", [BlogController::class, "editBlog"]);
+    Route::get("/count/{id}", [BlogController::class, "addViewsCount"]);
+    Route::post("/addcomment/{id}", [BlogController::class, "addComments"]);
 });
