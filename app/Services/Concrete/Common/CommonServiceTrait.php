@@ -9,8 +9,8 @@ trait CommonServiceTrait
     public function __construct($modelRepository) {
         $this->modelRepository = $modelRepository;
     }
-    public function all(){
-        return $this->modelRepository->getAll();
+    public function all($cache = ["status"=>false, "key"=>null]){
+        return $this->modelRepository->getAll($cache);
     }
     public function find($id){
         return $this->modelRepository->getById($id);

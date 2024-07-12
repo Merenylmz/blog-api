@@ -2,6 +2,8 @@
 
 use App\Http\Middleware\IsItAdmin;
 use App\Http\Middleware\VerifyToken;
+use App\Models\Blog;
+use Carbon\Carbon;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
@@ -21,7 +23,12 @@ return Application::configure(basePath: dirname(__DIR__))
         ]);
     })
     ->withSchedule(function(Schedule $schedule){
-        // $schedule->
+        $schedule->call(function(){
+            $currentTime = Carbon::now();
+            Blog::where("starterDate","<", $currentTime)->update(["isitActive"=>1]);
+            Blog::where("finishDate", "<", $currentTime)->delete();
+
+        })->daily();
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

@@ -15,4 +15,8 @@ class CategoryRepository implements CategoryRepositoryInterface
         $this->category = $category;
         $this->model = $this->category;
     }
+
+    public function getAllCategoriesWithCache(){
+        
+    }
 }

@@ -13,7 +13,7 @@ class BlogController extends Controller
     }
     public function getAllBlogs(Request $req){
         try {
-            $blogs = $this->blogService->all();
+            $blogs = $this->blogService->all(["status"=>false, "key"=>null]);
             return response()->json(["status"=>"OK", "blogs"=>$blogs]);
         } catch (\Throwable $th) {
             return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);

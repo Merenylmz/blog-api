@@ -39,7 +39,7 @@ class BlogResource extends Resource
 
     protected static ?string $navigationGroup = "Operation";
 
-    protected static ?string $navigationIcon = 'heroicon-o-chat-bubble-left-right';
+    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     
     public static function form(Form $form): Form

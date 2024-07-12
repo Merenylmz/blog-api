@@ -11,10 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('kvkk_model', function (Blueprint $table) {
+        Schema::create('kvkkpage', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->text('description')->nullable();
+            $table->string("title");
+            $table->text("description");
             $table->timestamps();
         });
     }
@@ -24,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('kvkk_model');
+        Schema::dropIfExists('kvkkpage');
     }
 };

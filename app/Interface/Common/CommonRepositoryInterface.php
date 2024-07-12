@@ -4,7 +4,7 @@ namespace App\Interface\Common;
 
 interface CommonRepositoryInterface
 {
-    public function getAll();
+    public function getAll($cache = ["status"=>false, "key"=>"catAll"]);
     public function getById($id);
     public function create(array $data);
     public function update(array $data, $id);

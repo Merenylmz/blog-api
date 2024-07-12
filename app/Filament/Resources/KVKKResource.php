@@ -15,12 +15,14 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use League\CommonMark\Input\MarkdownInput;
 
 class KvkkResource extends Resource
 {
     protected static ?string $model = Kvkk::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = "KVKK and Privacy Policy";
+    protected static ?string $navigationIcon = 'heroicon-o-finger-print';
 
     public static function form(Form $form): Form
     {
@@ -35,7 +37,8 @@ class KvkkResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make("title")
+                TextColumn::make("id"),
+                TextColumn::make("title"),
             ])
             ->filters([
                 //
