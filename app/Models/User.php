@@ -11,8 +11,10 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Spatie\Permission\Traits\HasRoles;
+use Filament\Models\Contracts\HasAvatar;
+use Illuminate\Support\Facades\Storage;
 
-class User extends Authenticatable implements FilamentUser
+class User extends Authenticatable implements FilamentUser, HasAvatar
 {
     use HasFactory, Notifiable, HasRoles, HasPanelShield;
 
@@ -25,6 +27,7 @@ class User extends Authenticatable implements FilamentUser
         'name',
         'email',
         'password',
+        'avatar_url',
     ];
 
     /**
@@ -67,5 +70,9 @@ class User extends Authenticatable implements FilamentUser
     {
         return true;
 
+    }
+    public function getFilamentAvatarUrl(): ?string
+    {
+        return $this->avatar_url ? Storage::url("$this->avatar_url") : null;
     }
 }
