@@ -54,7 +54,7 @@ class BlogResource extends Resource
                 Select::make("isitActive")->options([
                     true=>"Aktif",
                     false=>"Pasif"
-                ])->label("Durum")->required(),
+                ])->label("Durum")->visible(fn()=>auth()->user()->hasRole("super_admin")),
                 TagsInput::make("tags"),
                 Select::make("categoryId")->options(Category::where("status", true)->pluck("title", "id"))->label("Kategori"),
                 FileUpload::make("fileUrl")->disk("public")->directory("blogs"),
