@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\PolicyController;
 use App\Jobs\NewCommentMailJob;
 use App\Models\Blog;
 use App\Models\Comment;
@@ -26,6 +27,8 @@ Route::prefix("/auth")->group(function(){
     Route::post("/login", [AuthController::class, "login"]);
     Route::post("/register", [AuthController::class, "register"]);
     Route::post("/edituser", [AuthController::class, "editUser"])->middleware("verifyToken");
+    Route::get("/logout", [AuthController::class, "logout"])->middleware("verifyToken");
+    Route::get("/allusers", [AuthController::class, "allUsers"]);
 });
 
 Route::prefix("/blogs")->group(function(){
@@ -36,3 +39,8 @@ Route::prefix("/blogs")->group(function(){
     Route::get("/count/{id}", [BlogController::class, "addViewsCount"]);
     Route::post("/addcomment/{id}", [BlogController::class, "addComments"]);
 });
+Route::get("/comments", [BlogController::class, "getAllComments"]);
+
+Route::get("/kvkk", [PolicyController::class, "getKvkkDocument"]);
+Route::get("/privacy", [PolicyController::class, "getPrivacyDocument"]);
+

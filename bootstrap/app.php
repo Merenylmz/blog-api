@@ -26,10 +26,11 @@ return Application::configure(basePath: dirname(__DIR__))
         $schedule->call(function(){
             $currentTime = Carbon::now();
             Blog::where("starterDate","<", $currentTime)->update(["isitActive"=>1]);
-            Blog::where("finishDate", "<", $currentTime)->delete();
-
+            Blog::where("finishDate", "<", $currentTime)->update(["isitActive"=>0]);
         })->daily();
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
     })->create();
+
+    

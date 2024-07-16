@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Comment;
 use App\Services\Concrete\BlogService;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Storage;
 
 class BlogController extends Controller
 {
@@ -13,7 +16,8 @@ class BlogController extends Controller
     }
     public function getAllBlogs(Request $req){
         try {
-            $blogs = $this->blogService->all(["status"=>false, "key"=>null]);
+            $blogs = $this->blogService->all(["status"=>true, "key"=>"allBlog"]);
+            
             return response()->json(["status"=>"OK", "blogs"=>$blogs]);
         } catch (\Throwable $th) {
             return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
@@ -85,9 +89,28 @@ class BlogController extends Controller
     }
     public function addComments(Request $req, $id){
         try {
-           $blogs = $this->blogService->addComments($req->all(), $id);
+            $blogs = $this->blogService->addComments($req->all(), $id);
+            if (Cache::has("allComment")) {
+                Cache::forget("allComment");
+            }
 
-           return response()->json(["status"=>"OK", $blogs->comments]);
+            return response()->json(["status"=>"OK", $blogs]);
+        } catch (\Throwable $th) {
+            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
+        }
+    }
+
+    public function getAllComments(){
+        try {
+            $comments = [];
+            if (Cache::has("allComment")) {
+                $comments = Cache::get("allComment");
+            } else {
+                $comments = Comment::all();
+                Cache::put("allComment", $comments,60*30);
+            }
+ 
+            return response()->json(["status"=>"OK", "comments"=>$comments]);
         } catch (\Throwable $th) {
             return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
         }

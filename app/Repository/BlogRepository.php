@@ -37,7 +37,6 @@ class BlogRepository implements BlogRepositoryInterface
         // $blog->comments = json_encode($commentArray);
         // $blog->save();
 
-
         $commentArray = $blog->comments;
         array_push($commentArray, $newComment->id);
         $blog->comments = $commentArray;
@@ -48,6 +47,13 @@ class BlogRepository implements BlogRepositoryInterface
             "comment"=>$newComment
         ]);
 
-        return ["Blog"=>$blog, "Comment"=>$newComment];
+        return ["Blog"=>$blog, "comment"=>$newComment];
+    }
+
+    public function addViewsCount($id){
+        $blogs = $this->blog->findOrFail($id);
+        $blogs->viewsCount += 1;
+        $blogs->save();
+        return $blogs;
     }
 }

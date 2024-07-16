@@ -20,9 +20,9 @@ class BlogService implements BlogServiceInterface
 
     public function addViewsCount($id){
         try {
-            $blog = $this->blogRepository->getById($id);
+            $blog = $this->blogRepository->addViewsCount($id);
 
-            return $this->blogRepository->update($blog, $id);
+            return $blog;
         } catch (\Throwable $th) {
             return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
         }
@@ -41,10 +41,12 @@ class BlogService implements BlogServiceInterface
     public function addComments($data, $id){
         try {
             $blogs = $this->blogRepository->addComment($data, $id);
-
+            
             return $blogs;
         } catch (\Throwable $th) {
             return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
         }
     }
+
+    
 }
