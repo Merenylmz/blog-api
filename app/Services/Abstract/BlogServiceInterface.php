@@ -8,4 +8,6 @@ interface BlogServiceInterface extends CommonServiceInterface
 {
     public function addViewsCount($id);
     public function addComments($data, $id);
+
+    public function getBlogByCategoryId($id);
 }

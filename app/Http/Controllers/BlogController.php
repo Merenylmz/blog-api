@@ -115,4 +115,13 @@ class BlogController extends Controller
             return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
         }
     }
+
+    public function getBlogByCategoryId(Request $req){
+        try {
+            $blogs = $this->blogService->getBlogByCategoryId($req->input("categories"));
+            return response()->json(["status"=>"OK", "blogs"=>$blogs]);
+        } catch (\Throwable $th) {
+            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
+        }
+    }
 }

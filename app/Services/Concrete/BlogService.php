@@ -48,5 +48,15 @@ class BlogService implements BlogServiceInterface
         }
     }
 
+    public function getBlogByCategoryId($id){
+        try {
+            $blogs = $this->blogRepository->getBlogByCategoryId($id);
+            
+            return $blogs;
+        } catch (\Throwable $th) {
+            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
+        }
+    }
+
     
 }

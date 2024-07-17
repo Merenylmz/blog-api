@@ -38,6 +38,7 @@ Route::prefix("/blogs")->group(function(){
     Route::put("/edit/{id}", [BlogController::class, "editBlog"]);
     Route::get("/count/{id}", [BlogController::class, "addViewsCount"]);
     Route::post("/addcomment/{id}", [BlogController::class, "addComments"]);
+    Route::post("/category", [BlogController::class, "getBlogByCategoryId"]);
 });
 Route::get("/comments", [BlogController::class, "getAllComments"]);
 

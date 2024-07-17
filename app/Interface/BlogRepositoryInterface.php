@@ -12,4 +12,6 @@ interface BlogRepositoryInterface extends CommonRepositoryInterface
     public function addComment($data, $id);
 
     public function addViewsCount($id);
+
+    public function getBlogByCategoryId($id);
 }

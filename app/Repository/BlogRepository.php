@@ -6,6 +6,7 @@ use App\Jobs\NewCommentMailJob;
 use App\Models\Blog;
 use App\Models\Comment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 
 class BlogRepository implements BlogRepositoryInterface
 {
@@ -55,5 +56,17 @@ class BlogRepository implements BlogRepositoryInterface
         $blogs->viewsCount += 1;
         $blogs->save();
         return $blogs;
+    }
+
+    public function getBlogByCategoryId($id){
+        $blog = [];
+        if (Cache::has("allBlogCat")) {
+            $blog = Cache::get("allBlogCat");
+        } else{
+            $blogs = $this->blog->whereIn("categoryId", $id)->where("isitActive", true)->get();
+            Cache::put("allBlogCat", $blogs, 60*30);
+            $blog = $blogs;
+        }
+        return $blog;
     }
 }
