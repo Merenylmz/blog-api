@@ -106,8 +106,8 @@ class BlogController extends Controller
             if (Cache::has("allComment")) {
                 $comments = Cache::get("allComment");
             } else {
-                $comments = Comment::all();
-                Cache::put("allComment", $comments,60*30);
+                $comments = Comment::where("status", true)->get();
+                Cache::put("allComment", $comments,60*15);
             }
  
             return response()->json(["status"=>"OK", "comments"=>$comments]);
