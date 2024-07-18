@@ -28,7 +28,7 @@ class PrivacyPolicyResource extends Resource
         return $form
             ->schema([
                 TextInput::make("title"),
-                MarkdownEditor::make('content')
+                MarkdownEditor::make('description')
             ]);
     }
 
