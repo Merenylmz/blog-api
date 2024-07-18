@@ -15,7 +15,7 @@ class KVKKPolicy
      */
     public function viewAny(User $user): bool
     {
-        return $user->can('view_any_k::v::k::k');
+        return $user->can('view_any_kvkk');
     }
 
     /**
@@ -23,7 +23,7 @@ class KVKKPolicy
      */
     public function view(User $user, KVKK $kVKK): bool
     {
-        return $user->can('view_k::v::k::k');
+        return $user->can('view_kvkk');
     }
 
     /**
@@ -31,7 +31,7 @@ class KVKKPolicy
      */
     public function create(User $user): bool
     {
-        return $user->can('create_k::v::k::k');
+        return $user->can('create_kvkk');
     }
 
     /**
@@ -39,7 +39,7 @@ class KVKKPolicy
      */
     public function update(User $user, KVKK $kVKK): bool
     {
-        return $user->can('update_k::v::k::k');
+        return $user->can('update_kvkk');
     }
 
     /**
@@ -47,7 +47,7 @@ class KVKKPolicy
      */
     public function delete(User $user, KVKK $kVKK): bool
     {
-        return $user->can('delete_k::v::k::k');
+        return $user->can('delete_kvkk');
     }
 
     /**
@@ -55,7 +55,7 @@ class KVKKPolicy
      */
     public function deleteAny(User $user): bool
     {
-        return $user->can('delete_any_k::v::k::k');
+        return $user->can('delete_any_kvkk');
     }
 
     /**
@@ -63,7 +63,7 @@ class KVKKPolicy
      */
     public function forceDelete(User $user, KVKK $kVKK): bool
     {
-        return $user->can('force_delete_k::v::k::k');
+        return $user->can('force_delete_kvkk');
     }
 
     /**
@@ -71,7 +71,7 @@ class KVKKPolicy
      */
     public function forceDeleteAny(User $user): bool
     {
-        return $user->can('force_delete_any_k::v::k::k');
+        return $user->can('force_delete_any_kvkk');
     }
 
     /**
@@ -79,7 +79,7 @@ class KVKKPolicy
      */
     public function restore(User $user, KVKK $kVKK): bool
     {
-        return $user->can('restore_k::v::k::k');
+        return $user->can('restore_kvkk');
     }
 
     /**
@@ -87,7 +87,7 @@ class KVKKPolicy
      */
     public function restoreAny(User $user): bool
     {
-        return $user->can('restore_any_k::v::k::k');
+        return $user->can('restore_any_kvkk');
     }
 
     /**
@@ -95,7 +95,7 @@ class KVKKPolicy
      */
     public function replicate(User $user, KVKK $kVKK): bool
     {
-        return $user->can('replicate_k::v::k::k');
+        return $user->can('replicate_kvkk');
     }
 
     /**
@@ -103,6 +103,6 @@ class KVKKPolicy
      */
     public function reorder(User $user): bool
     {
-        return $user->can('reorder_k::v::k::k');
+        return $user->can('reorder_kvkk');
     }
 }

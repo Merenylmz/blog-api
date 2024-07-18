@@ -15,4 +15,8 @@ class CategoryService implements CategoryServiceInterface
         $this->categoryRepository = $categoryRepository;
         $this->modelRepository = $this->categoryRepository;
     }
+
+    public function getAllCategoriesWithCache(){
+        return $this->categoryRepository->getAllCategoriesWithCache();
+    }
 }

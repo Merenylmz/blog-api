@@ -8,6 +8,7 @@ use App\Filament\Resources\BlogResource\RelationManagers;
 use App\Models\Blog;
 use App\Models\Category;
 use App\Models\User;
+use Carbon\Carbon;
 use DateTime;
 use Faker\Provider\ar_EG\Text;
 use Filament\Forms;
@@ -31,7 +32,9 @@ use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 
 class BlogResource extends Resource
 {
@@ -57,9 +60,11 @@ class BlogResource extends Resource
                 ])->label("Durum")->visible(fn()=>auth()->user()->hasRole("super_admin")),
                 TagsInput::make("tags"),
                 Select::make("categoryId")->options(Category::where("status", true)->pluck("title", "id"))->label("Kategori"),
-                FileUpload::make("fileUrl")->disk("public")->directory("blogs"),
-                DatePicker::make("starterDate")->label("Starter Date")->minDate(now()),
-                DatePicker::make("finishDate")->label("Finish Date")->after("starterDate")->minDate(now()->addDay()),
+                FileUpload::make("fileUrl")->disk("public")->directory("blogs")->getUploadedFileNameForStorageUsing(function (TemporaryUploadedFile $file): string {
+                    return (string) str($file->getClientOriginalName())->prepend(Carbon::now()->timestamp."_blog_".auth()->id());
+                }),
+                DatePicker::make("starterDate")->label("Starter Date")->minDate(now()->subDay()),
+                DatePicker::make("finishDate")->label("Finish Date")->after("starterDate")->minDate(now()),
             ]);
     }
 

@@ -59,14 +59,8 @@ class BlogRepository implements BlogRepositoryInterface
     }
 
     public function getBlogByCategoryId($id){
-        $blog = [];
-        if (Cache::has("allBlogCat")) {
-            $blog = Cache::get("allBlogCat");
-        } else{
-            $blogs = $this->blog->whereIn("categoryId", $id)->where("isitActive", true)->get();
-            Cache::put("allBlogCat", $blogs, 60*30);
-            $blog = $blogs;
-        }
-        return $blog;
+        $blogs = $this->blog->whereIn("categoryId", $id)->where("isitActive", true)->get();
+       
+        return $blogs;
     }
 }

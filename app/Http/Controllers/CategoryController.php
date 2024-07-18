@@ -14,7 +14,7 @@ class CategoryController extends Controller
     }
     public function getAllCategories(){
         try {
-            $categories = $this->categoryService->all(["status"=>true, "key"=>"catAll"]);
+            $categories = $this->categoryService->getAllCategoriesWithCache();
             return response()->json($categories);
         } catch (\Throwable $th) {
             return response()->json(["status"=>"Is Not OK", "msg"=> $th->getMessage()]);
@@ -26,7 +26,7 @@ class CategoryController extends Controller
             $category = $this->categoryService->find($id);
             return response()->json($category);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is Not OK", "msg"=> $th->getMessage()]);
+            return response()->json(["status"=>"Is Not OK   ", "msg"=> $th->getMessage()]);
         }
     }
     public function addCategory(Request $req){

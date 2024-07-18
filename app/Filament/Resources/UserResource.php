@@ -26,6 +26,7 @@ class UserResource extends Resource
 
     public static function form(Form $form): Form
     {
+        
         return $form
             ->schema([
                 TextInput::make("name"),
