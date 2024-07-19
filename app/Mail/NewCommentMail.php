@@ -16,7 +16,7 @@ class NewCommentMail extends Mailable
     /**
      * Create a new message instance.
      */
-    private $infos;
+    private $infos; // burada Job dan gelen bilgileri alıyoruz. bu bilgiler yorumu yapan userId ve commentId 
     public function __construct($infos)
     {
         $this->infos = $infos;

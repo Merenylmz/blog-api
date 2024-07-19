@@ -17,7 +17,7 @@ class NewCommentMailJob implements ShouldQueue
     /**
      * Create a new job instance.
      */
-    private $email, $infos;
+    private $email, $infos; // email ve info bilgilerini burada global değişken olarak tanımlıyoruz.
     public function __construct($email, $infos)
     {
         $this->email = $email;
@@ -29,6 +29,7 @@ class NewCommentMailJob implements ShouldQueue
      */
     public function handle(): void
     {
+        //burada ise maili yolluyoruz
         Mail::to($this->email)->send(new NewCommentMail($this->infos));
     }
 }

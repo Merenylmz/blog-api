@@ -17,6 +17,7 @@ class IsItAdmin
      */
     public function handle(Request $req, Closure $next): Response
     {
+        //Burada ise JWT ile gelen tokenı decode ediyoruz ve token içinde bulunan userId bilgisine bağlı olarak Userı buluyoruz. ve adminmi ona bakıyoruz
         $decodedToken = JWT::decode($req->query("token"));
         $user = User::find($decodedToken["userId"]);
         if (!$user) {

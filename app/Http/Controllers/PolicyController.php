@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Cache;
 
 class PolicyController extends Controller
 {
+    //Burada ise Cache ile Kvkk ve Privacy Policy belgelerini getiriyoruz Sürekli güncellenen bir kısım olmadığı için Cache'i silmek mantıksız olur.
     public function getKvkkDocument(){
         try {
             $kvkk = [];

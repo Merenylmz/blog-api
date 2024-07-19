@@ -11,6 +11,12 @@ use Jerry\JWT\JWT;
 
 class AuthController extends Controller
 {
+    /*
+    Bu Kısımda Login İşlemi Yapıyoruz kullanıcının emailini kontrol edip sistemde varmı ona bakıyoruz sonrasında Hash::check ile sistemdeki
+    şifre ile karşılaştırıyoruz bize eşitse true dönüyor. sonrasında token üretip Cache ile redise ve database' e kaydediyoruz her kullanıcı 
+    için farklı bir Cache kaydediyor
+    yani dinamik bir sistem sonra kullanıcının profil fotoğrafı varsa onuda bize döndürüyor.
+    */
     public function login(Request $req){
         try {
             $user = User::where("email", $req->input("email"))->first();
@@ -36,6 +42,11 @@ class AuthController extends Controller
         }
     }
 
+
+    /*
+        Burda Kullanıcıyı Sisteme Kaydediyoruz API ile ve yeni kullanıcı eklediğinde Cache ile bütün userları redisten silip  tekrardan güncel halini yüklüyoruz.
+        ve Hash kullanarak şifreyi Hashliyoruz
+    */ 
     public function register(Request $req){
         try {
             $user = User::where("email", $req->input("email"))->first();
@@ -82,6 +93,10 @@ class AuthController extends Controller
 
     
 
+    /*
+    Bu kısımda sisteme giriş yapmış kullanıcıyı çıkarma işlemini yapıyoruz buna bağlı bulunan middleware ile kullanıcının sistemde oturum açıp açmadığına bakıyoruz.
+    sonrasında eğer controllera gelirse kullanıcının rediste bulunan ve databasede bulunan token siliniyor. 
+     */
     public function logout(Request $req){
         try {
             $user = User::find($req->attributes->get("userId"));
@@ -102,6 +117,8 @@ class AuthController extends Controller
         }
     }
 
+
+    //Burada Frontta belirli bir filtreleme işlemi yapmak için Tüm kullanıcıları döndürüyoruz sistemde yavaşlama olmasın diye Cache sistemi kullanıyoruz.
     public function allUsers(){
         try {
             $data = [];
