@@ -31,7 +31,7 @@ class CategoryResource extends Resource
                 Select::make("status")->options([
                     true=>"Aktif",
                     false=>"Pasif"
-                ])->label("Durum")->required()
+                ])->label("Durum")->visible(fn()=>auth()->user()->hasRole("super_admin"))
             ]);
     }
 

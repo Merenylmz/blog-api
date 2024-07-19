@@ -19,6 +19,7 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
+use Joaopaulolndev\FilamentEditProfile\FilamentEditProfilePlugin;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -57,6 +58,17 @@ class AdminPanelProvider extends PanelProvider
                 Authenticate::class,
             ])->plugins([
                 FilamentShieldPlugin::make()
-            ])->registration(Register::class);
+            ])->registration(Register::class)
+            ->plugins([
+                FilamentEditProfilePlugin::make()
+                    ->shouldShowAvatarForm(
+                        value: true,
+                        directory: 'avatars', // 'storage/app/public/avatars'
+                        rules: 'mimes:jpeg,png|max:1024'
+                    )->setNavigationGroup("My Profile Operation")
+                    ->setIcon("heroicon-o-user")
+                    ->setNavigationLabel("My Profile")
+                    ->setTitle("Welcome, Your Profile")
+            ]);
     }
 }

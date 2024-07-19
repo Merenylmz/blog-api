@@ -8,6 +8,7 @@ use App\Filament\Resources\BlogResource\RelationManagers;
 use App\Models\Blog;
 use App\Models\Category;
 use App\Models\User;
+use Carbon\Carbon;
 use DateTime;
 use Faker\Provider\ar_EG\Text;
 use Filament\Forms;
@@ -17,6 +18,7 @@ use Filament\Forms\Components\CheckboxList;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\Hidden;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TagsInput;
 use Filament\Forms\Components\Textarea;
@@ -30,7 +32,9 @@ use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 
 class BlogResource extends Resource
 {
@@ -38,29 +42,29 @@ class BlogResource extends Resource
 
     protected static ?string $navigationGroup = "Operation";
 
-    protected static ?string $navigationIcon = 'heroicon-o-chat-bubble-left-right';
+    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     
     public static function form(Form $form): Form
     {
-        $userId = auth()->user()->id;
-
-
+        $userId = auth()->id();
 
         return $form
             ->schema([
                 TextInput::make("title")->required(),
                 Textarea::make("description")->required(),
-                TextInput::make("userId")->default($userId),
+                Hidden::make("userId")->default($userId),
                 Select::make("isitActive")->options([
                     true=>"Aktif",
                     false=>"Pasif"
-                ])->label("Durum")->required(),
+                ])->label("Durum")->visible(fn()=>auth()->user()->hasRole("super_admin")),
                 TagsInput::make("tags"),
-                CheckboxList::make("categories")->options(Category::where("status", true)->pluck("title", "id")),
-                FileUpload::make("fileUrl")->disk("public")->directory("blogs"),
-                DatePicker::make("starterDate")->label("Starter Date")->minDate(now()),
-                DatePicker::make("finishDate")->label("Finish Date")->after("starterDate")->minDate(now()->addDay()),
+                Select::make("categoryId")->options(Category::where("status", true)->pluck("title", "id"))->label("Kategori"),
+                FileUpload::make("fileUrl")->disk("public")->directory("blogs")->getUploadedFileNameForStorageUsing(function (TemporaryUploadedFile $file): string {
+                    return (string) str($file->getClientOriginalName())->prepend(Carbon::now()->timestamp."_blog_".auth()->id());
+                }),
+                DatePicker::make("starterDate")->label("Starter Date")->minDate(now()->subDay()),
+                DatePicker::make("finishDate")->label("Finish Date")->after("starterDate")->minDate(now()),
             ]);
     }
 

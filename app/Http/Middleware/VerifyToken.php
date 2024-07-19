@@ -18,6 +18,7 @@ class VerifyToken
      */
     public function handle(Request $req, Closure $next): Response
     {
+        //Burada ise Token bilgisinden gelen userId ile userı buluyoruz. ve token bilgisi geçmişmi ve geçerlimi onu kontrol ediyoruz
         $decodedToken = JWT::decode($req->query("token"));
         $user = User::find($decodedToken["userId"]);
         if (!$user) {
@@ -26,10 +27,11 @@ class VerifyToken
         else if (!Cache::has("loginToken:{$user->id}")) {
             return response()->json(["status"=>"Is Not OK", "msg"=>"Token is Expired"]);
         } 
-        else if (Cache::get("loginToken:{$user->id}") != $req->query("token") || $req->query("loginToken:{$user->id}") != $user->lastLoginToken) {
+        //burada Databasedeki token bilgisi ile verilen token bilgisi eşleşiyormu ve Cachedeki token bilgisi ile verilen token bilgisi eşleşiyormu ona bakıyoruz.  
+        else if (Cache::get("loginToken:{$user->id}") != $req->query("token") && $req->query("loginToken:{$user->id}") != $user->lastLoginToken) { 
             return response()->json(["status"=>"Is Not OK", "msg"=>"Token is Invalid"]);
         }
-        $req->attributes->set("userId", $user->id);
+        $req->attributes->set("userId", $user->id); // burada ise gelen tokena bağlı olarak userId yi decode edip controllera atıyorum
         return $next($req);
     }
 }

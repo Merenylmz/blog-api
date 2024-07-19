@@ -6,12 +6,15 @@ namespace App\Models;
 
 use BezhanSalleh\FilamentShield\Traits\HasPanelShield;
 use Filament\Models\Contracts\FilamentUser;
+use Filament\Panel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Spatie\Permission\Traits\HasRoles;
+use Filament\Models\Contracts\HasAvatar;
+use Illuminate\Support\Facades\Storage;
 
-class User extends Authenticatable implements FilamentUser
+class User extends Authenticatable implements FilamentUser, HasAvatar
 {
     use HasFactory, Notifiable, HasRoles, HasPanelShield;
 
@@ -24,6 +27,7 @@ class User extends Authenticatable implements FilamentUser
         'name',
         'email',
         'password',
+        'avatar_url',
     ];
 
     /**
@@ -54,4 +58,21 @@ class User extends Authenticatable implements FilamentUser
     //         $user->role = 'panel_user';
     //     });
     // }
+
+    // public function roles(){
+    //     return $this->belongsToMany(Role::class, "role_user");
+    // }
+    // public function hasRole(string $role): bool{
+    //     return $this->roles()->where("name", $role)->exists();
+    // }
+
+    public function canAccessPanel(Panel $panel): bool
+    {
+        return true;
+
+    }
+    public function getFilamentAvatarUrl(): ?string
+    {
+        return $this->avatar_url ? Storage::url("$this->avatar_url") : null;
+    }
 }

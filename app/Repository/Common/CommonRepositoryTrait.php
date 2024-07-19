@@ -2,6 +2,7 @@
 
 namespace App\Repository\Common;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Cache;
 
 trait CommonRepositoryTrait
 {
@@ -10,7 +11,14 @@ trait CommonRepositoryTrait
         $this->model = $model;
     }
 
-    public function getAll(){
+    public function getAll($cache = ["status"=>false, "key"=>"catAll"]){
+        if ($cache["status"]) {
+            if (!Cache::has($cache["key"])) {
+                $datas = $this->model->all();
+                Cache::put($cache["key"], $datas, 60*60);
+            }
+            return Cache::get($cache["key"]);            
+        }
         return $this->model->all();
     }
     public function getById($id){

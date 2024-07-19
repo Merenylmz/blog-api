@@ -13,6 +13,10 @@ class Category extends Model
 
     protected $fillable = ["title", "status", "blogs"];
 
+    protected $casts = [
+        "blogs"=>'array'
+    ];
+
     public function blogs(){
         return $this->hasMany(Blog::class);
     }
