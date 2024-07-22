@@ -24,12 +24,12 @@ class EditBlog extends EditRecord
         ];
     }
 
-    protected function afterFill(): void
-    {
-        $blog = Blog::find($this->record->id);
-        Storage::disk("public")->delete($blog->fileUrl);
-        $blog->save();
-    }
+    // protected function afterFill(): void
+    // {
+    //     $blog = Blog::find($this->record->id);
+    //     Storage::disk("public")->delete($blog->fileUrl);
+    //     $blog->save();
+    // }
 
     protected function afterSave():void{
         Cache::has("allBlog") ?? Cache::forget("allBlog");
