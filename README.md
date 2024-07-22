@@ -28,7 +28,7 @@ then “git clone https://github.com/Merenylmz/blog-api.git”
 command and copy our project into the file you created.
 
 After the project is copied, we need to do a few more steps;
-1.Run the “docker-compose up -d” command to run the project via Docker.
+1. Run the “docker-compose up -d” command to run the project via Docker.
 2. We need to copy the .env.example file in our project to the .env file, for this we run the “copy .env.example .env” command.(.env file is created by itself.)
 3. We type the command “composer install” to download the packages and dependencies of our project (composer must be installed.)
 4. We enter our own, working e-mail address and host in the mail section in the “.env” file.
@@ -37,11 +37,9 @@ After the project is copied, we need to do a few more steps;
 7. By running the “php artisan queue:listen” command, you can make the mail go with the queue.
 8. By running “php artisan schedule:work” command, you can turn on automatic aftive and passive blog system.
 
-Translated with DeepL.com (free version)
-
 This is how we can clone the project.
 
-Translated with DeepL.com (free version)
+
 
 
 
