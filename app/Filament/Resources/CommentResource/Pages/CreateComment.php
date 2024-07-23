@@ -9,6 +9,7 @@ use App\Models\Category;
 use App\Models\Comment;
 use Filament\Actions;
 use Filament\Resources\Pages\CreateRecord;
+use Illuminate\Support\Facades\Cache;
 
 class CreateComment extends CreateRecord
 {
@@ -22,7 +23,7 @@ class CreateComment extends CreateRecord
         $blog->comments = $blogComments;
         $blog->save();
 
-
+        Cache::has("allComment") ?? Cache::forget("allComment");
         NewCommentMailJob::dispatch("m.erenyilmaz2007@gmail.com", [
             "blog"=>$blog,
             "comment"=>$comment
