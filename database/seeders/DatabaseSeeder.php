@@ -15,11 +15,8 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
-        CreateKvkkSeeder::class;
-        CreatePrivacyPolicySeeder::class;
+        
+        $this->call(CreateKvkkSeeder::class);
+        $this->call(CreatePrivacyPolicySeeder::class);
     }
 }
