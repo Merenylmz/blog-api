@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string("title");
             $table->boolean("status")->default(false);
-            $table->json("blogs")->nullable();
+            $table->json("blogs");
             $table->timestamps();
         });
     }
