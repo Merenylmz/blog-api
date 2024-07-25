@@ -2,11 +2,10 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\PrivacyPolicyResource\Pages;
-use App\Filament\Resources\PrivacyPolicyResource\RelationManagers;
-use App\Models\PrivacyPolicy;
+use App\Filament\Resources\PolicyResource\Pages;
+use App\Filament\Resources\PolicyResource\RelationManagers;
+use App\Models\Policy;
 use Filament\Forms;
-use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -16,19 +15,18 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class PrivacyPolicyResource extends Resource
+class PolicyResource extends Resource
 {
-    protected static ?string $model = PrivacyPolicy::class;
+    protected static ?string $model = Policy::class;
 
-    protected static ?string $navigationGroup = "KVKK and Privacy Policy";
-    protected static ?string $navigationIcon = 'heroicon-o-lock-closed';
+    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
                 TextInput::make("title"),
-                MarkdownEditor::make('description')
+                TextInput::make("description")
             ]);
     }
 
@@ -36,7 +34,7 @@ class PrivacyPolicyResource extends Resource
     {
         return $table
             ->columns([
-                
+                TextColumn::make("id"),
                 TextColumn::make("title")
             ])
             ->filters([
@@ -62,9 +60,9 @@ class PrivacyPolicyResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListPrivacyPolicies::route('/'),
-            'create' => Pages\CreatePrivacyPolicy::route('/create'),
-            'edit' => Pages\EditPrivacyPolicy::route('/{record}/edit'),
+            'index' => Pages\ListPolicies::route('/'),
+            'create' => Pages\CreatePolicy::route('/create'),
+            'edit' => Pages\EditPolicy::route('/{record}/edit'),
         ];
     }
 }

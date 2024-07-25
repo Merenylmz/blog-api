@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\KvkkResource\Pages;
+namespace App\Filament\Resources\PolicyResource\Pages;
 
-use App\Filament\Resources\KvkkResource;
+use App\Filament\Resources\PolicyResource;
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
 
-class EditKvkk extends EditRecord
+class EditPolicy extends EditRecord
 {
-    protected static string $resource = KvkkResource::class;
+    protected static string $resource = PolicyResource::class;
 
     protected function getHeaderActions(): array
     {

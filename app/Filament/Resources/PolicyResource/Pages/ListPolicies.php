@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\KvkkResource\Pages;
+namespace App\Filament\Resources\PolicyResource\Pages;
 
-use App\Filament\Resources\KvkkResource;
+use App\Filament\Resources\PolicyResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 
-class ListKvkks extends ListRecords
+class ListPolicies extends ListRecords
 {
-    protected static string $resource = KvkkResource::class;
+    protected static string $resource = PolicyResource::class;
 
     protected function getHeaderActions(): array
     {

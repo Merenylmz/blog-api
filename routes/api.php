@@ -43,13 +43,11 @@ Route::prefix("/blogs")->group(function(){
     Route::post("/category", [BlogController::class, "getBlogByCategoryId"]);
 });
 Route::get("/comments", [BlogController::class, "getAllComments"]);
+Route::get("/policies", [PolicyController::class, "getPolicyBySlug"]);
 
-Route::get("/kvkk", [PolicyController::class, "getKvkkDocument"]);
-Route::get("/privacy", [PolicyController::class, "getPrivacyDocument"]);
+// Route::get("/ddd", function(){
 
-Route::get("/ddd", function(){
-
-    Mail::to("m.erenyilmaz2007@gmail.com")->send(new NewCommentMail("asdasdasd"));
-    return true;
-});
+//     Mail::to("m.erenyilmaz2007@gmail.com")->send(new NewCommentMail("asdasdasd"));
+//     return true;
+// });
 
