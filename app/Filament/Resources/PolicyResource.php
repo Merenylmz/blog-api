@@ -35,7 +35,8 @@ class PolicyResource extends Resource
         return $table
             ->columns([
                 TextColumn::make("id"),
-                TextColumn::make("title")
+                TextColumn::make("title"),
+                TextColumn::make("slug")
             ])
             ->filters([
                 //
