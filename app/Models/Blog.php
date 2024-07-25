@@ -26,5 +26,15 @@ class Blog extends Model
         return $this->hasMany(Comment::class);
     }
 
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::creating(function ($model) {
+            if (is_null($model->comments)) {
+                $model->comments = [];
+            }
+        });
+    }
    
 }

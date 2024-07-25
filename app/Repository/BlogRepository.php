@@ -38,10 +38,10 @@ class BlogRepository implements BlogRepositoryInterface
         // $blog->comments = json_encode($commentArray);
         // $blog->save();
 
-        $commentArray = $blog->comments;
-        array_push($commentArray, $newComment->id);
-        $blog->comments = $commentArray;
-        $blog->save();
+        // $commentArray = $blog->comments;
+        // array_push($commentArray, $newComment->id);
+        // $blog->comments = $commentArray;
+        // $blog->save();
 
         NewCommentMailJob::dispatch("m.erenyilmaz2007@gmail.com", [
             "blog"=>$blog,

@@ -21,7 +21,7 @@ return new class extends Migration
             $table->boolean("isitActive")->default(false);
             $table->unsignedBigInteger("categoryId");
             $table->foreign("categoryId")->references("id")->on("categories")->onDelete("cascade");
-            $table->json("comments")->nullable()->default("[]");
+            $table->json("comments")->nullable();
             $table->json("tags")->nullable();
             $table->integer("viewsCount")->default(0);
             $table->date("starterDate");

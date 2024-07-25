@@ -1,0 +1,890 @@
+2024-07-24 12:38:42,099 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-24 12:38:42,109 INFO supervisord started with pid 1
+2024-07-24 12:38:43,113 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 12:38:43,115 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 12:38:44,118 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 12:38:44,119 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 12:44:08,969 WARN received SIGQUIT indicating exit request
+2024-07-24 12:44:08,970 INFO waiting for laravel-server, laravel-worker_00 to die
+2024-07-24 12:44:09,968 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 12:44:10,971 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 12:54:45,452 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-24 12:54:45,457 INFO supervisord started with pid 1
+2024-07-24 12:54:46,459 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 12:54:46,461 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 12:54:46,485 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:54:46,485 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:54:47,488 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 12:54:47,490 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 12:54:47,511 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:54:47,513 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:54:49,518 INFO spawned: 'laravel-server' with pid 13
+2024-07-24 12:54:49,520 INFO spawned: 'laravel-worker_00' with pid 14
+2024-07-24 12:54:49,543 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:54:49,543 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:54:52,549 INFO spawned: 'laravel-server' with pid 15
+2024-07-24 12:54:52,553 INFO spawned: 'laravel-worker_00' with pid 16
+2024-07-24 12:54:52,577 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:54:52,578 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:54:52,578 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
+2024-07-24 12:54:52,579 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-07-24 12:55:48,644 WARN received SIGQUIT indicating exit request
+2024-07-24 12:55:49,472 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-24 12:55:49,482 INFO supervisord started with pid 1
+2024-07-24 12:55:50,485 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 12:55:50,487 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 12:55:50,506 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:55:50,507 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:55:51,510 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 12:55:51,513 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 12:55:51,535 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:55:51,536 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:55:53,540 INFO spawned: 'laravel-server' with pid 13
+2024-07-24 12:55:53,542 INFO spawned: 'laravel-worker_00' with pid 14
+2024-07-24 12:55:53,563 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:55:53,564 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:55:56,569 INFO spawned: 'laravel-server' with pid 15
+2024-07-24 12:55:56,571 INFO spawned: 'laravel-worker_00' with pid 16
+2024-07-24 12:55:56,588 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:55:56,588 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:55:56,588 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
+2024-07-24 12:55:56,589 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-07-24 12:57:34,703 WARN received SIGQUIT indicating exit request
+2024-07-24 12:59:00,118 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-07-24 12:59:00,123 INFO supervisord started with pid 1
+2024-07-24 12:59:01,126 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 12:59:01,129 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 12:59:01,156 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:59:01,157 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:59:02,162 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 12:59:02,165 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 12:59:02,194 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:59:02,194 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:59:04,199 INFO spawned: 'laravel-server' with pid 13
+2024-07-24 12:59:04,201 INFO spawned: 'laravel-worker_00' with pid 14
+2024-07-24 12:59:04,225 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:59:04,226 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:59:07,231 INFO spawned: 'laravel-server' with pid 15
+2024-07-24 12:59:07,235 INFO spawned: 'laravel-worker_00' with pid 16
+2024-07-24 12:59:07,257 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 12:59:07,258 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 12:59:07,258 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
+2024-07-24 12:59:07,259 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-07-24 13:01:38,436 WARN received SIGQUIT indicating exit request
+2024-07-24 13:01:39,408 INFO Set uid to user 0 succeeded
+2024-07-24 13:01:39,412 INFO supervisord started with pid 1
+2024-07-24 13:01:40,416 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 13:01:40,422 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 13:01:40,472 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:01:40,474 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:01:41,479 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 13:01:41,483 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 13:01:41,508 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:01:41,508 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:01:43,512 INFO spawned: 'laravel-server' with pid 13
+2024-07-24 13:01:43,516 INFO spawned: 'laravel-worker_00' with pid 14
+2024-07-24 13:01:43,536 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:01:43,538 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:01:46,543 INFO spawned: 'laravel-server' with pid 15
+2024-07-24 13:01:46,545 INFO spawned: 'laravel-worker_00' with pid 16
+2024-07-24 13:01:46,563 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:01:46,564 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
+2024-07-24 13:01:46,564 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:01:47,567 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-07-24 13:03:34,696 WARN received SIGQUIT indicating exit request
+2024-07-24 13:12:03,392 INFO Set uid to user 0 succeeded
+2024-07-24 13:12:03,395 INFO supervisord started with pid 1
+2024-07-24 13:12:04,400 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 13:12:04,406 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 13:12:04,439 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:12:04,440 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:12:05,443 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 13:12:05,446 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 13:12:05,460 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:12:05,462 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:12:07,465 INFO spawned: 'laravel-server' with pid 13
+2024-07-24 13:12:07,468 INFO spawned: 'laravel-worker_00' with pid 14
+2024-07-24 13:12:07,518 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:12:07,521 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:12:10,530 INFO spawned: 'laravel-server' with pid 15
+2024-07-24 13:12:10,538 INFO spawned: 'laravel-worker_00' with pid 16
+2024-07-24 13:12:10,590 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:12:10,592 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
+2024-07-24 13:12:10,593 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:12:11,595 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-07-24 13:21:33,260 WARN received SIGQUIT indicating exit request
+2024-07-24 13:21:40,454 INFO Set uid to user 0 succeeded
+2024-07-24 13:21:40,460 INFO supervisord started with pid 1
+2024-07-24 13:21:41,463 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 13:21:41,465 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 13:21:41,486 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:21:41,486 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:21:42,489 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 13:21:42,490 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 13:21:42,507 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:21:42,508 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:21:44,512 INFO spawned: 'laravel-server' with pid 13
+2024-07-24 13:21:44,515 INFO spawned: 'laravel-worker_00' with pid 14
+2024-07-24 13:21:44,529 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:21:44,530 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:21:47,535 INFO spawned: 'laravel-server' with pid 15
+2024-07-24 13:21:47,537 INFO spawned: 'laravel-worker_00' with pid 16
+2024-07-24 13:21:47,557 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:21:47,557 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:21:48,558 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
+2024-07-24 13:21:48,560 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-07-24 13:25:28,823 WARN received SIGQUIT indicating exit request
+2024-07-24 13:25:29,971 INFO Set uid to user 0 succeeded
+2024-07-24 13:25:29,976 INFO supervisord started with pid 1
+2024-07-24 13:25:30,981 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 13:25:30,987 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 13:25:31,027 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:25:31,028 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:25:32,031 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 13:25:32,035 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 13:25:32,055 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:25:32,056 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:25:34,060 INFO spawned: 'laravel-server' with pid 13
+2024-07-24 13:25:34,061 INFO spawned: 'laravel-worker_00' with pid 14
+2024-07-24 13:25:34,078 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:25:34,080 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:25:37,087 INFO spawned: 'laravel-server' with pid 15
+2024-07-24 13:25:37,095 INFO spawned: 'laravel-worker_00' with pid 16
+2024-07-24 13:25:37,164 WARN exited: laravel-worker_00 (exit status 255; not expected)
+2024-07-24 13:25:37,166 INFO gave up: laravel-worker_00 entered FATAL state, too many start retries too quickly
+2024-07-24 13:25:37,167 WARN exited: laravel-server (exit status 255; not expected)
+2024-07-24 13:25:38,169 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
+2024-07-24 13:28:42,386 WARN received SIGQUIT indicating exit request
+2024-07-24 13:28:43,507 INFO Set uid to user 0 succeeded
+2024-07-24 13:28:43,512 INFO supervisord started with pid 1
+2024-07-24 13:28:44,517 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 13:28:44,523 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 13:28:45,526 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 13:28:45,527 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 14:46:33,269 WARN received SIGQUIT indicating exit request
+2024-07-24 14:46:33,294 INFO waiting for laravel-server, laravel-worker_00 to die
+2024-07-24 14:46:33,304 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 14:46:34,309 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 14:46:35,650 INFO Set uid to user 0 succeeded
+2024-07-24 14:46:35,658 INFO supervisord started with pid 1
+2024-07-24 14:46:36,679 INFO spawned: 'cron' with pid 10
+2024-07-24 14:46:36,688 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 14:46:36,695 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 14:46:37,698 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 14:46:37,698 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 14:46:37,698 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 14:47:02,130 INFO reaped unknown pid 26 (exit status 0)
+2024-07-24 14:47:02,130 INFO reaped unknown pid 27 (exit status 0)
+2024-07-24 14:48:02,213 INFO reaped unknown pid 38 (exit status 0)
+2024-07-24 14:48:02,214 INFO reaped unknown pid 39 (exit status 0)
+2024-07-24 14:49:02,285 INFO reaped unknown pid 50 (exit status 0)
+2024-07-24 14:49:02,286 INFO reaped unknown pid 51 (exit status 0)
+2024-07-24 14:49:33,324 WARN received SIGQUIT indicating exit request
+2024-07-24 14:49:33,341 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 14:49:34,362 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 14:49:35,373 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 14:49:35,377 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 14:49:43,392 INFO Set uid to user 0 succeeded
+2024-07-24 14:49:43,404 INFO supervisord started with pid 1
+2024-07-24 14:49:44,407 INFO spawned: 'cron' with pid 10
+2024-07-24 14:49:44,410 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 14:49:44,412 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 14:49:45,415 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 14:49:45,415 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 14:49:45,416 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 14:50:01,503 INFO reaped unknown pid 26 (exit status 0)
+2024-07-24 14:50:01,503 INFO reaped unknown pid 27 (exit status 0)
+2024-07-24 14:51:01,580 INFO reaped unknown pid 38 (exit status 0)
+2024-07-24 14:51:01,581 INFO reaped unknown pid 39 (exit status 0)
+2024-07-24 14:52:01,671 INFO reaped unknown pid 50 (exit status 0)
+2024-07-24 14:52:01,671 INFO reaped unknown pid 51 (exit status 0)
+2024-07-24 14:53:01,754 INFO reaped unknown pid 62 (exit status 0)
+2024-07-24 14:53:01,756 INFO reaped unknown pid 63 (exit status 0)
+2024-07-24 14:54:01,837 INFO reaped unknown pid 74 (exit status 0)
+2024-07-24 14:54:01,838 INFO reaped unknown pid 75 (exit status 0)
+2024-07-24 14:55:01,987 INFO reaped unknown pid 86 (exit status 0)
+2024-07-24 14:55:01,989 INFO reaped unknown pid 87 (exit status 0)
+2024-07-24 14:56:02,072 INFO reaped unknown pid 98 (exit status 0)
+2024-07-24 14:56:02,073 INFO reaped unknown pid 99 (exit status 0)
+2024-07-24 14:57:02,158 INFO reaped unknown pid 111 (exit status 0)
+2024-07-24 14:57:02,159 INFO reaped unknown pid 110 (exit status 0)
+2024-07-24 14:58:02,237 INFO reaped unknown pid 122 (exit status 0)
+2024-07-24 14:58:02,239 INFO reaped unknown pid 123 (exit status 0)
+2024-07-24 14:59:02,319 INFO reaped unknown pid 134 (exit status 0)
+2024-07-24 14:59:02,321 INFO reaped unknown pid 135 (exit status 0)
+2024-07-24 15:00:02,403 INFO reaped unknown pid 146 (exit status 0)
+2024-07-24 15:00:02,408 INFO reaped unknown pid 147 (exit status 0)
+2024-07-24 15:00:09,417 WARN received SIGQUIT indicating exit request
+2024-07-24 15:00:09,423 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:00:10,432 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:00:11,441 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:00:11,444 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:00:30,841 INFO Set uid to user 0 succeeded
+2024-07-24 15:00:30,849 INFO supervisord started with pid 1
+2024-07-24 15:00:31,871 INFO spawned: 'cron' with pid 10
+2024-07-24 15:00:31,878 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 15:00:31,892 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 15:00:32,903 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:00:32,904 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:00:32,904 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:01:02,195 INFO reaped unknown pid 26 (exit status 0)
+2024-07-24 15:01:02,199 INFO reaped unknown pid 27 (exit status 0)
+2024-07-24 15:02:02,279 INFO reaped unknown pid 38 (exit status 0)
+2024-07-24 15:02:02,282 INFO reaped unknown pid 39 (exit status 0)
+2024-07-24 15:03:01,363 WARN received SIGQUIT indicating exit request
+2024-07-24 15:03:01,366 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:03:02,370 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:03:02,372 INFO reaped unknown pid 51 (exit status 0)
+2024-07-24 15:03:02,373 INFO reaped unknown pid 50 (exit status 0)
+2024-07-24 15:03:03,376 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:03:03,378 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:03:04,425 INFO Set uid to user 0 succeeded
+2024-07-24 15:03:04,431 INFO supervisord started with pid 1
+2024-07-24 15:03:05,435 INFO spawned: 'cron' with pid 9
+2024-07-24 15:03:05,441 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 15:03:05,445 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 15:03:06,450 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:03:06,450 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:03:06,450 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:04:01,676 INFO reaped unknown pid 25 (exit status 0)
+2024-07-24 15:04:01,678 INFO reaped unknown pid 26 (exit status 0)
+2024-07-24 15:05:01,758 INFO reaped unknown pid 37 (exit status 0)
+2024-07-24 15:05:01,759 INFO reaped unknown pid 38 (exit status 0)
+2024-07-24 15:05:37,799 WARN received SIGQUIT indicating exit request
+2024-07-24 15:05:37,800 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:05:38,804 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:05:39,807 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:05:39,811 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:05:40,957 INFO Set uid to user 0 succeeded
+2024-07-24 15:05:40,965 INFO supervisord started with pid 1
+2024-07-24 15:05:41,971 INFO spawned: 'cron' with pid 8
+2024-07-24 15:05:41,975 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 15:05:41,980 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 15:05:42,983 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:05:42,983 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:05:42,983 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:06:02,760 INFO reaped unknown pid 21 (exit status 0)
+2024-07-24 15:07:01,845 INFO reaped unknown pid 27 (exit status 0)
+2024-07-24 15:08:01,911 INFO reaped unknown pid 33 (exit status 0)
+2024-07-24 15:09:01,985 INFO reaped unknown pid 39 (exit status 0)
+2024-07-24 15:10:02,070 INFO reaped unknown pid 45 (exit status 0)
+2024-07-24 15:11:02,152 INFO reaped unknown pid 51 (exit status 0)
+2024-07-24 15:12:02,228 INFO reaped unknown pid 57 (exit status 0)
+2024-07-24 15:13:01,306 INFO reaped unknown pid 63 (exit status 0)
+2024-07-24 15:14:01,376 INFO reaped unknown pid 69 (exit status 0)
+2024-07-24 15:14:30,416 WARN received SIGQUIT indicating exit request
+2024-07-24 15:14:30,424 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:14:30,430 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:14:31,434 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:14:31,439 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:14:32,943 INFO Set uid to user 0 succeeded
+2024-07-24 15:14:32,949 INFO supervisord started with pid 1
+2024-07-24 15:14:33,949 INFO spawned: 'cron' with pid 9
+2024-07-24 15:14:33,951 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 15:14:33,954 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 15:14:34,962 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:14:34,963 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:14:34,963 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:15:02,949 INFO reaped unknown pid 22 (exit status 0)
+2024-07-24 15:16:03,037 INFO reaped unknown pid 28 (exit status 0)
+2024-07-24 15:17:02,123 INFO reaped unknown pid 37 (exit status 0)
+2024-07-24 15:17:36,170 WARN received SIGQUIT indicating exit request
+2024-07-24 15:17:36,172 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:17:37,178 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:17:38,181 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:17:38,183 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:17:39,204 INFO Set uid to user 0 succeeded
+2024-07-24 15:17:39,210 INFO supervisord started with pid 1
+2024-07-24 15:17:40,214 INFO spawned: 'cron' with pid 9
+2024-07-24 15:17:40,218 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 15:17:40,222 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 15:17:41,225 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:17:41,226 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:17:41,226 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:18:02,078 INFO reaped unknown pid 22 (exit status 0)
+2024-07-24 15:19:02,165 INFO reaped unknown pid 28 (exit status 0)
+2024-07-24 15:20:02,242 INFO reaped unknown pid 40 (exit status 0)
+2024-07-24 15:20:49,300 WARN received SIGQUIT indicating exit request
+2024-07-24 15:20:49,302 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:20:50,307 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:20:51,311 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:20:51,314 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:20:52,607 INFO Set uid to user 0 succeeded
+2024-07-24 15:20:52,617 INFO supervisord started with pid 1
+2024-07-24 15:20:53,624 INFO spawned: 'cron' with pid 9
+2024-07-24 15:20:53,630 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 15:20:53,636 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 15:20:54,641 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:20:54,642 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:20:54,643 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:21:02,102 INFO reaped unknown pid 22 (exit status 0)
+2024-07-24 15:22:02,183 INFO reaped unknown pid 28 (exit status 0)
+2024-07-24 15:23:02,263 INFO reaped unknown pid 34 (exit status 0)
+2024-07-24 15:23:10,274 WARN received SIGQUIT indicating exit request
+2024-07-24 15:23:10,276 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:23:10,282 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:23:11,287 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:23:11,290 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:23:12,471 INFO Set uid to user 0 succeeded
+2024-07-24 15:23:12,479 INFO supervisord started with pid 1
+2024-07-24 15:23:13,485 INFO spawned: 'cron' with pid 9
+2024-07-24 15:23:13,491 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 15:23:13,497 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 15:23:14,505 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:23:14,505 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:23:14,505 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:24:02,141 INFO reaped unknown pid 22 (exit status 0)
+2024-07-24 15:24:25,176 WARN received SIGQUIT indicating exit request
+2024-07-24 15:24:25,178 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:24:26,184 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:24:27,189 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:24:27,191 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:24:28,283 INFO Set uid to user 0 succeeded
+2024-07-24 15:24:28,290 INFO supervisord started with pid 1
+2024-07-24 15:24:29,293 INFO spawned: 'cron' with pid 9
+2024-07-24 15:24:29,295 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 15:24:29,298 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 15:24:30,300 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:24:30,300 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:24:30,301 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:27:43,402 WARN received SIGQUIT indicating exit request
+2024-07-24 15:27:43,404 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:27:44,408 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:27:45,415 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:27:45,416 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:27:46,576 INFO Set uid to user 0 succeeded
+2024-07-24 15:27:46,583 INFO supervisord started with pid 1
+2024-07-24 15:27:47,587 INFO spawned: 'cron' with pid 9
+2024-07-24 15:27:47,593 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 15:27:47,596 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 15:27:48,598 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:27:48,599 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:27:48,599 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:31:39,396 WARN received SIGQUIT indicating exit request
+2024-07-24 15:31:39,399 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:31:40,405 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:31:41,409 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:31:41,410 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:31:52,558 INFO Set uid to user 0 succeeded
+2024-07-24 15:31:52,565 INFO supervisord started with pid 1
+2024-07-24 15:31:53,568 INFO spawned: 'cron' with pid 9
+2024-07-24 15:31:53,571 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 15:31:53,575 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 15:31:54,577 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:31:54,578 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:31:54,578 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:33:00,317 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:33:01,321 INFO spawned: 'cron' with pid 28
+2024-07-24 15:33:02,323 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:34:00,685 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:34:01,691 INFO spawned: 'cron' with pid 32
+2024-07-24 15:34:02,695 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:35:00,872 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:35:01,875 INFO spawned: 'cron' with pid 35
+2024-07-24 15:35:02,878 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:35:48,626 WARN received SIGQUIT indicating exit request
+2024-07-24 15:35:48,630 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:35:49,638 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:35:50,650 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:35:50,660 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:35:51,664 INFO Set uid to user 0 succeeded
+2024-07-24 15:35:51,671 INFO supervisord started with pid 1
+2024-07-24 15:35:52,676 INFO spawned: 'cron' with pid 8
+2024-07-24 15:35:52,682 INFO spawned: 'laravel-server' with pid 9
+2024-07-24 15:35:52,688 INFO spawned: 'laravel-worker_00' with pid 10
+2024-07-24 15:35:53,692 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:35:53,693 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:35:53,694 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:36:09,830 WARN received SIGQUIT indicating exit request
+2024-07-24 15:36:09,831 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:36:10,610 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:36:10,641 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:36:10,646 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:37:36,443 INFO Set uid to user 0 succeeded
+2024-07-24 15:37:36,451 INFO supervisord started with pid 1
+2024-07-24 15:37:37,456 INFO spawned: 'cron' with pid 9
+2024-07-24 15:37:37,460 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 15:37:37,463 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 15:37:38,467 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:37:38,468 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:37:38,468 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:38:00,348 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:38:01,351 INFO spawned: 'cron' with pid 21
+2024-07-24 15:38:02,354 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:39:00,460 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:39:01,465 INFO spawned: 'cron' with pid 24
+2024-07-24 15:39:02,473 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:40:00,179 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:40:01,188 INFO spawned: 'cron' with pid 27
+2024-07-24 15:40:02,193 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:41:00,193 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:41:01,197 INFO spawned: 'cron' with pid 30
+2024-07-24 15:41:02,200 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:42:00,815 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:42:01,819 INFO spawned: 'cron' with pid 33
+2024-07-24 15:42:02,822 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:43:00,159 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:43:01,164 INFO spawned: 'cron' with pid 36
+2024-07-24 15:43:02,167 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:44:00,127 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:44:01,130 INFO spawned: 'cron' with pid 39
+2024-07-24 15:44:02,133 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:45:00,101 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:45:01,104 INFO spawned: 'cron' with pid 42
+2024-07-24 15:45:02,112 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:46:00,126 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:46:00,128 INFO spawned: 'cron' with pid 45
+2024-07-24 15:46:01,132 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:46:17,617 WARN received SIGQUIT indicating exit request
+2024-07-24 15:46:17,618 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:46:18,621 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:46:18,670 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:46:18,674 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:47:01,990 INFO Set uid to user 0 succeeded
+2024-07-24 15:47:01,995 INFO supervisord started with pid 1
+2024-07-24 15:47:02,998 INFO spawned: 'cron' with pid 10
+2024-07-24 15:47:03,004 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 15:47:03,009 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 15:47:04,013 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:47:04,013 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:47:04,013 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:47:46,223 WARN received SIGQUIT indicating exit request
+2024-07-24 15:47:46,225 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:47:47,230 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:47:48,233 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:47:48,238 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:55:53,333 INFO Set uid to user 0 succeeded
+2024-07-24 15:55:53,341 INFO supervisord started with pid 1
+2024-07-24 15:55:54,344 INFO spawned: 'cron' with pid 10
+2024-07-24 15:55:54,352 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 15:55:54,353 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 15:55:55,356 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:55:55,356 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:55:55,356 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:57:00,163 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:57:01,171 INFO spawned: 'cron' with pid 22
+2024-07-24 15:57:03,017 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:58:00,133 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:58:00,846 INFO spawned: 'cron' with pid 25
+2024-07-24 15:58:01,852 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:58:26,459 WARN received SIGQUIT indicating exit request
+2024-07-24 15:58:26,467 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 15:58:27,474 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 15:58:28,481 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 15:58:28,486 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 15:58:38,526 INFO Set uid to user 0 succeeded
+2024-07-24 15:58:38,537 INFO supervisord started with pid 1
+2024-07-24 15:58:39,540 INFO spawned: 'cron' with pid 10
+2024-07-24 15:58:39,543 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 15:58:39,546 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 15:58:40,548 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:58:40,549 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:58:40,549 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 15:59:00,145 INFO exited: cron (exit status 0; expected)
+2024-07-24 15:59:00,557 INFO spawned: 'cron' with pid 22
+2024-07-24 15:59:02,345 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:00:00,215 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:00:01,218 INFO spawned: 'cron' with pid 25
+2024-07-24 16:00:01,221 WARN received SIGQUIT indicating exit request
+2024-07-24 16:00:01,222 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 16:00:02,230 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:00:02,237 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 16:00:03,239 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 16:00:03,250 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 16:00:11,614 INFO Set uid to user 0 succeeded
+2024-07-24 16:00:11,622 INFO supervisord started with pid 1
+2024-07-24 16:00:12,625 INFO spawned: 'cron' with pid 10
+2024-07-24 16:00:12,627 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 16:00:12,629 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 16:00:13,634 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:00:13,635 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:00:13,635 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:01:00,516 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:01:01,523 INFO spawned: 'cron' with pid 26
+2024-07-24 16:01:02,526 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:02:00,348 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:02:01,355 INFO spawned: 'cron' with pid 29
+2024-07-24 16:02:02,358 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:03:00,195 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:03:01,198 INFO spawned: 'cron' with pid 32
+2024-07-24 16:03:02,201 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:03:40,268 WARN received SIGQUIT indicating exit request
+2024-07-24 16:03:40,270 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 16:03:41,276 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 16:03:42,281 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 16:03:43,296 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 16:03:55,242 INFO Set uid to user 0 succeeded
+2024-07-24 16:03:55,249 INFO supervisord started with pid 1
+2024-07-24 16:03:56,253 INFO spawned: 'cron' with pid 10
+2024-07-24 16:03:56,256 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 16:03:56,262 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 16:03:57,267 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:03:57,267 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:03:57,268 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:05:00,269 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:05:01,272 INFO spawned: 'cron' with pid 22
+2024-07-24 16:05:02,275 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:05:40,750 WARN received SIGQUIT indicating exit request
+2024-07-24 16:05:40,751 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 16:05:40,822 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 16:05:41,825 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 16:05:42,853 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 16:08:45,472 INFO Set uid to user 0 succeeded
+2024-07-24 16:08:45,483 INFO supervisord started with pid 1
+2024-07-24 16:08:46,487 INFO spawned: 'cron' with pid 9
+2024-07-24 16:08:46,492 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 16:08:46,496 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 16:08:47,499 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:08:47,500 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:08:47,500 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:10:00,324 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:10:01,328 INFO spawned: 'cron' with pid 21
+2024-07-24 16:10:02,330 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:11:00,283 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:11:01,286 INFO spawned: 'cron' with pid 24
+2024-07-24 16:11:02,290 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:12:00,219 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:12:01,222 INFO spawned: 'cron' with pid 27
+2024-07-24 16:12:02,224 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:12:16,815 WARN received SIGQUIT indicating exit request
+2024-07-24 16:12:16,816 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 16:12:17,821 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 16:12:18,823 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 16:12:19,831 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 16:12:28,486 INFO Set uid to user 0 succeeded
+2024-07-24 16:12:28,493 INFO supervisord started with pid 1
+2024-07-24 16:12:29,498 INFO spawned: 'cron' with pid 10
+2024-07-24 16:12:29,502 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 16:12:29,508 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 16:12:30,515 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:12:30,515 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:12:30,516 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:13:00,297 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:13:01,302 INFO spawned: 'cron' with pid 22
+2024-07-24 16:13:02,324 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:13:11,335 WARN received SIGQUIT indicating exit request
+2024-07-24 16:13:11,336 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 16:13:11,340 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 16:13:12,352 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 16:13:13,358 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 16:13:24,478 INFO Set uid to user 0 succeeded
+2024-07-24 16:13:24,485 INFO supervisord started with pid 1
+2024-07-24 16:13:25,488 INFO spawned: 'cron' with pid 10
+2024-07-24 16:13:25,489 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 16:13:25,492 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 16:13:26,494 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:13:26,495 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:13:26,495 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:14:01,715 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:14:02,720 INFO spawned: 'cron' with pid 22
+2024-07-24 16:14:03,724 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:15:00,351 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:15:01,357 INFO spawned: 'cron' with pid 25
+2024-07-24 16:15:02,360 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:15:06,364 WARN received SIGQUIT indicating exit request
+2024-07-24 16:15:06,366 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 16:15:07,371 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 16:15:08,374 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 16:15:09,380 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 16:15:18,153 INFO Set uid to user 0 succeeded
+2024-07-24 16:15:18,160 INFO supervisord started with pid 1
+2024-07-24 16:15:19,164 INFO spawned: 'cron' with pid 9
+2024-07-24 16:15:19,167 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 16:15:19,169 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 16:15:20,180 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:15:20,181 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:15:20,181 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:16:00,290 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:16:01,298 INFO spawned: 'cron' with pid 21
+2024-07-24 16:16:02,301 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:17:00,275 INFO exited: cron (exit status 0; expected)
+2024-07-24 16:17:01,280 INFO spawned: 'cron' with pid 24
+2024-07-24 16:17:02,283 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 16:17:12,294 WARN received SIGQUIT indicating exit request
+2024-07-24 16:17:12,295 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 16:17:13,303 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 16:17:14,305 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 16:17:15,313 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 20:06:50,883 INFO Set uid to user 0 succeeded
+2024-07-24 20:06:50,890 INFO supervisord started with pid 1
+2024-07-24 20:06:51,893 INFO spawned: 'cron' with pid 10
+2024-07-24 20:06:51,896 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 20:06:51,901 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 20:06:52,912 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:06:52,912 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:06:52,913 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:07:02,543 INFO reaped unknown pid 23 (exit status 0)
+2024-07-24 20:08:02,624 INFO reaped unknown pid 29 (exit status 0)
+2024-07-24 20:08:18,646 WARN received SIGQUIT indicating exit request
+2024-07-24 20:08:18,649 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 20:08:18,653 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 20:08:19,658 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 20:08:19,660 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 20:08:20,759 INFO Set uid to user 0 succeeded
+2024-07-24 20:08:20,764 INFO supervisord started with pid 1
+2024-07-24 20:08:21,769 INFO spawned: 'cron' with pid 10
+2024-07-24 20:08:21,773 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 20:08:21,777 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 20:08:22,782 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:08:22,782 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:08:22,782 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:09:00,241 INFO exited: cron (exit status 0; expected)
+2024-07-24 20:09:01,248 INFO spawned: 'cron' with pid 22
+2024-07-24 20:09:02,278 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:10:00,006 WARN received SIGQUIT indicating exit request
+2024-07-24 20:10:00,007 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 20:10:00,126 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 20:10:00,128 INFO exited: cron (exit status 0; expected)
+2024-07-24 20:10:01,131 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 20:10:02,251 INFO Set uid to user 0 succeeded
+2024-07-24 20:10:02,258 INFO supervisord started with pid 1
+2024-07-24 20:10:03,273 INFO spawned: 'cron' with pid 10
+2024-07-24 20:10:03,284 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 20:10:03,288 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 20:10:04,295 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:10:04,295 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:10:04,295 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:11:00,160 INFO exited: cron (exit status 0; expected)
+2024-07-24 20:11:01,164 INFO spawned: 'cron' with pid 22
+2024-07-24 20:11:02,167 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:11:07,172 WARN received SIGQUIT indicating exit request
+2024-07-24 20:11:07,173 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 20:11:08,176 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 20:11:09,179 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 20:11:09,183 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 20:13:08,411 INFO Set uid to user 0 succeeded
+2024-07-24 20:13:08,417 INFO supervisord started with pid 1
+2024-07-24 20:13:09,420 INFO spawned: 'cron' with pid 9
+2024-07-24 20:13:09,424 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 20:13:09,426 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 20:13:10,428 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:13:10,429 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:13:10,429 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:14:00,184 INFO exited: cron (exit status 0; expected)
+2024-07-24 20:14:01,191 INFO spawned: 'cron' with pid 21
+2024-07-24 20:14:01,193 WARN received SIGQUIT indicating exit request
+2024-07-24 20:14:01,197 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 20:14:02,206 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:14:02,206 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 20:14:03,209 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 20:14:03,213 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 20:34:42,580 INFO Set uid to user 0 succeeded
+2024-07-24 20:34:42,589 INFO supervisord started with pid 1
+2024-07-24 20:34:43,593 INFO spawned: 'cron' with pid 9
+2024-07-24 20:34:43,605 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 20:34:43,610 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 20:34:44,615 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:34:44,616 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:34:44,617 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:35:00,176 INFO exited: cron (exit status 0; expected)
+2024-07-24 20:35:01,180 INFO spawned: 'cron' with pid 21
+2024-07-24 20:35:02,183 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:36:00,205 INFO exited: cron (exit status 0; expected)
+2024-07-24 20:36:01,209 INFO spawned: 'cron' with pid 24
+2024-07-24 20:36:02,213 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:36:49,402 WARN received SIGQUIT indicating exit request
+2024-07-24 20:36:49,404 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 20:36:50,410 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 20:36:50,648 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 20:36:50,662 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 20:38:15,775 INFO Set uid to user 0 succeeded
+2024-07-24 20:38:15,782 INFO supervisord started with pid 1
+2024-07-24 20:38:16,790 INFO spawned: 'cron' with pid 9
+2024-07-24 20:38:16,795 INFO spawned: 'laravel-server' with pid 10
+2024-07-24 20:38:16,804 INFO spawned: 'laravel-worker_00' with pid 11
+2024-07-24 20:38:17,809 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:38:17,809 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:38:17,810 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:38:51,784 WARN received SIGQUIT indicating exit request
+2024-07-24 20:38:51,793 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 20:38:52,808 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 20:38:53,811 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 20:38:53,815 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 20:41:40,780 INFO Set uid to user 0 succeeded
+2024-07-24 20:41:40,787 INFO supervisord started with pid 1
+2024-07-24 20:41:41,790 INFO spawned: 'cron' with pid 10
+2024-07-24 20:41:41,792 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 20:41:41,795 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 20:41:42,797 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:41:42,798 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:41:42,798 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:42:00,144 INFO exited: cron (exit status 0; expected)
+2024-07-24 20:42:01,150 INFO spawned: 'cron' with pid 22
+2024-07-24 20:42:02,153 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:42:24,581 WARN received SIGQUIT indicating exit request
+2024-07-24 20:42:24,582 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 20:42:25,589 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 20:42:26,598 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 20:42:26,601 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 20:44:35,470 INFO Set uid to user 0 succeeded
+2024-07-24 20:44:35,477 INFO supervisord started with pid 1
+2024-07-24 20:44:36,481 INFO spawned: 'cron' with pid 10
+2024-07-24 20:44:36,484 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 20:44:36,495 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 20:44:37,497 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:44:37,498 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:44:37,498 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:45:00,130 INFO exited: cron (exit status 0; expected)
+2024-07-24 20:45:01,135 INFO spawned: 'cron' with pid 22
+2024-07-24 20:45:02,138 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:45:38,191 WARN received SIGQUIT indicating exit request
+2024-07-24 20:45:38,193 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 20:45:39,199 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 20:45:40,202 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 20:45:40,208 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 20:46:49,309 INFO Set uid to user 0 succeeded
+2024-07-24 20:46:49,316 INFO supervisord started with pid 1
+2024-07-24 20:46:50,320 INFO spawned: 'cron' with pid 10
+2024-07-24 20:46:50,322 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 20:46:50,325 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 20:46:51,327 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:46:51,327 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:46:51,327 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:47:07,993 INFO exited: cron (exit status 0; expected)
+2024-07-24 20:47:08,997 INFO spawned: 'cron' with pid 22
+2024-07-24 20:47:10,000 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:47:34,078 WARN received SIGQUIT indicating exit request
+2024-07-24 20:47:34,078 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 20:47:35,082 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 20:47:36,088 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 20:47:36,091 WARN stopped: cron (terminated by SIGTERM)
+2024-07-24 20:47:37,146 INFO Set uid to user 0 succeeded
+2024-07-24 20:47:37,153 INFO supervisord started with pid 1
+2024-07-24 20:47:38,156 INFO spawned: 'cron' with pid 10
+2024-07-24 20:47:38,158 INFO spawned: 'laravel-server' with pid 11
+2024-07-24 20:47:38,160 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-24 20:47:39,162 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:47:39,162 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:47:39,162 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:48:00,344 INFO exited: cron (exit status 0; expected)
+2024-07-24 20:48:01,347 INFO spawned: 'cron' with pid 22
+2024-07-24 20:48:03,289 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-24 20:48:10,298 WARN received SIGQUIT indicating exit request
+2024-07-24 20:48:10,300 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-24 20:48:11,305 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-24 20:48:12,309 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-24 20:48:12,320 WARN stopped: cron (terminated by SIGTERM)
+2024-07-25 06:08:12,699 INFO Set uid to user 0 succeeded
+2024-07-25 06:08:12,706 INFO supervisord started with pid 1
+2024-07-25 06:08:13,708 INFO spawned: 'cron' with pid 10
+2024-07-25 06:08:13,709 INFO spawned: 'laravel-server' with pid 11
+2024-07-25 06:08:13,712 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-25 06:08:14,714 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:08:14,714 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:08:14,714 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:08:49,830 WARN received SIGQUIT indicating exit request
+2024-07-25 06:08:49,831 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-25 06:08:50,078 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-25 06:08:50,837 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-25 06:08:50,842 WARN stopped: cron (terminated by SIGTERM)
+2024-07-25 06:24:29,637 INFO Set uid to user 0 succeeded
+2024-07-25 06:24:29,643 INFO supervisord started with pid 1
+2024-07-25 06:24:30,647 INFO spawned: 'cron' with pid 10
+2024-07-25 06:24:30,650 INFO spawned: 'laravel-server' with pid 11
+2024-07-25 06:24:30,653 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-25 06:24:31,654 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:24:31,655 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:24:31,655 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:25:00,198 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:25:01,201 INFO spawned: 'cron' with pid 22
+2024-07-25 06:25:02,203 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:26:00,202 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:26:01,209 INFO spawned: 'cron' with pid 25
+2024-07-25 06:26:02,212 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:27:00,210 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:27:01,214 INFO spawned: 'cron' with pid 28
+2024-07-25 06:27:02,216 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:28:00,412 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:28:01,418 INFO spawned: 'cron' with pid 31
+2024-07-25 06:28:02,424 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:29:00,644 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:29:01,650 INFO spawned: 'cron' with pid 34
+2024-07-25 06:29:02,654 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:30:00,455 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:30:01,461 INFO spawned: 'cron' with pid 37
+2024-07-25 06:30:02,465 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:31:01,249 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:31:01,250 INFO spawned: 'cron' with pid 40
+2024-07-25 06:31:02,252 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:32:00,192 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:32:01,195 INFO spawned: 'cron' with pid 43
+2024-07-25 06:32:02,196 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:33:00,126 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:33:01,129 INFO spawned: 'cron' with pid 46
+2024-07-25 06:33:02,131 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:34:00,124 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:34:01,130 INFO spawned: 'cron' with pid 49
+2024-07-25 06:34:02,133 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:35:00,819 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:35:00,821 INFO spawned: 'cron' with pid 52
+2024-07-25 06:35:01,827 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:36:00,125 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:36:01,129 INFO spawned: 'cron' with pid 55
+2024-07-25 06:36:02,135 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:37:00,209 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:37:01,255 INFO spawned: 'cron' with pid 58
+2024-07-25 06:37:02,262 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:38:00,184 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:38:01,190 INFO spawned: 'cron' with pid 61
+2024-07-25 06:38:02,193 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:39:00,475 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:39:01,479 INFO spawned: 'cron' with pid 64
+2024-07-25 06:39:02,481 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:40:00,491 INFO exited: cron (exit status 0; expected)
+2024-07-25 06:40:01,494 INFO spawned: 'cron' with pid 67
+2024-07-25 06:40:02,496 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 06:40:40,832 WARN received SIGQUIT indicating exit request
+2024-07-25 06:40:40,834 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-25 06:40:41,071 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-25 06:40:42,075 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-25 06:40:42,083 WARN stopped: cron (terminated by SIGTERM)
+2024-07-25 08:06:32,438 INFO Set uid to user 0 succeeded
+2024-07-25 08:06:32,447 INFO supervisord started with pid 1
+2024-07-25 08:06:33,450 INFO spawned: 'cron' with pid 10
+2024-07-25 08:06:33,454 INFO spawned: 'laravel-server' with pid 11
+2024-07-25 08:06:33,457 INFO spawned: 'laravel-worker_00' with pid 12
+2024-07-25 08:06:34,458 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:06:34,459 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:06:34,459 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:07:00,545 INFO exited: cron (exit status 0; expected)
+2024-07-25 08:07:01,547 INFO spawned: 'cron' with pid 28
+2024-07-25 08:07:02,549 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:07:44,865 WARN received SIGQUIT indicating exit request
+2024-07-25 08:07:44,866 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-25 08:07:45,870 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-25 08:07:46,080 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-25 08:07:46,083 WARN stopped: cron (terminated by SIGTERM)
+2024-07-25 08:12:23,476 INFO Set uid to user 0 succeeded
+2024-07-25 08:12:23,485 INFO supervisord started with pid 1
+2024-07-25 08:12:24,491 INFO spawned: 'cron' with pid 630
+2024-07-25 08:12:24,495 INFO spawned: 'laravel-server' with pid 631
+2024-07-25 08:12:24,499 INFO spawned: 'laravel-worker_00' with pid 632
+2024-07-25 08:12:25,505 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:12:25,505 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:12:25,506 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:13:02,038 INFO exited: cron (exit status 0; expected)
+2024-07-25 08:13:02,049 INFO spawned: 'cron' with pid 642
+2024-07-25 08:13:03,054 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:14:00,867 INFO exited: cron (exit status 0; expected)
+2024-07-25 08:14:01,874 INFO spawned: 'cron' with pid 645
+2024-07-25 08:14:02,879 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:15:00,461 INFO exited: cron (exit status 0; expected)
+2024-07-25 08:15:01,465 INFO spawned: 'cron' with pid 648
+2024-07-25 08:15:02,469 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:16:00,459 INFO exited: cron (exit status 0; expected)
+2024-07-25 08:16:01,463 INFO spawned: 'cron' with pid 651
+2024-07-25 08:16:02,466 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:16:15,341 INFO exited: cron (exit status 0; expected)
+2024-07-25 08:16:16,345 INFO spawned: 'cron' with pid 654
+2024-07-25 08:16:17,350 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:16:30,535 INFO exited: cron (exit status 0; expected)
+2024-07-25 08:16:31,546 INFO spawned: 'cron' with pid 657
+2024-07-25 08:16:32,551 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:16:45,560 INFO exited: cron (exit status 0; expected)
+2024-07-25 08:16:46,564 INFO spawned: 'cron' with pid 660
+2024-07-25 08:16:47,567 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-25 08:16:49,569 WARN received SIGQUIT indicating exit request
+2024-07-25 08:16:49,570 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-25 08:16:50,573 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-25 08:16:51,576 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-25 08:16:51,579 WARN stopped: cron (terminated by SIGTERM)

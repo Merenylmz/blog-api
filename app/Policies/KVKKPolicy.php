@@ -3,10 +3,10 @@
 namespace App\Policies;
 
 use App\Models\User;
-use App\Models\KVKK;
+use App\Models\Kvkk;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class KVKKPolicy
+class KvkkPolicy
 {
     use HandlesAuthorization;
 
@@ -15,15 +15,15 @@ class KVKKPolicy
      */
     public function viewAny(User $user): bool
     {
-        return $user->can('view_any_kvkk');
+        return $user->can('view_any_k::v::k::k');
     }
 
     /**
      * Determine whether the user can view the model.
      */
-    public function view(User $user, KVKK $kVKK): bool
+    public function view(User $user, Kvkk $kvkk): bool
     {
-        return $user->can('view_kvkk');
+        return $user->can('view_k::v::k::k');
     }
 
     /**
@@ -31,23 +31,23 @@ class KVKKPolicy
      */
     public function create(User $user): bool
     {
-        return $user->can('create_kvkk');
+        return $user->can('create_k::v::k::k');
     }
 
     /**
      * Determine whether the user can update the model.
      */
-    public function update(User $user, KVKK $kVKK): bool
+    public function update(User $user, Kvkk $kvkk): bool
     {
-        return $user->can('update_kvkk');
+        return $user->can('update_k::v::k::k');
     }
 
     /**
      * Determine whether the user can delete the model.
      */
-    public function delete(User $user, KVKK $kVKK): bool
+    public function delete(User $user, Kvkk $kvkk): bool
     {
-        return $user->can('delete_kvkk');
+        return $user->can('delete_k::v::k::k');
     }
 
     /**
@@ -55,15 +55,15 @@ class KVKKPolicy
      */
     public function deleteAny(User $user): bool
     {
-        return $user->can('delete_any_kvkk');
+        return $user->can('delete_any_k::v::k::k');
     }
 
     /**
      * Determine whether the user can permanently delete.
      */
-    public function forceDelete(User $user, KVKK $kVKK): bool
+    public function forceDelete(User $user, Kvkk $kvkk): bool
     {
-        return $user->can('force_delete_kvkk');
+        return $user->can('force_delete_k::v::k::k');
     }
 
     /**
@@ -71,15 +71,15 @@ class KVKKPolicy
      */
     public function forceDeleteAny(User $user): bool
     {
-        return $user->can('force_delete_any_kvkk');
+        return $user->can('force_delete_any_k::v::k::k');
     }
 
     /**
      * Determine whether the user can restore.
      */
-    public function restore(User $user, KVKK $kVKK): bool
+    public function restore(User $user, Kvkk $kvkk): bool
     {
-        return $user->can('restore_kvkk');
+        return $user->can('restore_k::v::k::k');
     }
 
     /**
@@ -87,15 +87,15 @@ class KVKKPolicy
      */
     public function restoreAny(User $user): bool
     {
-        return $user->can('restore_any_kvkk');
+        return $user->can('restore_any_k::v::k::k');
     }
 
     /**
      * Determine whether the user can replicate.
      */
-    public function replicate(User $user, KVKK $kVKK): bool
+    public function replicate(User $user, Kvkk $kvkk): bool
     {
-        return $user->can('replicate_kvkk');
+        return $user->can('replicate_k::v::k::k');
     }
 
     /**
@@ -103,6 +103,6 @@ class KVKKPolicy
      */
     public function reorder(User $user): bool
     {
-        return $user->can('reorder_kvkk');
+        return $user->can('reorder_k::v::k::k');
     }
 }

@@ -5,9 +5,11 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PolicyController;
 use App\Jobs\NewCommentMailJob;
+use App\Mail\NewCommentMail;
 use App\Models\Blog;
 use App\Models\Comment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/user', function (Request $request) {
@@ -44,4 +46,10 @@ Route::get("/comments", [BlogController::class, "getAllComments"]);
 
 Route::get("/kvkk", [PolicyController::class, "getKvkkDocument"]);
 Route::get("/privacy", [PolicyController::class, "getPrivacyDocument"]);
+
+Route::get("/ddd", function(){
+
+    Mail::to("m.erenyilmaz2007@gmail.com")->send(new NewCommentMail("asdasdasd"));
+    return true;
+});
 
