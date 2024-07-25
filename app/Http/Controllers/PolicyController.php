@@ -43,26 +43,24 @@ class PolicyController extends Controller
 
     public function getPolicyBySlug(Request $req){
         try {
-            $policies = [];
             switch ($req->query("policy")) {
                 case 'kvkk':
-                    $policies = Cache::rememberForever("policiesKvkk", function(){
+                    $policiesKvkk = Cache::rememberForever("policiesKvkk", function(){
                         return Policy::where("slug","=", "kvkk")->first();
                     });
-                    return response()->json($policies);
+                    return response()->json($policiesKvkk);
                 
                 case 'privacy':
-                    $policies = Cache::rememberForever("policiesPrivacy", function(){
-                        return Policy::where("slug","=", "kvkk")->first();
+                    $policiesPrivacy = Cache::rememberForever("policiesPrivacy", function(){
+                        return Policy::where("slug","=", "privacy")->first();
                     });
-                    return response()->json($policies);    
+                    return response()->json($policiesPrivacy);  
                 default:
                     $policies = Cache::rememberForever("policies", function(){
                         return Policy::all();
                     });
                     return response()->json($policies);
             }
-            
         } catch (\Throwable $th) {
             return response()->json(["error"=> $th->getMessage()]);
         }
