@@ -28,11 +28,11 @@ return Application::configure(basePath: dirname(__DIR__))
         // $schedule->call(function(){
         //     Mail::to("m.erenyilmaz2007@gmail.com")->send(new NewCommentMail("asdasdasd"));
         // })->everyFiveSeconds();
-        $schedule->call(function(){
-            $currentTime = Carbon::now();
-            Blog::where("starterDate","<", $currentTime)->update(["isitActive"=>1]);
-            Blog::where("finishDate", "<", $currentTime)->update(["isitActive"=>0]);
-        })->daily();
+        // $schedule->call(function(){
+        //     $currentTime = Carbon::now();
+        //     Blog::where("starterDate","<", $currentTime)->update(["isitActive"=>1]);
+        //     Blog::where("finishDate", "<", $currentTime)->update(["isitActive"=>0]);
+        // })->daily();
 
     })
     ->withExceptions(function (Exceptions $exceptions) {
