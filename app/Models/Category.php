@@ -20,15 +20,4 @@ class Category extends Model
     public function blogs(){
         return $this->hasMany(Blog::class);
     }
-
-    protected static function boot()
-    {
-        parent::boot();
-
-        static::creating(function ($model) {
-            if (is_null($model->blogs)) {
-                $model->blogs = [];
-            }
-        });
-    }
 }
