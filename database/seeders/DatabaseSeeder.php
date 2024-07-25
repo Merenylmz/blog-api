@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
-        CreateKvkkSeeder::class;
-        CreatePrivacyPolicySeeder::class;
+        $this->call(CreateKvkkSeeder::class);
+        $this->call(CreatePrivacyPolicySeeder::class);
     }
 }
