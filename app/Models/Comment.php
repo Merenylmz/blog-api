@@ -18,7 +18,7 @@ class Comment extends Model
 
     protected static function booted(){
         parent::booted();
-        
+            
         static::creating(function($model){
             Cache::has("allComment") ??  Cache::forget("allComment");
         });

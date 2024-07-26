@@ -51,7 +51,5 @@ Route::post("/denemee", function(Request $req){
     if (!Auth::attempt($req->all())) {
         return response()->json("asdadasdasd");
     }
-
-    
     return response()->json(Auth::user());
 });
