@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Scopes\GetBlogStatusTrue;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -40,6 +41,8 @@ class Blog extends Model
             $model->viewsCount += 1;
             $model->save();
         });
+
+        static::addGlobalScope(new GetBlogStatusTrue);
     }
    
 }

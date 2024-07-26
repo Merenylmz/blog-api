@@ -20,8 +20,7 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->alias([
-            "verifyToken" => VerifyToken::class,
-            "isItAdmin"=>IsItAdmin::class
+            "verifyToken" => VerifyToken::class
         ]);
     })
     ->withSchedule(function(Schedule $schedule){
