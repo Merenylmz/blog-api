@@ -20,7 +20,6 @@ class Comment extends Model
         parent::booted();
         
         static::creating(function($model){
-            dd($model);
             Cache::has("allComment") ??  Cache::forget("allComment");
         });
         static::updating(function(){

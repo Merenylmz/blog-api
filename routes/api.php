@@ -9,6 +9,7 @@ use App\Mail\NewCommentMail;
 use App\Models\Blog;
 use App\Models\Comment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session;
@@ -46,21 +47,11 @@ Route::prefix("/blogs")->group(function(){
 Route::get("/comments", [BlogController::class, "getAllComments"]);
 Route::get("/policies", [PolicyController::class, "getPolicyBySlug"]);
 
-// Route::get("/ddd", function(){
+Route::post("/denemee", function(Request $req){
+    if (!Auth::attempt($req->all())) {
+        return response()->json("asdadasdasd");
+    }
 
-//     Mail::to("m.erenyilmaz2007@gmail.com")->send(new NewCommentMail("asdasdasd"));
-//     return true;
-// });
-
-Route::get("/sessionAdd", function(){
-    Session::put("deneme", "data data");
-    Session::save();
-    return true;   
+    
+    return response()->json(Auth::user());
 });
-
-Route::get("/session", function(Request $req){
-    return response()->json(
-        Session::all()
-    );
-});
-

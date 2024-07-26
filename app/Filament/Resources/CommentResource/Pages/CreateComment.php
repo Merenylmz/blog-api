@@ -7,9 +7,11 @@ use App\Jobs\NewCommentMailJob;
 use App\Models\Blog;
 use App\Models\Category;
 use App\Models\Comment;
+use App\Models\User;
 use Filament\Actions;
 use Filament\Resources\Pages\CreateRecord;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
 
 class CreateComment extends CreateRecord
 {
@@ -23,10 +25,14 @@ class CreateComment extends CreateRecord
         $blog->comments = $blogComments;
         $blog->save();
 
-        NewCommentMailJob::dispatch("m.erenyilmaz2007@gmail.com", [
-            "blog"=>$blog,
-            "comment"=>$comment
-        ]);
-
+        
+        $admins = DB::table("model_has_roles")->where("role_id", 1)->get();
+        foreach($admins as $admin){
+            $user = User::find($admin->model_id);
+            NewCommentMailJob::dispatch($user->email, [
+                "blog"=>$blog,
+                "comment"=>$comment
+            ]);
+        }
     }
 }

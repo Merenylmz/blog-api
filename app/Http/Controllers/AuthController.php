@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Resources\LoginResource;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Storage;
@@ -20,8 +21,9 @@ class AuthController extends Controller
     */
     public function login(Request $req){
         try {
-            $user = User::where("email", $req->input("email"))->first();
-            if (!$user) {return response()->json(["status"=>"Is Not OK", "msg"=> "User is not found"]);}
+            
+            if (!Auth::attempt($req->all())) {return response()->json(["status"=>"Is Not OK", "msg"=> "User is not found"]);}
+            $user = User::find(Auth::user()->id);
             if (!Hash::check($req->input("password"), $user->password)) {
                 return response()->json(["status"=>"Is Not OK", "msg"=> "Wrong password"]); 
             } 

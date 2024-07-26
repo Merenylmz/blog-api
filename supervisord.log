@@ -9326,3 +9326,1539 @@
 2024-07-26 13:19:14,629 INFO exited: cron (exit status 0; expected)
 2024-07-26 13:19:15,633 INFO spawned: 'cron' with pid 69
 2024-07-26 13:19:16,656 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:19:30,614 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:19:30,616 INFO spawned: 'cron' with pid 73
+2024-07-26 13:19:31,619 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:19:44,531 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:19:45,536 INFO spawned: 'cron' with pid 76
+2024-07-26 13:19:46,540 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:19:59,315 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:20:00,318 INFO spawned: 'cron' with pid 79
+2024-07-26 13:20:01,320 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:20:15,747 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:20:16,751 INFO spawned: 'cron' with pid 82
+2024-07-26 13:20:17,756 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:20:32,901 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:20:33,904 INFO spawned: 'cron' with pid 85
+2024-07-26 13:20:34,914 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:20:48,086 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:20:49,092 INFO spawned: 'cron' with pid 88
+2024-07-26 13:20:50,097 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:21:00,351 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:21:01,355 INFO spawned: 'cron' with pid 91
+2024-07-26 13:21:02,361 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:21:13,959 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:21:14,963 INFO spawned: 'cron' with pid 94
+2024-07-26 13:21:15,967 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:21:28,330 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:21:29,336 INFO spawned: 'cron' with pid 97
+2024-07-26 13:21:30,345 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:21:43,082 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:21:44,085 INFO spawned: 'cron' with pid 100
+2024-07-26 13:21:45,088 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:21:58,157 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:21:59,167 INFO spawned: 'cron' with pid 103
+2024-07-26 13:22:00,171 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:22:11,692 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:22:12,697 INFO spawned: 'cron' with pid 106
+2024-07-26 13:22:13,701 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:22:25,751 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:22:26,756 INFO spawned: 'cron' with pid 109
+2024-07-26 13:22:27,772 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:22:39,072 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:22:40,077 INFO spawned: 'cron' with pid 112
+2024-07-26 13:22:41,081 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:22:55,213 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:22:56,216 INFO spawned: 'cron' with pid 115
+2024-07-26 13:22:57,219 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:23:13,732 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:23:14,736 INFO spawned: 'cron' with pid 118
+2024-07-26 13:23:15,743 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:23:35,159 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:23:36,162 INFO spawned: 'cron' with pid 121
+2024-07-26 13:23:37,199 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:23:54,833 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:23:55,839 INFO spawned: 'cron' with pid 124
+2024-07-26 13:23:56,842 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:24:10,019 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:24:11,024 INFO spawned: 'cron' with pid 127
+2024-07-26 13:24:12,030 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:24:25,335 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:24:26,338 INFO spawned: 'cron' with pid 130
+2024-07-26 13:24:27,342 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:24:35,864 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:24:36,867 INFO spawned: 'cron' with pid 133
+2024-07-26 13:24:38,120 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:24:50,111 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:24:51,117 INFO spawned: 'cron' with pid 136
+2024-07-26 13:24:52,125 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:25:04,252 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:25:05,257 INFO spawned: 'cron' with pid 139
+2024-07-26 13:25:06,261 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:25:20,494 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:25:21,497 INFO spawned: 'cron' with pid 142
+2024-07-26 13:25:22,501 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:25:36,348 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:25:37,351 INFO spawned: 'cron' with pid 145
+2024-07-26 13:25:38,355 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:25:50,236 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:25:51,239 INFO spawned: 'cron' with pid 148
+2024-07-26 13:25:52,243 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:26:05,189 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:26:06,192 INFO spawned: 'cron' with pid 151
+2024-07-26 13:26:07,209 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:26:17,400 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:26:18,406 INFO spawned: 'cron' with pid 154
+2024-07-26 13:26:19,413 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:26:30,479 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:26:31,485 INFO spawned: 'cron' with pid 157
+2024-07-26 13:26:32,492 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:26:42,875 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:26:43,881 INFO spawned: 'cron' with pid 160
+2024-07-26 13:26:44,888 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:26:55,421 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:26:56,424 INFO spawned: 'cron' with pid 163
+2024-07-26 13:26:57,434 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:27:08,817 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:27:09,821 INFO spawned: 'cron' with pid 166
+2024-07-26 13:27:10,829 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:27:21,404 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:27:22,407 INFO spawned: 'cron' with pid 169
+2024-07-26 13:27:23,423 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:27:35,237 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:27:36,240 INFO spawned: 'cron' with pid 172
+2024-07-26 13:27:37,244 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:27:49,370 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:27:50,376 INFO spawned: 'cron' with pid 175
+2024-07-26 13:27:51,379 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:28:07,364 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:28:08,369 INFO spawned: 'cron' with pid 178
+2024-07-26 13:28:09,395 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:28:21,442 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:28:22,447 INFO spawned: 'cron' with pid 181
+2024-07-26 13:28:23,452 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:28:40,287 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:28:41,290 INFO spawned: 'cron' with pid 184
+2024-07-26 13:28:42,292 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:28:56,962 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:28:57,967 INFO spawned: 'cron' with pid 187
+2024-07-26 13:28:58,971 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:29:10,696 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:29:11,701 INFO spawned: 'cron' with pid 190
+2024-07-26 13:29:12,713 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:29:30,068 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:29:31,071 INFO spawned: 'cron' with pid 193
+2024-07-26 13:29:32,074 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:29:44,164 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:29:45,168 INFO spawned: 'cron' with pid 196
+2024-07-26 13:29:46,171 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:29:55,598 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:29:56,602 INFO spawned: 'cron' with pid 199
+2024-07-26 13:29:57,606 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:30:13,014 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:30:14,018 INFO spawned: 'cron' with pid 202
+2024-07-26 13:30:15,021 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:30:28,404 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:30:29,407 INFO spawned: 'cron' with pid 205
+2024-07-26 13:30:30,409 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:30:42,268 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:30:43,271 INFO spawned: 'cron' with pid 208
+2024-07-26 13:30:44,274 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:30:57,886 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:30:58,887 INFO spawned: 'cron' with pid 211
+2024-07-26 13:30:59,891 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:31:10,603 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:31:11,605 INFO spawned: 'cron' with pid 214
+2024-07-26 13:31:12,609 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:31:24,447 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:31:25,452 INFO spawned: 'cron' with pid 217
+2024-07-26 13:31:26,457 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:31:40,494 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:31:41,500 INFO spawned: 'cron' with pid 220
+2024-07-26 13:31:42,504 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:31:57,372 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:31:58,373 INFO spawned: 'cron' with pid 223
+2024-07-26 13:31:59,379 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:32:11,194 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:32:12,198 INFO spawned: 'cron' with pid 226
+2024-07-26 13:32:13,200 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:32:24,986 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:32:25,989 INFO spawned: 'cron' with pid 229
+2024-07-26 13:32:27,002 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:32:38,431 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:32:39,434 INFO spawned: 'cron' with pid 232
+2024-07-26 13:32:40,437 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:32:52,586 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:32:53,592 INFO spawned: 'cron' with pid 235
+2024-07-26 13:32:54,596 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:33:05,567 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:33:06,570 INFO spawned: 'cron' with pid 238
+2024-07-26 13:33:07,573 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:33:19,991 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:33:20,996 INFO spawned: 'cron' with pid 241
+2024-07-26 13:33:22,003 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:33:32,829 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:33:33,833 INFO spawned: 'cron' with pid 244
+2024-07-26 13:33:34,838 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:33:47,093 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:33:48,096 INFO spawned: 'cron' with pid 247
+2024-07-26 13:33:49,100 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:34:08,583 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:34:09,589 INFO spawned: 'cron' with pid 250
+2024-07-26 13:34:10,593 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:34:24,945 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:34:25,951 INFO spawned: 'cron' with pid 253
+2024-07-26 13:34:26,956 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:34:37,541 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:34:38,547 INFO spawned: 'cron' with pid 256
+2024-07-26 13:34:39,550 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:34:50,553 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:34:51,558 INFO spawned: 'cron' with pid 259
+2024-07-26 13:34:52,561 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:35:06,128 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:35:07,132 INFO spawned: 'cron' with pid 262
+2024-07-26 13:35:08,140 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:35:19,845 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:35:19,851 INFO spawned: 'cron' with pid 265
+2024-07-26 13:35:20,853 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:35:33,486 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:35:34,492 INFO spawned: 'cron' with pid 268
+2024-07-26 13:35:35,500 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:35:46,748 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:35:47,753 INFO spawned: 'cron' with pid 271
+2024-07-26 13:35:48,766 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:36:00,587 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:36:01,590 INFO spawned: 'cron' with pid 274
+2024-07-26 13:36:02,593 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:36:14,675 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:36:15,680 INFO spawned: 'cron' with pid 277
+2024-07-26 13:36:16,685 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:36:29,578 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:36:30,582 INFO spawned: 'cron' with pid 280
+2024-07-26 13:36:31,589 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:36:44,113 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:36:45,117 INFO spawned: 'cron' with pid 283
+2024-07-26 13:36:46,122 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:36:58,232 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:36:59,243 INFO spawned: 'cron' with pid 286
+2024-07-26 13:37:00,247 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:37:12,355 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:37:12,357 INFO spawned: 'cron' with pid 289
+2024-07-26 13:37:13,361 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:37:24,319 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:37:25,323 INFO spawned: 'cron' with pid 292
+2024-07-26 13:37:26,327 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:37:36,781 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:37:37,785 INFO spawned: 'cron' with pid 295
+2024-07-26 13:37:38,790 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:37:50,972 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:37:51,978 INFO spawned: 'cron' with pid 298
+2024-07-26 13:37:52,987 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:38:04,025 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:38:05,029 INFO spawned: 'cron' with pid 301
+2024-07-26 13:38:06,035 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:38:17,032 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:38:18,037 INFO spawned: 'cron' with pid 304
+2024-07-26 13:38:19,045 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:38:31,687 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:38:32,693 INFO spawned: 'cron' with pid 307
+2024-07-26 13:38:33,699 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:38:44,893 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:38:45,899 INFO spawned: 'cron' with pid 310
+2024-07-26 13:38:46,904 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:38:59,990 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:39:00,994 INFO spawned: 'cron' with pid 313
+2024-07-26 13:39:02,001 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:39:15,442 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:39:16,446 INFO spawned: 'cron' with pid 316
+2024-07-26 13:39:17,462 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:39:32,058 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:39:33,062 INFO spawned: 'cron' with pid 319
+2024-07-26 13:39:34,064 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:39:47,583 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:39:48,586 INFO spawned: 'cron' with pid 322
+2024-07-26 13:39:49,590 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:40:01,147 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:40:02,151 INFO spawned: 'cron' with pid 325
+2024-07-26 13:40:03,153 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:40:16,941 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:40:17,946 INFO spawned: 'cron' with pid 328
+2024-07-26 13:40:18,950 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:40:31,123 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:40:32,131 INFO spawned: 'cron' with pid 331
+2024-07-26 13:40:33,134 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:40:46,353 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:40:47,359 INFO spawned: 'cron' with pid 334
+2024-07-26 13:40:48,365 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:41:00,251 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:41:01,256 INFO spawned: 'cron' with pid 337
+2024-07-26 13:41:02,259 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:41:13,407 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:41:14,412 INFO spawned: 'cron' with pid 340
+2024-07-26 13:41:15,425 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:41:27,155 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:41:28,156 INFO spawned: 'cron' with pid 343
+2024-07-26 13:41:29,159 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:41:42,199 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:41:43,205 INFO spawned: 'cron' with pid 346
+2024-07-26 13:41:44,211 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:41:56,704 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:41:57,708 INFO spawned: 'cron' with pid 349
+2024-07-26 13:41:58,713 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:42:09,645 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:42:10,649 INFO spawned: 'cron' with pid 352
+2024-07-26 13:42:11,658 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:42:22,905 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:42:23,909 INFO spawned: 'cron' with pid 355
+2024-07-26 13:42:24,914 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:42:37,729 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:42:38,734 INFO spawned: 'cron' with pid 358
+2024-07-26 13:42:39,744 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:42:53,138 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:42:54,142 INFO spawned: 'cron' with pid 361
+2024-07-26 13:42:55,144 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:43:10,128 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:43:11,133 INFO spawned: 'cron' with pid 364
+2024-07-26 13:43:12,138 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:43:25,472 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:43:25,474 INFO spawned: 'cron' with pid 367
+2024-07-26 13:43:26,476 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:43:41,516 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:43:42,521 INFO spawned: 'cron' with pid 370
+2024-07-26 13:43:43,525 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:43:55,025 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:43:56,030 INFO spawned: 'cron' with pid 373
+2024-07-26 13:43:57,036 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:44:08,776 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:44:09,782 INFO spawned: 'cron' with pid 376
+2024-07-26 13:44:10,787 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:44:22,834 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:44:23,840 INFO spawned: 'cron' with pid 379
+2024-07-26 13:44:24,843 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:44:38,031 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:44:39,035 INFO spawned: 'cron' with pid 382
+2024-07-26 13:44:40,037 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:44:52,737 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:44:53,744 INFO spawned: 'cron' with pid 385
+2024-07-26 13:44:54,748 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:45:06,392 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:45:07,399 INFO spawned: 'cron' with pid 388
+2024-07-26 13:45:08,421 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:45:20,935 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:45:21,940 INFO spawned: 'cron' with pid 391
+2024-07-26 13:45:22,943 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:45:35,360 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:45:36,363 INFO spawned: 'cron' with pid 394
+2024-07-26 13:45:37,365 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:45:51,679 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:45:52,682 INFO spawned: 'cron' with pid 397
+2024-07-26 13:45:53,684 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:46:05,942 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:46:06,945 INFO spawned: 'cron' with pid 400
+2024-07-26 13:46:07,953 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:46:20,274 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:46:21,277 INFO spawned: 'cron' with pid 403
+2024-07-26 13:46:22,280 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:46:37,095 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:46:38,098 INFO spawned: 'cron' with pid 406
+2024-07-26 13:46:39,100 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:46:52,241 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:46:53,243 INFO spawned: 'cron' with pid 409
+2024-07-26 13:46:54,248 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:47:07,145 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:47:08,150 INFO spawned: 'cron' with pid 412
+2024-07-26 13:47:09,153 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:47:21,532 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:47:22,536 INFO spawned: 'cron' with pid 415
+2024-07-26 13:47:23,538 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:47:36,808 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:47:37,811 INFO spawned: 'cron' with pid 418
+2024-07-26 13:47:38,813 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:47:51,708 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:47:52,711 INFO spawned: 'cron' with pid 421
+2024-07-26 13:47:53,714 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:48:04,175 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:48:05,180 INFO spawned: 'cron' with pid 424
+2024-07-26 13:48:06,187 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:48:21,034 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:48:22,038 INFO spawned: 'cron' with pid 427
+2024-07-26 13:48:23,050 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:48:37,849 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:48:38,854 INFO spawned: 'cron' with pid 430
+2024-07-26 13:48:39,857 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:48:59,694 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:49:00,699 INFO spawned: 'cron' with pid 433
+2024-07-26 13:49:01,702 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:49:15,192 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:49:16,195 INFO spawned: 'cron' with pid 436
+2024-07-26 13:49:17,198 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:49:29,746 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:49:30,751 INFO spawned: 'cron' with pid 439
+2024-07-26 13:49:31,757 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:49:43,665 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:49:44,670 INFO spawned: 'cron' with pid 442
+2024-07-26 13:49:45,674 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:49:57,137 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:49:58,138 INFO spawned: 'cron' with pid 445
+2024-07-26 13:49:59,145 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:50:10,773 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:50:11,779 INFO spawned: 'cron' with pid 448
+2024-07-26 13:50:12,786 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:50:25,575 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:50:26,579 INFO spawned: 'cron' with pid 451
+2024-07-26 13:50:27,586 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:50:40,641 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:50:41,645 INFO spawned: 'cron' with pid 454
+2024-07-26 13:50:42,648 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:50:56,030 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:50:57,036 INFO spawned: 'cron' with pid 457
+2024-07-26 13:50:58,040 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:51:09,105 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:51:10,111 INFO spawned: 'cron' with pid 460
+2024-07-26 13:51:11,117 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:51:23,757 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:51:24,761 INFO spawned: 'cron' with pid 463
+2024-07-26 13:51:25,763 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:51:37,906 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:51:38,910 INFO spawned: 'cron' with pid 466
+2024-07-26 13:51:39,914 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:51:52,399 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:51:53,404 INFO spawned: 'cron' with pid 469
+2024-07-26 13:51:54,410 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:52:07,582 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:52:08,585 INFO spawned: 'cron' with pid 472
+2024-07-26 13:52:09,588 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:52:21,138 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:52:22,142 INFO spawned: 'cron' with pid 475
+2024-07-26 13:52:23,149 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:52:37,731 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:52:37,737 INFO spawned: 'cron' with pid 478
+2024-07-26 13:52:38,740 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:52:49,664 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:52:50,668 INFO spawned: 'cron' with pid 481
+2024-07-26 13:52:51,673 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:53:06,847 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:53:07,850 INFO spawned: 'cron' with pid 484
+2024-07-26 13:53:08,853 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:53:21,197 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:53:22,203 INFO spawned: 'cron' with pid 487
+2024-07-26 13:53:23,211 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:53:35,884 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:53:36,888 INFO spawned: 'cron' with pid 490
+2024-07-26 13:53:37,892 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:53:50,898 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:53:51,901 INFO spawned: 'cron' with pid 493
+2024-07-26 13:53:52,903 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:54:06,385 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:54:07,389 INFO spawned: 'cron' with pid 496
+2024-07-26 13:54:08,394 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:54:21,431 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:54:22,435 INFO spawned: 'cron' with pid 499
+2024-07-26 13:54:23,439 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:54:36,460 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:54:37,464 INFO spawned: 'cron' with pid 502
+2024-07-26 13:54:38,467 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:54:52,855 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:54:53,860 INFO spawned: 'cron' with pid 505
+2024-07-26 13:54:54,863 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:55:06,669 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:55:07,673 INFO spawned: 'cron' with pid 508
+2024-07-26 13:55:08,680 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:55:27,281 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:55:28,281 INFO spawned: 'cron' with pid 511
+2024-07-26 13:55:29,286 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:55:41,405 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:55:42,408 INFO spawned: 'cron' with pid 514
+2024-07-26 13:55:43,412 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:55:54,936 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:55:55,941 INFO spawned: 'cron' with pid 517
+2024-07-26 13:55:56,944 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:56:09,905 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:56:10,909 INFO spawned: 'cron' with pid 520
+2024-07-26 13:56:11,912 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:56:24,430 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:56:25,434 INFO spawned: 'cron' with pid 523
+2024-07-26 13:56:26,437 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:56:38,971 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:56:39,976 INFO spawned: 'cron' with pid 526
+2024-07-26 13:56:40,979 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:56:53,432 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:56:54,435 INFO spawned: 'cron' with pid 529
+2024-07-26 13:56:55,439 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:57:07,422 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:57:08,426 INFO spawned: 'cron' with pid 532
+2024-07-26 13:57:09,429 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:57:20,952 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:57:21,955 INFO spawned: 'cron' with pid 535
+2024-07-26 13:57:22,957 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:57:34,757 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:57:35,760 INFO spawned: 'cron' with pid 538
+2024-07-26 13:57:36,762 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:57:49,616 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:57:50,621 INFO spawned: 'cron' with pid 541
+2024-07-26 13:57:51,624 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:58:06,648 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:58:07,654 INFO spawned: 'cron' with pid 544
+2024-07-26 13:58:08,660 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:58:22,669 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:58:23,672 INFO spawned: 'cron' with pid 547
+2024-07-26 13:58:24,675 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:58:37,684 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:58:38,687 INFO spawned: 'cron' with pid 550
+2024-07-26 13:58:39,691 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:58:53,382 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:58:53,384 INFO spawned: 'cron' with pid 553
+2024-07-26 13:58:54,386 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:59:08,086 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:59:09,090 INFO spawned: 'cron' with pid 556
+2024-07-26 13:59:10,094 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:59:21,281 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:59:22,286 INFO spawned: 'cron' with pid 559
+2024-07-26 13:59:23,290 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:59:37,388 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:59:38,392 INFO spawned: 'cron' with pid 562
+2024-07-26 13:59:39,394 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 13:59:52,530 INFO exited: cron (exit status 0; expected)
+2024-07-26 13:59:53,534 INFO spawned: 'cron' with pid 565
+2024-07-26 13:59:54,537 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:00:27,054 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:00:28,057 INFO spawned: 'cron' with pid 572
+2024-07-26 14:00:29,061 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:00:54,876 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:00:55,880 INFO spawned: 'cron' with pid 579
+2024-07-26 14:00:56,882 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:01:12,478 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:01:13,484 INFO spawned: 'cron' with pid 582
+2024-07-26 14:01:14,488 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:01:27,231 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:01:28,234 INFO spawned: 'cron' with pid 585
+2024-07-26 14:01:29,237 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:01:43,574 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:01:44,577 INFO spawned: 'cron' with pid 588
+2024-07-26 14:01:45,581 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:01:58,400 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:01:59,404 INFO spawned: 'cron' with pid 591
+2024-07-26 14:02:00,409 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:02:12,198 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:02:13,202 INFO spawned: 'cron' with pid 594
+2024-07-26 14:02:14,208 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:02:24,685 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:02:25,688 INFO spawned: 'cron' with pid 597
+2024-07-26 14:02:26,691 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:02:38,700 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:02:39,703 INFO spawned: 'cron' with pid 600
+2024-07-26 14:02:40,705 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:02:53,374 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:02:54,377 INFO spawned: 'cron' with pid 603
+2024-07-26 14:02:55,383 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:03:07,504 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:03:08,509 INFO spawned: 'cron' with pid 606
+2024-07-26 14:03:09,511 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:03:22,995 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:03:24,001 INFO spawned: 'cron' with pid 609
+2024-07-26 14:03:25,009 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:03:35,737 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:03:36,756 INFO spawned: 'cron' with pid 612
+2024-07-26 14:03:37,774 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:03:52,555 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:03:53,559 INFO spawned: 'cron' with pid 615
+2024-07-26 14:03:54,561 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:04:01,070 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:04:02,073 INFO spawned: 'cron' with pid 618
+2024-07-26 14:04:03,075 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:04:12,292 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:04:13,295 INFO spawned: 'cron' with pid 621
+2024-07-26 14:04:14,298 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:04:22,777 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:04:23,781 INFO spawned: 'cron' with pid 624
+2024-07-26 14:04:24,789 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:04:36,390 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:04:37,393 INFO spawned: 'cron' with pid 627
+2024-07-26 14:04:38,395 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:04:45,353 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:04:46,356 INFO spawned: 'cron' with pid 630
+2024-07-26 14:04:47,673 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:04:57,171 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:04:58,177 INFO spawned: 'cron' with pid 633
+2024-07-26 14:04:59,183 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:05:09,306 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:05:10,311 INFO spawned: 'cron' with pid 636
+2024-07-26 14:05:11,313 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:05:19,860 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:05:20,864 INFO spawned: 'cron' with pid 639
+2024-07-26 14:05:21,868 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:05:27,479 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:05:28,482 INFO spawned: 'cron' with pid 642
+2024-07-26 14:05:29,489 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:05:35,146 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:05:36,149 INFO spawned: 'cron' with pid 645
+2024-07-26 14:05:37,151 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:05:47,596 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:05:48,600 INFO spawned: 'cron' with pid 648
+2024-07-26 14:05:49,602 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:05:57,424 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:05:58,426 INFO spawned: 'cron' with pid 651
+2024-07-26 14:05:59,430 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:06:05,546 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:06:06,551 INFO spawned: 'cron' with pid 654
+2024-07-26 14:06:07,556 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:06:13,629 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:06:14,634 INFO spawned: 'cron' with pid 657
+2024-07-26 14:06:15,638 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:06:24,326 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:06:25,328 INFO spawned: 'cron' with pid 660
+2024-07-26 14:06:26,331 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:06:33,933 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:06:34,938 INFO spawned: 'cron' with pid 663
+2024-07-26 14:06:35,945 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:06:41,681 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:06:42,686 INFO spawned: 'cron' with pid 666
+2024-07-26 14:06:43,692 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:06:50,362 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:06:51,366 INFO spawned: 'cron' with pid 669
+2024-07-26 14:06:52,369 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:06:58,360 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:06:58,362 INFO spawned: 'cron' with pid 672
+2024-07-26 14:06:59,365 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:07:04,838 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:07:05,842 INFO spawned: 'cron' with pid 675
+2024-07-26 14:07:06,847 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:07:14,287 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:07:15,291 INFO spawned: 'cron' with pid 678
+2024-07-26 14:07:16,294 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:07:22,202 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:07:23,207 INFO spawned: 'cron' with pid 681
+2024-07-26 14:07:24,212 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:07:29,633 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:07:30,636 INFO spawned: 'cron' with pid 684
+2024-07-26 14:07:31,639 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:07:37,000 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:07:38,005 INFO spawned: 'cron' with pid 687
+2024-07-26 14:07:39,011 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:07:44,624 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:07:45,629 INFO spawned: 'cron' with pid 690
+2024-07-26 14:07:46,632 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:07:52,138 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:07:53,143 INFO spawned: 'cron' with pid 693
+2024-07-26 14:07:54,147 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:08:00,621 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:08:01,626 INFO spawned: 'cron' with pid 696
+2024-07-26 14:08:02,630 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:08:07,930 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:08:08,934 INFO spawned: 'cron' with pid 699
+2024-07-26 14:08:09,940 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:08:14,943 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:08:15,948 INFO spawned: 'cron' with pid 702
+2024-07-26 14:08:16,952 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:08:22,560 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:08:23,565 INFO spawned: 'cron' with pid 705
+2024-07-26 14:08:24,570 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:08:29,838 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:08:30,844 INFO spawned: 'cron' with pid 708
+2024-07-26 14:08:31,848 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:08:36,970 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:08:37,974 INFO spawned: 'cron' with pid 711
+2024-07-26 14:08:38,979 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:08:44,366 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:08:45,369 INFO spawned: 'cron' with pid 714
+2024-07-26 14:08:46,372 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:08:51,833 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:08:52,839 INFO spawned: 'cron' with pid 717
+2024-07-26 14:08:53,843 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:08:58,994 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:09:00,000 INFO spawned: 'cron' with pid 720
+2024-07-26 14:09:01,003 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:09:06,154 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:09:07,159 INFO spawned: 'cron' with pid 723
+2024-07-26 14:09:08,164 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:09:14,041 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:09:15,046 INFO spawned: 'cron' with pid 726
+2024-07-26 14:09:16,050 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:09:21,888 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:09:22,894 INFO spawned: 'cron' with pid 729
+2024-07-26 14:09:23,898 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:09:29,501 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:09:30,506 INFO spawned: 'cron' with pid 732
+2024-07-26 14:09:31,510 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:09:36,744 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:09:37,747 INFO spawned: 'cron' with pid 735
+2024-07-26 14:09:38,750 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:09:44,662 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:09:45,667 INFO spawned: 'cron' with pid 738
+2024-07-26 14:09:46,671 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:09:53,347 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:09:54,352 INFO spawned: 'cron' with pid 741
+2024-07-26 14:09:55,355 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:10:00,528 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:10:01,532 INFO spawned: 'cron' with pid 744
+2024-07-26 14:10:02,535 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:10:08,397 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:10:09,401 INFO spawned: 'cron' with pid 747
+2024-07-26 14:10:10,405 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:10:17,186 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:10:18,192 INFO spawned: 'cron' with pid 750
+2024-07-26 14:10:19,197 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:10:24,351 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:10:25,355 INFO spawned: 'cron' with pid 753
+2024-07-26 14:10:26,365 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:10:32,318 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:10:33,322 INFO spawned: 'cron' with pid 756
+2024-07-26 14:10:34,327 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:10:40,120 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:10:41,125 INFO spawned: 'cron' with pid 759
+2024-07-26 14:10:42,137 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:10:52,823 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:10:53,827 INFO spawned: 'cron' with pid 762
+2024-07-26 14:10:54,830 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:11:09,469 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:11:10,473 INFO spawned: 'cron' with pid 765
+2024-07-26 14:11:11,475 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:11:32,843 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:11:33,846 INFO spawned: 'cron' with pid 768
+2024-07-26 14:11:34,849 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:11:53,032 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:11:54,037 INFO spawned: 'cron' with pid 771
+2024-07-26 14:11:55,040 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:12:04,536 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:12:05,541 INFO spawned: 'cron' with pid 774
+2024-07-26 14:12:06,547 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:12:13,609 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:12:14,614 INFO spawned: 'cron' with pid 777
+2024-07-26 14:12:15,620 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:12:26,190 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:12:27,192 INFO spawned: 'cron' with pid 780
+2024-07-26 14:12:28,193 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:12:41,550 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:12:42,553 INFO spawned: 'cron' with pid 783
+2024-07-26 14:12:43,555 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:12:54,795 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:12:55,799 INFO spawned: 'cron' with pid 786
+2024-07-26 14:12:56,803 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:13:09,362 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:13:10,365 INFO spawned: 'cron' with pid 789
+2024-07-26 14:13:11,367 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:13:18,675 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:13:19,678 INFO spawned: 'cron' with pid 792
+2024-07-26 14:13:20,680 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:13:27,923 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:13:28,926 INFO spawned: 'cron' with pid 795
+2024-07-26 14:13:29,930 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:13:36,107 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:13:37,112 INFO spawned: 'cron' with pid 798
+2024-07-26 14:13:38,116 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:13:44,200 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:13:45,205 INFO spawned: 'cron' with pid 801
+2024-07-26 14:13:46,209 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:13:52,959 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:13:53,963 INFO spawned: 'cron' with pid 804
+2024-07-26 14:13:54,967 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:14:00,897 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:14:01,901 INFO spawned: 'cron' with pid 807
+2024-07-26 14:14:02,914 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:14:09,361 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:14:10,366 INFO spawned: 'cron' with pid 810
+2024-07-26 14:14:11,371 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:14:22,567 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:14:23,570 INFO spawned: 'cron' with pid 813
+2024-07-26 14:14:24,572 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:14:41,124 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:14:42,126 INFO spawned: 'cron' with pid 816
+2024-07-26 14:14:43,132 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:14:49,327 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:14:50,329 INFO spawned: 'cron' with pid 819
+2024-07-26 14:14:51,343 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:14:57,826 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:14:58,828 INFO spawned: 'cron' with pid 822
+2024-07-26 14:14:59,831 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:15:27,395 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:15:28,474 INFO spawned: 'cron' with pid 825
+2024-07-26 14:15:29,483 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:15:55,948 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:15:56,953 INFO spawned: 'cron' with pid 828
+2024-07-26 14:15:57,957 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:16:03,615 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:16:04,621 INFO spawned: 'cron' with pid 831
+2024-07-26 14:16:05,625 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:16:10,495 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:16:11,499 INFO spawned: 'cron' with pid 834
+2024-07-26 14:16:12,502 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:16:17,814 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:16:18,819 INFO spawned: 'cron' with pid 837
+2024-07-26 14:16:19,823 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:16:25,260 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:16:26,265 INFO spawned: 'cron' with pid 840
+2024-07-26 14:16:27,269 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:16:32,466 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:16:33,471 INFO spawned: 'cron' with pid 843
+2024-07-26 14:16:34,474 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:16:43,000 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:16:44,003 INFO spawned: 'cron' with pid 846
+2024-07-26 14:16:45,006 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:16:54,783 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:16:55,787 INFO spawned: 'cron' with pid 849
+2024-07-26 14:16:56,791 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:17:02,245 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:17:03,250 INFO spawned: 'cron' with pid 852
+2024-07-26 14:17:04,254 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:17:09,605 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:17:10,610 INFO spawned: 'cron' with pid 855
+2024-07-26 14:17:11,614 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:17:17,325 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:17:18,328 INFO spawned: 'cron' with pid 858
+2024-07-26 14:17:19,330 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:17:27,773 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:17:28,775 INFO spawned: 'cron' with pid 861
+2024-07-26 14:17:29,777 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:17:39,407 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:17:40,414 INFO spawned: 'cron' with pid 864
+2024-07-26 14:17:41,417 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:17:49,819 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:17:50,821 INFO spawned: 'cron' with pid 867
+2024-07-26 14:17:51,824 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:17:58,861 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:17:59,864 INFO spawned: 'cron' with pid 870
+2024-07-26 14:18:00,865 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:18:08,243 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:18:09,248 INFO spawned: 'cron' with pid 873
+2024-07-26 14:18:10,252 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:18:16,647 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:18:17,649 INFO spawned: 'cron' with pid 876
+2024-07-26 14:18:18,651 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:18:25,101 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:18:26,071 INFO spawned: 'cron' with pid 879
+2024-07-26 14:18:27,574 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:18:33,747 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:18:34,749 INFO spawned: 'cron' with pid 882
+2024-07-26 14:18:35,752 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:18:42,386 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:18:43,389 INFO spawned: 'cron' with pid 885
+2024-07-26 14:18:44,392 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:18:52,016 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:18:53,019 INFO spawned: 'cron' with pid 888
+2024-07-26 14:18:54,021 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:19:01,621 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:19:02,626 INFO spawned: 'cron' with pid 891
+2024-07-26 14:19:03,630 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:19:10,300 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:19:11,304 INFO spawned: 'cron' with pid 894
+2024-07-26 14:19:12,309 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:19:18,775 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:19:19,778 INFO spawned: 'cron' with pid 897
+2024-07-26 14:19:20,806 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:19:26,848 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:19:27,853 INFO spawned: 'cron' with pid 900
+2024-07-26 14:19:28,857 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:19:36,250 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:19:37,254 INFO spawned: 'cron' with pid 903
+2024-07-26 14:19:38,257 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:19:47,085 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:19:48,087 INFO spawned: 'cron' with pid 906
+2024-07-26 14:19:49,089 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:19:55,699 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:19:56,701 INFO spawned: 'cron' with pid 909
+2024-07-26 14:19:57,703 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:20:04,649 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:20:05,652 INFO spawned: 'cron' with pid 912
+2024-07-26 14:20:06,654 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:20:13,574 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:20:14,576 INFO spawned: 'cron' with pid 915
+2024-07-26 14:20:15,579 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:20:23,240 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:20:24,243 INFO spawned: 'cron' with pid 918
+2024-07-26 14:20:25,245 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:20:32,690 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:20:33,696 INFO spawned: 'cron' with pid 921
+2024-07-26 14:20:34,700 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:20:40,934 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:20:41,937 INFO spawned: 'cron' with pid 924
+2024-07-26 14:20:42,941 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:20:53,096 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:20:54,101 INFO spawned: 'cron' with pid 927
+2024-07-26 14:20:55,104 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:21:02,499 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:21:03,504 INFO spawned: 'cron' with pid 930
+2024-07-26 14:21:04,508 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:21:15,764 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:21:16,769 INFO spawned: 'cron' with pid 933
+2024-07-26 14:21:17,774 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:21:28,569 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:21:29,572 INFO spawned: 'cron' with pid 936
+2024-07-26 14:21:30,574 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:21:37,239 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:21:38,244 INFO spawned: 'cron' with pid 939
+2024-07-26 14:21:39,248 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:21:48,114 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:21:49,117 INFO spawned: 'cron' with pid 942
+2024-07-26 14:21:50,119 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:22:00,613 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:22:00,614 INFO spawned: 'cron' with pid 945
+2024-07-26 14:22:01,620 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:22:09,001 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:22:10,006 INFO spawned: 'cron' with pid 948
+2024-07-26 14:22:11,008 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:22:17,775 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:22:18,779 INFO spawned: 'cron' with pid 951
+2024-07-26 14:22:19,780 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:22:27,148 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:22:28,152 INFO spawned: 'cron' with pid 954
+2024-07-26 14:22:29,156 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:22:37,566 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:22:38,570 INFO spawned: 'cron' with pid 957
+2024-07-26 14:22:39,573 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:22:49,475 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:22:50,478 INFO spawned: 'cron' with pid 960
+2024-07-26 14:22:51,479 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:22:59,429 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:23:00,432 INFO spawned: 'cron' with pid 963
+2024-07-26 14:23:01,434 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:23:07,962 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:23:08,965 INFO spawned: 'cron' with pid 966
+2024-07-26 14:23:09,968 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:23:16,418 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:23:17,424 INFO spawned: 'cron' with pid 969
+2024-07-26 14:23:18,428 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:23:24,687 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:23:25,692 INFO spawned: 'cron' with pid 972
+2024-07-26 14:23:26,697 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:23:33,636 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:23:34,639 INFO spawned: 'cron' with pid 975
+2024-07-26 14:23:35,734 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:23:41,946 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:23:42,950 INFO spawned: 'cron' with pid 978
+2024-07-26 14:23:43,957 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:23:50,801 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:23:51,806 INFO spawned: 'cron' with pid 981
+2024-07-26 14:23:52,817 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:23:58,706 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:23:59,709 INFO spawned: 'cron' with pid 984
+2024-07-26 14:24:00,711 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:24:07,412 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:24:08,415 INFO spawned: 'cron' with pid 987
+2024-07-26 14:24:09,418 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:24:15,523 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:24:16,527 INFO spawned: 'cron' with pid 990
+2024-07-26 14:24:17,531 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:24:23,068 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:24:24,074 INFO spawned: 'cron' with pid 993
+2024-07-26 14:24:25,079 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:24:31,195 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:24:32,199 INFO spawned: 'cron' with pid 996
+2024-07-26 14:24:33,203 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:24:40,365 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:24:41,370 INFO spawned: 'cron' with pid 999
+2024-07-26 14:24:42,375 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:24:50,528 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:24:51,531 INFO spawned: 'cron' with pid 1002
+2024-07-26 14:24:52,533 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:25:00,742 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:25:01,745 INFO spawned: 'cron' with pid 1005
+2024-07-26 14:25:02,747 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:25:10,159 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:25:11,162 INFO spawned: 'cron' with pid 1008
+2024-07-26 14:25:12,174 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:25:18,923 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:25:19,929 INFO spawned: 'cron' with pid 1011
+2024-07-26 14:25:20,933 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:25:26,954 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:25:27,958 INFO spawned: 'cron' with pid 1014
+2024-07-26 14:25:28,959 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:25:35,320 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:25:36,326 INFO spawned: 'cron' with pid 1017
+2024-07-26 14:25:37,331 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:25:43,946 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:25:44,949 INFO spawned: 'cron' with pid 1020
+2024-07-26 14:25:45,953 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:25:52,172 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:25:53,177 INFO spawned: 'cron' with pid 1023
+2024-07-26 14:25:54,184 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:25:59,803 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:26:00,809 INFO spawned: 'cron' with pid 1026
+2024-07-26 14:26:01,813 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:26:07,570 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:26:08,576 INFO spawned: 'cron' with pid 1029
+2024-07-26 14:26:09,582 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:26:15,074 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:26:16,080 INFO spawned: 'cron' with pid 1032
+2024-07-26 14:26:17,083 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:26:22,682 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:26:23,687 INFO spawned: 'cron' with pid 1035
+2024-07-26 14:26:24,690 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:26:30,106 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:26:31,110 INFO spawned: 'cron' with pid 1038
+2024-07-26 14:26:32,114 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:26:37,823 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:26:38,826 INFO spawned: 'cron' with pid 1041
+2024-07-26 14:26:39,830 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:26:45,207 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:26:46,211 INFO spawned: 'cron' with pid 1044
+2024-07-26 14:26:47,215 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:26:52,906 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:26:53,910 INFO spawned: 'cron' with pid 1047
+2024-07-26 14:26:54,915 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:27:00,227 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:27:01,230 INFO spawned: 'cron' with pid 1050
+2024-07-26 14:27:02,233 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:27:07,590 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:27:08,595 INFO spawned: 'cron' with pid 1053
+2024-07-26 14:27:09,599 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:27:16,833 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:27:17,838 INFO spawned: 'cron' with pid 1056
+2024-07-26 14:27:18,844 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:27:24,941 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:27:25,946 INFO spawned: 'cron' with pid 1059
+2024-07-26 14:27:26,950 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:27:32,378 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:27:33,383 INFO spawned: 'cron' with pid 1062
+2024-07-26 14:27:34,387 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:27:39,569 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:27:40,574 INFO spawned: 'cron' with pid 1065
+2024-07-26 14:27:41,578 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:27:46,920 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:27:47,924 INFO spawned: 'cron' with pid 1068
+2024-07-26 14:27:48,927 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:27:54,460 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:27:55,466 INFO spawned: 'cron' with pid 1071
+2024-07-26 14:27:56,471 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:28:01,647 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:28:02,651 INFO spawned: 'cron' with pid 1074
+2024-07-26 14:28:03,653 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:28:08,639 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:28:09,643 INFO spawned: 'cron' with pid 1077
+2024-07-26 14:28:10,648 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:28:16,484 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:28:17,490 INFO spawned: 'cron' with pid 1080
+2024-07-26 14:28:18,516 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:28:25,387 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:28:26,390 INFO spawned: 'cron' with pid 1083
+2024-07-26 14:28:27,395 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:28:34,238 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:28:35,241 INFO spawned: 'cron' with pid 1086
+2024-07-26 14:28:36,244 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:28:42,363 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:28:43,367 INFO spawned: 'cron' with pid 1089
+2024-07-26 14:28:44,369 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:28:50,660 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:28:51,671 INFO spawned: 'cron' with pid 1092
+2024-07-26 14:28:52,673 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:28:59,007 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:29:00,012 INFO spawned: 'cron' with pid 1095
+2024-07-26 14:29:01,016 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:29:08,594 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:29:09,599 INFO spawned: 'cron' with pid 1098
+2024-07-26 14:29:10,603 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:29:16,340 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:29:17,344 INFO spawned: 'cron' with pid 1101
+2024-07-26 14:29:18,350 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:29:23,901 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:29:24,906 INFO spawned: 'cron' with pid 1104
+2024-07-26 14:29:25,910 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:29:31,523 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:29:32,528 INFO spawned: 'cron' with pid 1107
+2024-07-26 14:29:33,532 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:29:39,364 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:29:40,368 INFO spawned: 'cron' with pid 1110
+2024-07-26 14:29:41,370 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:29:48,036 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:29:49,038 INFO spawned: 'cron' with pid 1113
+2024-07-26 14:29:50,040 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:29:56,350 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:29:57,356 INFO spawned: 'cron' with pid 1116
+2024-07-26 14:29:58,360 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:30:04,158 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:30:05,163 INFO spawned: 'cron' with pid 1119
+2024-07-26 14:30:06,167 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:30:13,903 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:30:14,908 INFO spawned: 'cron' with pid 1122
+2024-07-26 14:30:15,912 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:30:22,985 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:30:23,990 INFO spawned: 'cron' with pid 1125
+2024-07-26 14:30:24,996 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:30:30,681 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:30:31,686 INFO spawned: 'cron' with pid 1128
+2024-07-26 14:30:32,689 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:30:41,279 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:30:42,283 INFO spawned: 'cron' with pid 1131
+2024-07-26 14:30:43,289 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:30:49,081 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:30:50,086 INFO spawned: 'cron' with pid 1134
+2024-07-26 14:30:51,092 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:30:57,533 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:30:58,537 INFO spawned: 'cron' with pid 1137
+2024-07-26 14:30:59,541 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:31:05,127 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:31:06,132 INFO spawned: 'cron' with pid 1140
+2024-07-26 14:31:07,135 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:31:12,636 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:31:13,642 INFO spawned: 'cron' with pid 1143
+2024-07-26 14:31:14,650 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:31:20,410 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:31:21,415 INFO spawned: 'cron' with pid 1146
+2024-07-26 14:31:22,418 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:31:28,574 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:31:29,579 INFO spawned: 'cron' with pid 1149
+2024-07-26 14:31:30,583 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:31:36,527 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:31:37,533 INFO spawned: 'cron' with pid 1152
+2024-07-26 14:31:38,537 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:31:44,370 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:31:45,375 INFO spawned: 'cron' with pid 1155
+2024-07-26 14:31:46,379 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:31:54,154 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:31:55,157 INFO spawned: 'cron' with pid 1158
+2024-07-26 14:31:56,160 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:32:07,261 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:32:08,265 INFO spawned: 'cron' with pid 1161
+2024-07-26 14:32:09,268 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:32:16,244 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:32:17,247 INFO spawned: 'cron' with pid 1164
+2024-07-26 14:32:18,249 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:32:24,077 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:32:25,082 INFO spawned: 'cron' with pid 1167
+2024-07-26 14:32:26,086 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:32:31,846 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:32:32,851 INFO spawned: 'cron' with pid 1170
+2024-07-26 14:32:33,857 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:32:39,291 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:32:40,296 INFO spawned: 'cron' with pid 1173
+2024-07-26 14:32:41,300 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:32:47,130 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:32:48,135 INFO spawned: 'cron' with pid 1176
+2024-07-26 14:32:49,139 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:32:55,115 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:32:56,118 INFO spawned: 'cron' with pid 1179
+2024-07-26 14:32:57,120 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:33:03,132 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:33:04,136 INFO spawned: 'cron' with pid 1182
+2024-07-26 14:33:05,140 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:33:10,765 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:33:11,771 INFO spawned: 'cron' with pid 1185
+2024-07-26 14:33:12,777 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:33:19,046 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:33:20,051 INFO spawned: 'cron' with pid 1188
+2024-07-26 14:33:21,055 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:33:26,963 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:33:27,968 INFO spawned: 'cron' with pid 1191
+2024-07-26 14:33:28,971 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:33:34,546 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:33:35,551 INFO spawned: 'cron' with pid 1194
+2024-07-26 14:33:36,555 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:33:42,381 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:33:43,386 INFO spawned: 'cron' with pid 1197
+2024-07-26 14:33:44,390 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:33:49,808 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:33:50,813 INFO spawned: 'cron' with pid 1200
+2024-07-26 14:33:51,818 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:33:57,611 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:33:58,613 INFO spawned: 'cron' with pid 1203
+2024-07-26 14:33:59,617 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:34:05,581 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:34:06,586 INFO spawned: 'cron' with pid 1206
+2024-07-26 14:34:07,593 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:34:13,102 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:34:14,107 INFO spawned: 'cron' with pid 1209
+2024-07-26 14:34:15,111 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:34:20,681 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:34:21,687 INFO spawned: 'cron' with pid 1212
+2024-07-26 14:34:22,691 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:34:28,254 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:34:29,260 INFO spawned: 'cron' with pid 1215
+2024-07-26 14:34:30,265 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:34:35,681 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:34:36,686 INFO spawned: 'cron' with pid 1218
+2024-07-26 14:34:37,690 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:34:43,391 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:34:44,396 INFO spawned: 'cron' with pid 1221
+2024-07-26 14:34:45,400 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:34:51,977 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:34:52,982 INFO spawned: 'cron' with pid 1224
+2024-07-26 14:34:53,988 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:34:59,187 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:35:00,192 INFO spawned: 'cron' with pid 1227
+2024-07-26 14:35:01,197 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:35:06,336 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:35:07,339 INFO spawned: 'cron' with pid 1230
+2024-07-26 14:35:08,341 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:35:13,266 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:35:14,269 INFO spawned: 'cron' with pid 1233
+2024-07-26 14:35:15,272 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:35:20,801 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:35:21,805 INFO spawned: 'cron' with pid 1236
+2024-07-26 14:35:22,810 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:35:28,332 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:35:29,335 INFO spawned: 'cron' with pid 1239
+2024-07-26 14:35:30,340 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:35:37,431 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:35:38,436 INFO spawned: 'cron' with pid 1242
+2024-07-26 14:35:39,441 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:35:45,181 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:35:46,185 INFO spawned: 'cron' with pid 1245
+2024-07-26 14:35:47,187 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:35:52,238 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:35:53,243 INFO spawned: 'cron' with pid 1248
+2024-07-26 14:35:54,246 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:35:59,061 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:36:00,067 INFO spawned: 'cron' with pid 1251
+2024-07-26 14:36:01,071 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:36:06,488 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:36:07,492 INFO spawned: 'cron' with pid 1254
+2024-07-26 14:36:08,496 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:36:14,253 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:36:15,255 INFO spawned: 'cron' with pid 1257
+2024-07-26 14:36:16,261 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:36:21,063 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:36:22,071 INFO spawned: 'cron' with pid 1260
+2024-07-26 14:36:23,074 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:36:29,615 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:36:30,618 INFO spawned: 'cron' with pid 1263
+2024-07-26 14:36:31,622 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:36:37,038 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:36:38,040 INFO spawned: 'cron' with pid 1266
+2024-07-26 14:36:39,042 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:36:45,141 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:36:46,144 INFO spawned: 'cron' with pid 1269
+2024-07-26 14:36:47,147 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:36:52,424 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:36:53,429 INFO spawned: 'cron' with pid 1272
+2024-07-26 14:36:54,435 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:36:59,611 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:36:59,613 INFO spawned: 'cron' with pid 1275
+2024-07-26 14:37:00,615 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:37:06,016 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:37:07,021 INFO spawned: 'cron' with pid 1278
+2024-07-26 14:37:08,027 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:37:13,165 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:37:14,170 INFO spawned: 'cron' with pid 1281
+2024-07-26 14:37:15,175 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:37:20,612 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:37:21,615 INFO spawned: 'cron' with pid 1284
+2024-07-26 14:37:22,618 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:37:27,991 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:37:28,994 INFO spawned: 'cron' with pid 1287
+2024-07-26 14:37:29,997 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:37:35,135 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:37:36,137 INFO spawned: 'cron' with pid 1290
+2024-07-26 14:37:37,182 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:37:42,366 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:37:43,371 INFO spawned: 'cron' with pid 1293
+2024-07-26 14:37:44,375 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:37:49,687 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:37:50,693 INFO spawned: 'cron' with pid 1296
+2024-07-26 14:37:51,698 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:37:56,788 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:37:57,792 INFO spawned: 'cron' with pid 1299
+2024-07-26 14:37:58,795 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:38:03,831 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:38:04,835 INFO spawned: 'cron' with pid 1302
+2024-07-26 14:38:05,839 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:38:10,824 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:38:11,830 INFO spawned: 'cron' with pid 1305
+2024-07-26 14:38:12,838 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:38:18,388 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:38:19,393 INFO spawned: 'cron' with pid 1308
+2024-07-26 14:38:20,397 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:38:25,708 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:38:26,713 INFO spawned: 'cron' with pid 1311
+2024-07-26 14:38:27,717 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:38:33,091 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:38:34,096 INFO spawned: 'cron' with pid 1314
+2024-07-26 14:38:35,101 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:38:40,290 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:38:41,295 INFO spawned: 'cron' with pid 1317
+2024-07-26 14:38:42,301 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:38:47,745 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:38:48,750 INFO spawned: 'cron' with pid 1320
+2024-07-26 14:38:49,758 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:38:54,928 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:38:55,933 INFO spawned: 'cron' with pid 1323
+2024-07-26 14:38:56,938 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:39:02,274 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:39:03,280 INFO spawned: 'cron' with pid 1326
+2024-07-26 14:39:04,285 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:39:09,478 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:39:10,483 INFO spawned: 'cron' with pid 1329
+2024-07-26 14:39:11,487 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:39:17,679 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:39:18,684 INFO spawned: 'cron' with pid 1332
+2024-07-26 14:39:19,687 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:39:25,032 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:39:26,036 INFO spawned: 'cron' with pid 1335
+2024-07-26 14:39:27,040 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:39:32,922 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:39:33,926 INFO spawned: 'cron' with pid 1338
+2024-07-26 14:39:34,929 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:39:39,947 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:39:40,952 INFO spawned: 'cron' with pid 1341
+2024-07-26 14:39:41,957 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:39:47,816 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:39:48,821 INFO spawned: 'cron' with pid 1344
+2024-07-26 14:39:49,826 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:39:55,105 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:39:55,107 INFO spawned: 'cron' with pid 1347
+2024-07-26 14:39:56,109 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:40:01,623 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:40:02,625 INFO spawned: 'cron' with pid 1350
+2024-07-26 14:40:03,627 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:40:08,746 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:40:09,752 INFO spawned: 'cron' with pid 1353
+2024-07-26 14:40:10,755 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:40:16,667 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:40:17,672 INFO spawned: 'cron' with pid 1356
+2024-07-26 14:40:18,677 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:40:23,935 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:40:24,940 INFO spawned: 'cron' with pid 1359
+2024-07-26 14:40:25,944 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:40:31,194 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:40:32,199 INFO spawned: 'cron' with pid 1362
+2024-07-26 14:40:33,203 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:40:38,100 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:40:39,105 INFO spawned: 'cron' with pid 1365
+2024-07-26 14:40:40,108 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:40:45,218 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:40:46,222 INFO spawned: 'cron' with pid 1368
+2024-07-26 14:40:47,224 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:40:52,496 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:40:53,501 INFO spawned: 'cron' with pid 1371
+2024-07-26 14:40:54,506 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:40:59,674 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:51:35,850 INFO spawned: 'cron' with pid 1374
+2024-07-26 14:51:36,883 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:51:44,149 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:51:45,151 INFO spawned: 'cron' with pid 1377
+2024-07-26 14:51:46,153 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:51:53,088 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:51:54,091 INFO spawned: 'cron' with pid 1380
+2024-07-26 14:51:55,093 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:52:00,982 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:52:01,984 INFO spawned: 'cron' with pid 1383
+2024-07-26 14:52:02,986 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:52:08,636 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:52:09,639 INFO spawned: 'cron' with pid 1386
+2024-07-26 14:52:10,641 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:52:16,219 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:52:17,221 INFO spawned: 'cron' with pid 1389
+2024-07-26 14:52:18,223 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:52:23,736 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:52:24,738 INFO spawned: 'cron' with pid 1392
+2024-07-26 14:52:25,740 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:52:31,247 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:52:32,250 INFO spawned: 'cron' with pid 1395
+2024-07-26 14:52:33,252 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:52:38,817 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:52:39,820 INFO spawned: 'cron' with pid 1398
+2024-07-26 14:52:40,821 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:52:46,471 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:52:47,474 INFO spawned: 'cron' with pid 1401
+2024-07-26 14:52:48,476 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:52:55,817 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:52:56,820 INFO spawned: 'cron' with pid 1404
+2024-07-26 14:52:57,822 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:53:04,335 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:53:05,337 INFO spawned: 'cron' with pid 1407
+2024-07-26 14:53:06,340 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:53:16,909 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:53:17,913 INFO spawned: 'cron' with pid 1410
+2024-07-26 14:53:18,916 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:53:26,955 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:53:27,961 INFO spawned: 'cron' with pid 1413
+2024-07-26 14:53:28,970 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:53:38,269 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:53:39,273 INFO spawned: 'cron' with pid 1416
+2024-07-26 14:53:40,277 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:53:49,716 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:53:50,721 INFO spawned: 'cron' with pid 1419
+2024-07-26 14:53:51,726 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:53:59,560 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:54:00,565 INFO spawned: 'cron' with pid 1422
+2024-07-26 14:54:01,568 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:54:09,575 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:54:10,579 INFO spawned: 'cron' with pid 1425
+2024-07-26 14:54:11,584 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:54:19,869 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:54:20,875 INFO spawned: 'cron' with pid 1428
+2024-07-26 14:54:21,880 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:54:31,099 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:54:32,103 INFO spawned: 'cron' with pid 1431
+2024-07-26 14:54:33,107 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:54:43,606 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:54:44,613 INFO spawned: 'cron' with pid 1434
+2024-07-26 14:54:45,618 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:54:54,230 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:54:55,235 INFO spawned: 'cron' with pid 1437
+2024-07-26 14:54:56,240 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:55:07,607 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:55:08,610 INFO spawned: 'cron' with pid 1440
+2024-07-26 14:55:09,617 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:55:19,025 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:55:20,028 INFO spawned: 'cron' with pid 1443
+2024-07-26 14:55:21,029 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:55:32,979 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:55:33,983 INFO spawned: 'cron' with pid 1446
+2024-07-26 14:55:34,985 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:55:46,384 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:55:47,387 INFO spawned: 'cron' with pid 1449
+2024-07-26 14:55:48,389 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:55:57,835 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:55:58,838 INFO spawned: 'cron' with pid 1452
+2024-07-26 14:55:59,845 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:56:18,720 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:56:19,724 INFO spawned: 'cron' with pid 1455
+2024-07-26 14:56:20,726 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:56:33,238 WARN received SIGQUIT indicating exit request
+2024-07-26 14:56:33,237 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-26 14:56:34,244 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-26 14:56:34,505 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-26 14:56:34,512 WARN stopped: cron (terminated by SIGTERM)
+2024-07-26 14:57:57,250 INFO Set uid to user 0 succeeded
+2024-07-26 14:57:57,483 INFO supervisord started with pid 1
+2024-07-26 14:57:58,487 INFO spawned: 'cron' with pid 31
+2024-07-26 14:57:58,491 INFO spawned: 'laravel-server' with pid 32
+2024-07-26 14:57:58,495 INFO spawned: 'laravel-worker_00' with pid 33
+2024-07-26 14:57:59,499 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:57:59,499 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:57:59,500 INFO success: laravel-worker_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:58:05,717 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:58:06,723 INFO spawned: 'cron' with pid 43
+2024-07-26 14:58:07,726 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:58:16,007 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:58:17,012 INFO spawned: 'cron' with pid 46
+2024-07-26 14:58:18,016 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:58:25,942 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:58:26,947 INFO spawned: 'cron' with pid 49
+2024-07-26 14:58:27,951 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:58:40,530 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:58:41,534 INFO spawned: 'cron' with pid 52
+2024-07-26 14:58:42,536 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:58:52,958 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:58:53,961 INFO spawned: 'cron' with pid 55
+2024-07-26 14:58:54,964 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:59:03,267 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:59:04,270 INFO spawned: 'cron' with pid 58
+2024-07-26 14:59:05,274 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:59:15,652 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:59:16,657 INFO spawned: 'cron' with pid 61
+2024-07-26 14:59:17,661 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:59:26,259 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:59:27,264 INFO spawned: 'cron' with pid 64
+2024-07-26 14:59:28,268 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:59:36,572 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:59:37,578 INFO spawned: 'cron' with pid 67
+2024-07-26 14:59:38,583 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:59:47,523 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:59:48,528 INFO spawned: 'cron' with pid 70
+2024-07-26 14:59:49,532 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 14:59:57,264 INFO exited: cron (exit status 0; expected)
+2024-07-26 14:59:57,922 INFO spawned: 'cron' with pid 73
+2024-07-26 14:59:58,924 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:00:17,476 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:00:18,480 INFO spawned: 'cron' with pid 80
+2024-07-26 15:00:19,483 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:00:38,740 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:00:39,743 INFO spawned: 'cron' with pid 87
+2024-07-26 15:00:40,745 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:00:56,907 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:00:57,909 INFO spawned: 'cron' with pid 94
+2024-07-26 15:00:58,913 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:01:07,721 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:01:08,724 INFO spawned: 'cron' with pid 97
+2024-07-26 15:01:09,726 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:01:17,229 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:01:18,232 INFO spawned: 'cron' with pid 106
+2024-07-26 15:01:19,234 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:01:35,934 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:01:36,937 INFO spawned: 'cron' with pid 110
+2024-07-26 15:01:37,939 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:01:48,834 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:01:49,837 INFO spawned: 'cron' with pid 113
+2024-07-26 15:01:50,849 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:02:02,907 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:02:03,911 INFO spawned: 'cron' with pid 116
+2024-07-26 15:02:04,913 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:02:14,459 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:02:15,464 INFO spawned: 'cron' with pid 119
+2024-07-26 15:02:16,469 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:02:24,745 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:02:25,751 INFO spawned: 'cron' with pid 122
+2024-07-26 15:02:26,755 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:02:35,422 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:02:36,428 INFO spawned: 'cron' with pid 125
+2024-07-26 15:02:37,432 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:02:45,353 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:02:46,357 INFO spawned: 'cron' with pid 128
+2024-07-26 15:02:47,361 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:02:56,986 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:02:57,990 INFO spawned: 'cron' with pid 131
+2024-07-26 15:02:58,995 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:03:07,387 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:03:08,392 INFO spawned: 'cron' with pid 134
+2024-07-26 15:03:09,394 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:03:17,112 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:03:18,117 INFO spawned: 'cron' with pid 137
+2024-07-26 15:03:19,121 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:03:26,900 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:03:27,904 INFO spawned: 'cron' with pid 140
+2024-07-26 15:03:28,907 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:03:37,112 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:03:38,116 INFO spawned: 'cron' with pid 143
+2024-07-26 15:03:39,119 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:03:47,304 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:03:48,310 INFO spawned: 'cron' with pid 146
+2024-07-26 15:03:49,313 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:03:56,954 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:03:57,960 INFO spawned: 'cron' with pid 149
+2024-07-26 15:03:58,964 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:04:07,143 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:04:07,145 INFO spawned: 'cron' with pid 152
+2024-07-26 15:04:08,147 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:04:16,030 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:04:17,035 INFO spawned: 'cron' with pid 155
+2024-07-26 15:04:18,038 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:04:25,816 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:04:26,821 INFO spawned: 'cron' with pid 158
+2024-07-26 15:04:27,824 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:04:37,239 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:04:38,242 INFO spawned: 'cron' with pid 161
+2024-07-26 15:04:39,244 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:04:49,356 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:04:50,361 INFO spawned: 'cron' with pid 164
+2024-07-26 15:04:51,364 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:05:00,488 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:05:01,491 INFO spawned: 'cron' with pid 167
+2024-07-26 15:05:02,493 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:05:12,688 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:05:13,693 INFO spawned: 'cron' with pid 170
+2024-07-26 15:05:14,697 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:05:23,585 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:05:24,590 INFO spawned: 'cron' with pid 173
+2024-07-26 15:05:25,596 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:05:33,583 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:05:34,588 INFO spawned: 'cron' with pid 176
+2024-07-26 15:05:35,593 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:05:43,531 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:05:44,535 INFO spawned: 'cron' with pid 179
+2024-07-26 15:05:45,538 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:05:53,618 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:05:54,623 INFO spawned: 'cron' with pid 182
+2024-07-26 15:05:55,627 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:06:03,650 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:06:04,654 INFO spawned: 'cron' with pid 185
+2024-07-26 15:06:05,662 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:06:13,540 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:06:14,544 INFO spawned: 'cron' with pid 188
+2024-07-26 15:06:15,546 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:06:25,538 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:06:26,544 INFO spawned: 'cron' with pid 191
+2024-07-26 15:06:27,547 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:06:38,439 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:06:39,443 INFO spawned: 'cron' with pid 194
+2024-07-26 15:06:40,446 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:06:49,772 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:06:50,778 INFO spawned: 'cron' with pid 197
+2024-07-26 15:06:51,782 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:07:10,095 INFO exited: cron (exit status 0; expected)
+2024-07-26 15:07:11,098 INFO spawned: 'cron' with pid 200
+2024-07-26 15:07:12,100 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-26 15:07:18,109 WARN received SIGQUIT indicating exit request
+2024-07-26 15:07:18,109 INFO waiting for cron, laravel-server, laravel-worker_00 to die
+2024-07-26 15:07:19,114 WARN stopped: laravel-worker_00 (terminated by SIGTERM)
+2024-07-26 15:07:20,116 WARN stopped: laravel-server (terminated by SIGTERM)
+2024-07-26 15:07:20,121 WARN stopped: cron (terminated by SIGTERM)
