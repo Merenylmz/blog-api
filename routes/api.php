@@ -11,6 +11,7 @@ use App\Models\Comment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Session;
 
 Route::get('/user', function (Request $request) {
     return $request->user();
@@ -20,9 +21,9 @@ Route::get('/user', function (Request $request) {
 Route::prefix("/categories")->group(function () {
     Route::get("/", [CategoryController::class, "getAllCategories"]);
     Route::get("/{id}", [CategoryController::class, "getCategoryById"]);
-    Route::post("/", [CategoryController::class, "addCategory"])->middleware("isItAdmin");
-    Route::delete("/{id}", [CategoryController::class, "deleteCategory"])->middleware("isItAdmin");
-    Route::put("/edit/{id}", [CategoryController::class, "editCategory"])->middleware("isItAdmin");
+    // Route::post("/", [CategoryController::class, "addCategory"])->middleware("isItAdmin");
+    // Route::delete("/{id}", [CategoryController::class, "deleteCategory"])->middleware("isItAdmin");
+    // Route::put("/edit/{id}", [CategoryController::class, "editCategory"])->middleware("isItAdmin");
 });
 
 Route::prefix("/auth")->group(function(){
@@ -37,7 +38,7 @@ Route::prefix("/blogs")->group(function(){
     Route::get("/", [BlogController::class, "getAllBlogs"]);
     Route::get("/popular", [BlogController::class, "getPopularBlogs"]);
     Route::get("/{id}", [BlogController::class, "getBlogById"]);
-    Route::put("/edit/{id}", [BlogController::class, "editBlog"]);
+    // Route::put("/edit/{id}", [BlogController::class, "editBlog"]);
     Route::get("/count/{id}", [BlogController::class, "addViewsCount"]);
     Route::post("/addcomment/{id}", [BlogController::class, "addComments"]);
     Route::post("/category", [BlogController::class, "getBlogByCategoryId"]);
@@ -50,4 +51,16 @@ Route::get("/policies", [PolicyController::class, "getPolicyBySlug"]);
 //     Mail::to("m.erenyilmaz2007@gmail.com")->send(new NewCommentMail("asdasdasd"));
 //     return true;
 // });
+
+Route::get("/sessionAdd", function(){
+    Session::put("deneme", "data data");
+    Session::save();
+    return true;   
+});
+
+Route::get("/session", function(Request $req){
+    return response()->json(
+        Session::all()
+    );
+});
 

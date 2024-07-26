@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\LoginResource;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
@@ -36,7 +37,7 @@ class AuthController extends Controller
                 $avatarUrl = Storage::url($user->avatar_url);
                 array_push($response, url($avatarUrl));
             }
-            return response()->json($response);
+            return (new LoginResource($user))->additional(["token"=>$token]);
         } catch (\Throwable $th) {
             return response()->json(["status"=>"OK", "msg"=> $th->getMessage()]);
         }
@@ -102,10 +103,8 @@ class AuthController extends Controller
             if (!$user) {
                 return response()->json(["status"=>"Is Not Ok", "msg"=>"Please give valid user"]);
             }
-
-            if (Cache::has("loginToken:{$user->id}")) {
-                Cache::forget("loginToken:{$user->id}");
-            }
+            
+            Cache::has("loginToken:{$user->id}") ?? Cache::forget("loginToken:{$user->id}");
 
             $user->last_login_token = null;
             $user->save();
