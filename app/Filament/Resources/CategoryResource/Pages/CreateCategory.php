@@ -11,9 +11,4 @@ class CreateCategory extends CreateRecord
 {
     protected static string $resource = CategoryResource::class;
 
-    protected static function afterCreate():void{
-        if (Cache::has("allCat")) {
-           Cache::forget("allCat"); 
-        }
-    }
 }

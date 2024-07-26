@@ -27,7 +27,7 @@ class AuthController extends Controller
 
             $token = JWT::encode(["userId"=>$user->id, "isitAdmin"=>$user->isitAdmin]);
             Cache::put("loginToken:{$user->id}", $token, 60*60);
-            $user->lastLoginToken = $token;
+            $user->last_login_token = $token;
             $user->save();
 
 
@@ -59,9 +59,8 @@ class AuthController extends Controller
             $newUser->email = $req->input("email");
             $newUser->password = Hash::make($req->input("password"));
             $newUser->save();
-            if (Cache::has("allUsers")) {
-                Cache::forget("allUsers");
-            }
+
+            Cache::has("allUsers") ?? Cache::forget("allUsers");
 
             return response()->json(["status"=>"OK", "msg"=>"Welcome, {$newUser->name}"]);
         } catch (\Throwable $th) {
@@ -108,7 +107,7 @@ class AuthController extends Controller
                 Cache::forget("loginToken:{$user->id}");
             }
 
-            $user->lastLoginToken = null;
+            $user->last_login_token = null;
             $user->save();
             
             return response()->json(["status"=>"OK"]);
@@ -121,16 +120,10 @@ class AuthController extends Controller
     //Burada Frontta belirli bir filtreleme işlemi yapmak için Tüm kullanıcıları döndürüyoruz sistemde yavaşlama olmasın diye Cache sistemi kullanıyoruz.
     public function allUsers(){
         try {
-            $data = [];
-            if (Cache::has("allUsers")) {
-                $data = Cache::get("allUsers");
-            } else {
-                $user = User::all();
-                Cache::put("allUsers", $user, 60*60);
-                $data = $user;
-            }
-
-            return response()->json($data);
+            $users = Cache::rememberForever("allUsers", function(){
+                return User::all();
+            });
+            return response()->json($users);
         } catch (\Throwable $th) {
             return response()->json(["status"=>"Is not OK", "msg"=> $th->getMessage()]);
         }

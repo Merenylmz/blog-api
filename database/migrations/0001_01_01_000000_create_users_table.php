@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
-            $table->text("lastLoginToken")->nullable();
+            $table->text("last_login_token")->nullable();
             $table->boolean("isitAdmin")->default(false);
             $table->text("bioTxt")->nullable();
             $table->string("profilePhoto")->nullable();

@@ -15,14 +15,7 @@ class EditCategory extends EditRecord
     {
         return [
             Actions\DeleteAction::make()
-            ->after(function(){
-                Cache::has("allCat") ?? Cache::forget("allCate");
-            }),
         ];
     }
 
-
-    protected function afterSave():void{
-        Cache::has("allCat") ?? Cache::forget("allCat");
-    }
 }

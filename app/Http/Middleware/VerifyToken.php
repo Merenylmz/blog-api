@@ -28,7 +28,7 @@ class VerifyToken
             return response()->json(["status"=>"Is Not OK", "msg"=>"Token is Expired"]);
         } 
         //burada Databasedeki token bilgisi ile verilen token bilgisi eşleşiyormu ve Cachedeki token bilgisi ile verilen token bilgisi eşleşiyormu ona bakıyoruz.  
-        else if (Cache::get("loginToken:{$user->id}") != $req->query("token") && $req->query("loginToken:{$user->id}") != $user->lastLoginToken) { 
+        else if (Cache::get("loginToken:{$user->id}") != $req->query("token") && $req->query("loginToken:{$user->id}") != $user->last_login_token) { 
             return response()->json(["status"=>"Is Not OK", "msg"=>"Token is Invalid"]);
         }
         $req->attributes->set("userId", $user->id); // burada ise gelen tokena bağlı olarak userId yi decode edip controllera atıyorum

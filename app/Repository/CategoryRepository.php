@@ -17,14 +17,5 @@ class CategoryRepository implements CategoryRepositoryInterface
         $this->model = $this->category;
     }
 
-    public function getAllCategoriesWithCache(){
-        $categories = [];
-        if (Cache::has("allCat")) {
-            $categories = Cache::get("allCat");    
-        } else {
-            $categories = $this->category->where("status", true)->get();
-            Cache::put("allCat", $categories, 60*60);
-        }
-        return $categories;
-    }
+   
 }

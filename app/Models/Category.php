@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Cache;
 
 class Category extends Model
 {
@@ -20,7 +21,7 @@ class Category extends Model
     public function blogs(){
         return $this->hasMany(Blog::class);
     }
-    protected static function boot()
+    protected static function booted()
     {
         parent::boot();
 
@@ -28,6 +29,10 @@ class Category extends Model
             if (is_null($model->blogs)) {
                 $model->blogs = [];
             }
+            Cache::has("allCategory") ?? Cache::forget("allCategory");
+        });
+        static::deleting(function(){
+            Cache::has("allCategory") ?? Cache::forget("allCategory");
         });
     }
 }

@@ -17,9 +17,4 @@ class EditComment extends EditRecord
             Actions\DeleteAction::make(),
         ];
     }
-
-    protected function beforeSave(): void
-    {
-        Cache::has("allComment") ?? Cache::forget("allComment");
-    }
 }

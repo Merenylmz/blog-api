@@ -26,7 +26,7 @@ class Blog extends Model
         return $this->hasMany(Comment::class);
     }
 
-    protected static function boot()
+    protected static function booted()
     {
         parent::boot();
 
@@ -34,6 +34,11 @@ class Blog extends Model
             if (is_null($model->comments)) {
                 $model->comments = [];
             }
+        });
+
+        static::retrieved(function($model){
+            $model->viewsCount += 1;
+            $model->save();
         });
     }
    

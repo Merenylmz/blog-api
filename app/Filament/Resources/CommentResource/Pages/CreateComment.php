@@ -23,7 +23,6 @@ class CreateComment extends CreateRecord
         $blog->comments = $blogComments;
         $blog->save();
 
-        Cache::has("allComment") ?? Cache::forget("allComment");
         NewCommentMailJob::dispatch("m.erenyilmaz2007@gmail.com", [
             "blog"=>$blog,
             "comment"=>$comment

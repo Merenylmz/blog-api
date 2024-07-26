@@ -39,43 +39,7 @@ class BlogController extends Controller
         }
     }
 
-    //Burada Service ile blogları güncelliyoruz...
-    public function editBlog(Request $req, $id){
-        try {
-            $blog = $this->blogService->find($id);
-
-            if ($req->attributes->get("userId") != $blog->userId) {
-                return response()->json(["status"=>"Is Not Ok", "msg"=>"This blogs not edit"]);
-            }
-
-            $blogTagsArray = json_decode($blog->tags);
-            array_push($blogTagsArray, $req->input("tags"));
-            $blog->tags = json_encode($blogTagsArray);
-
-            $newData = [
-                "title"=>$req->input("title"),
-                "description"=>$req->input("description"),
-                "userId"=>$blog->userId,
-                "categoryId"=>$req->input("categoryId"),
-                "starterDate"=>$req->input("starterDate"),
-                "finishDate"=>$req->input("finishDate"),
-                "tags"=>$blog->tags,
-            ];
-            if ($req->hasFile("fileUrl")) {
-                $file = $req->file("fileUrl");
-                $fileName = "blog"."_".time()."_".$blog->userId."_".$file->getClientOriginalName();
-                $file->move(public_path("blogs"), $fileName);
-                $fileUrl = url("blog", $fileName);
-                array_push($newData, $fileUrl);
-            }
-
-            $status = $this->blogService->update($newData, $id);
-
-            return response()->json(["status"=>"OK", $status]);
-        } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
-        }
-    }
+    //Edit Blog Silindi    
 
     //burada Blogdaki görüntülenme sayısını artırıyoruz...
     public function addViewsCount(Request $req, $id){
