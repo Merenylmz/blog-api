@@ -47,9 +47,3 @@ Route::prefix("/blogs")->group(function(){
 Route::get("/comments", [BlogController::class, "getAllComments"]);
 Route::get("/policies", [PolicyController::class, "getPolicyBySlug"]);
 
-Route::post("/denemee", function(Request $req){
-    if (!Auth::attempt($req->all())) {
-        return response()->json("asdadasdasd");
-    }
-    return response()->json(Auth::user());
-});

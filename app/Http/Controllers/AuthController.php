@@ -71,34 +71,6 @@ class AuthController extends Controller
         }
     }
 
-    // public function editUser(Request $req){
-    //     try {
-    //         $user = User::find($req->attributes->get("userId"));
-    //         $user->bioTxt = $req->input("biotxt");
-    //         if ($req->hasFile("profileUrl")) {
-    //             $profileUrlFile = $req->file("profileUrl");
-    //             $profileUrlFileName = "profilephoto_".$user->id."_".time()."_".$profileUrlFile->getClientOriginalName();
-    //             $profileUrlFile->move(public_path("profilePhoto"), $profileUrlFileName);
-    //             $profileUrl = url("profilePhoto", $profileUrlFileName);
-    //             $user->profilePhoto = $profileUrl;
-    //         }
-    //         if ($req->has("biotxt")) {
-    //             $user->bioTxt = $req->input("biotxt");
-    //         }
-    //         $user->save();
-
-    //         return response()->json(["status"=> "OK", "profilePhoto"=>$user->profilePhoto, "bioTxt"=>$user->bioTxt]);
-    //     } catch (\Throwable $th) {
-    //         return response()->json(["status"=>"OK", "msg"=> $th->getMessage()]);
-    //     }
-    // }
-
-    
-
-    /*
-    Bu kısımda sisteme giriş yapmış kullanıcıyı çıkarma işlemini yapıyoruz buna bağlı bulunan middleware ile kullanıcının sistemde oturum açıp açmadığına bakıyoruz.
-    sonrasında eğer controllera gelirse kullanıcının rediste bulunan ve databasede bulunan token siliniyor. 
-     */
     public function logout(Request $req){
         try {
             $user = User::find($req->attributes->get("userId"));
