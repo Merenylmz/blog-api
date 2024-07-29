@@ -30,9 +30,9 @@ class BlogController extends Controller
     }
 
     //Burada service ile blogları idye göre çekiyoruz.
-    public function getBlogById($id){
+    public function getBlogBySlug($slug){
         try {
-            $blog = $this->blogService->find($id);
+            $blog = $this->blogService->findBySlug($slug);
             return response()->json(["status"=>"OK", $blog]);
         } catch (\Throwable $th) {
             return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);

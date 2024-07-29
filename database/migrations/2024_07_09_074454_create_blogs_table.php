@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string("title");
             $table->text("description");
+            $table->string("slug")->unique();
             $table->unsignedBigInteger("userId");
             $table->foreign("userId")->references("id")->on("users")->onDelete("cascade");
             $table->string("fileUrl")->nullable();

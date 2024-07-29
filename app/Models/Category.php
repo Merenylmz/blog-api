@@ -12,7 +12,7 @@ class Category extends Model
 
     protected $table = "categories";
 
-    protected $fillable = ["title", "status", "blogs"];
+    protected $fillable = ["title", "status", "blogs", "slug"];
 
     protected $casts = [
         "blogs"=>'array'

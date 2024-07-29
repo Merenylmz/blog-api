@@ -21,7 +21,7 @@ Route::get('/user', function (Request $request) {
 
 Route::prefix("/categories")->group(function () {
     Route::get("/", [CategoryController::class, "getAllCategories"]);
-    Route::get("/{id}", [CategoryController::class, "getCategoryById"]);
+    Route::get("/{slug}", [CategoryController::class, "getCategoryBySlug"]);
     // Route::post("/", [CategoryController::class, "addCategory"])->middleware("isItAdmin");
     // Route::delete("/{id}", [CategoryController::class, "deleteCategory"])->middleware("isItAdmin");
     // Route::put("/edit/{id}", [CategoryController::class, "editCategory"])->middleware("isItAdmin");
@@ -38,12 +38,14 @@ Route::prefix("/auth")->group(function(){
 Route::prefix("/blogs")->group(function(){
     Route::get("/", [BlogController::class, "getAllBlogs"]);
     Route::get("/popular", [BlogController::class, "getPopularBlogs"]);
-    Route::get("/{id}", [BlogController::class, "getBlogById"]);
+    Route::get("/{slug}", [BlogController::class, "getBlogBySlug"]);
     // Route::put("/edit/{id}", [BlogController::class, "editBlog"]);
     Route::get("/count/{id}", [BlogController::class, "addViewsCount"]);
     Route::post("/addcomment/{id}", [BlogController::class, "addComments"]);
     Route::post("/category", [BlogController::class, "getBlogByCategoryId"]);
 });
 Route::get("/comments", [BlogController::class, "getAllComments"]);
-Route::get("/policies", [PolicyController::class, "getPolicyBySlug"]);
+
+//Policies
+Route::get("/policies/{slug}", [PolicyController::class, "getPolicyBySlug"]);
 

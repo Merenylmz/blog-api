@@ -22,9 +22,9 @@ class CategoryController extends Controller
         }
     }
 
-    public function getCategoryById($id){
+    public function getCategoryBySlug($slug){
         try {
-            $category = $this->categoryService->find($id);
+            $category = $this->categoryService->findBySlug($slug);
             return response()->json($category);
         } catch (\Throwable $th) {
             return response()->json(["status"=>"Is Not OK   ", "msg"=> $th->getMessage()]);

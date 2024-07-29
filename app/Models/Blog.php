@@ -11,7 +11,7 @@ class Blog extends Model
     use HasFactory;
 
     protected $table = "blogs";
-    protected $fillable = ["title", "description", "userId", "categoryId", "fileUrl", "isitActive", "viewsCount", "comments", "tags", "starterDate", "finishDate"];
+    protected $fillable = ["title","slug", "description", "userId", "categoryId", "fileUrl", "isitActive", "viewsCount", "comments", "tags", "starterDate", "finishDate"];
 
     protected $casts = [
         'tags' => 'array',

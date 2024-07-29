@@ -2,23 +2,17 @@
 
 namespace App\Policies;
 
-use App\Models\Policy;
 use App\Models\User;
+use App\Models\Policy;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 class PolicyPolicy
 {
-    /**
-     * Create a new policy instance.
-     */
     use HandlesAuthorization;
-    public function __construct()
-    {
-        //
-    }
 
-
-
+    /**
+     * Determine whether the user can view any models.
+     */
     public function viewAny(User $user): bool
     {
         return $user->can('view_any_policy');

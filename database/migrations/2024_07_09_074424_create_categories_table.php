@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string("title");
             $table->boolean("status")->default(false);
             $table->json("blogs");
+            $table->string("slug")->unique();
             $table->timestamps();
         });
     }

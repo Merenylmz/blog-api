@@ -25,4 +25,8 @@ trait CommonServiceTrait
     public function delete($id){
         return $this->modelRepository->delete($id);
     }
+
+    public function findBySlug($slug){
+        return $this->modelRepository->getBySlug($slug);
+    }
 }

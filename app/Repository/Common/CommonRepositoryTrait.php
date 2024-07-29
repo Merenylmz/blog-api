@@ -34,4 +34,8 @@ trait CommonRepositoryTrait
     public function delete($id){
         return $this->model->destroy($id);
     }
+
+    public function getBySlug($slug){
+        return $this->model->where("slug", $slug)->first();
+    }
 }

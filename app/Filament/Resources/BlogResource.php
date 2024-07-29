@@ -9,6 +9,7 @@ use App\Models\Blog;
 use App\Models\Category;
 use App\Models\User;
 use Carbon\Carbon;
+use Closure;
 use DateTime;
 use Faker\Provider\ar_EG\Text;
 use Filament\Forms;
@@ -35,6 +36,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
+use Illuminate\Support\Str;
 
 class BlogResource extends Resource
 {
@@ -51,7 +53,9 @@ class BlogResource extends Resource
 
         return $form
             ->schema([
-                TextInput::make("title")->required(),
+                TextInput::make("title")->required()->reactive()->live()->afterStateUpdated(fn (Set $set, $state) => $set('slug', Str::slug($state))),
+                TextInput::make('slug')
+                    ->required(),
                 Textarea::make("description")->required(),
                 Hidden::make("userId")->default($userId),
                 Select::make("isitActive")->options([
