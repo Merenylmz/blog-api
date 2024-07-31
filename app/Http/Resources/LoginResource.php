@@ -16,7 +16,8 @@ class LoginResource extends JsonResource
     {
         return [
             "name"=> $this->name,
-            "status"=>"OK"
+            "status"=>"OK",
+            "profilePhoto"=> env("APP_URL")."/storage/".$this->avatar_url
         ];
     }
 }
