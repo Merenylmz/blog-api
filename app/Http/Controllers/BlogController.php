@@ -23,9 +23,9 @@ class BlogController extends Controller
         try {
             $blogs = $this->blogService->all(["status"=>true, "key"=>"allBlog"]);
             
-            return response()->json(["status"=>"OK", "blogs"=>$blogs]);
+            return response()->json(["blogs"=>$blogs]);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
+            return response()->json(["msg"=>$th->getMessage()], 500);
         }
     }
 
@@ -33,9 +33,9 @@ class BlogController extends Controller
     public function getBlogBySlug($slug){
         try {
             $blog = $this->blogService->findBySlug($slug);
-            return response()->json(["status"=>"OK", $blog]);
+            return response()->json([$blog]);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
+            return response()->json(["msg"=>$th->getMessage()], 500);
         }
     }
 
@@ -45,9 +45,9 @@ class BlogController extends Controller
     public function addViewsCount(Request $req, $id){
         try {
             $newCount = $this->blogService->addViewsCount($id);
-            return response()->json(["status"=>"OK", "count"=>$newCount]);
+            return response()->json(["count"=>$newCount]);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
+            return response()->json(["msg"=>$th->getMessage()], 500);
         }
     }
 
@@ -55,9 +55,9 @@ class BlogController extends Controller
     public function getPopularBlogs(){
         try {
             $blogs = $this->blogService->getPopularBlog();
-            return response()->json(["status"=>"OK", "blogs"=>$blogs]);
+            return response()->json(["blogs"=>$blogs]);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
+            return response()->json(["msg"=>$th->getMessage()], 500);
         }
     }
     //Burada blogumuza yorum ekleyebilmek için bir API yazdık yorumları getirirken bir Cache ile getiriyorduk ve burada Commentde bir güncelleme olduğu için siliyoruz.
@@ -68,9 +68,9 @@ class BlogController extends Controller
                 Cache::forget("allComment");
             }
 
-            return response()->json(["status"=>"OK", $blogs]);
+            return response()->json([$blogs]);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
+            return response()->json(["msg"=>$th->getMessage()], 500);
         }
     }
 
@@ -85,9 +85,9 @@ class BlogController extends Controller
                 Cache::put("allComment", $comments,60*15);
             }
  
-            return response()->json(["status"=>"OK", "comments"=>$comments]);
+            return response()->json(["comments"=>$comments]);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
+            return response()->json(["msg"=>$th->getMessage()], 500);
         }
     }
 
@@ -95,9 +95,9 @@ class BlogController extends Controller
     public function getBlogByCategoryId(Request $req){
         try {
             $blogs = $this->blogService->getBlogByCategoryId($req->input("categories"));
-            return response()->json(["status"=>"OK", "blogs"=>$blogs]);
+            return response()->json(["blogs"=>$blogs]);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is Not OK", "msg"=>$th->getMessage()]);
+            return response()->json(["msg"=>$th->getMessage()], 500);
         }
     }
 }

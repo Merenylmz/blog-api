@@ -41,7 +41,7 @@ class AuthController extends Controller
             }
             return (new LoginResource($user))->additional(["token"=>$token]);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"OK", "msg"=> $th->getMessage()]);
+            return response()->json(["status"=>"OK", "msg"=> $th->getMessage()], 500);
         }
     }
 
@@ -65,9 +65,9 @@ class AuthController extends Controller
 
             Cache::has("allUsers") ?? Cache::forget("allUsers");
 
-            return response()->json(["status"=>"OK", "msg"=>"Welcome, {$newUser->name}"]);
+            return response()->json(["msg"=>"Welcome, {$newUser->name}"]);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"OK", "msg"=> $th->getMessage()]);
+            return response()->json([, "msg"=> $th->getMessage()], 500);
         }
     }
 
@@ -85,7 +85,7 @@ class AuthController extends Controller
             
             return response()->json(["status"=>"OK"]);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is not OK", "msg"=> $th->getMessage()]);
+            return response()->json(["status"=>"Is not OK", "msg"=> $th->getMessage()], 500);
         }
     }
 
@@ -98,7 +98,7 @@ class AuthController extends Controller
             });
             return response()->json($users);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is not OK", "msg"=> $th->getMessage()]);
+            return response()->json(["status"=>"Is not OK", "msg"=> $th->getMessage()], 500);
         }
     }
    

@@ -22,7 +22,7 @@ class PolicyController extends Controller
             $policies = $this->policyService->getPoliciesBySlug($slug);
             return response()->json($policies);
         } catch (\Throwable $th) {
-            return response()->json(["error"=> $th->getMessage()]);
+            return response()->json(["error"=> $th->getMessage()], 500);
         }
     }
 }
