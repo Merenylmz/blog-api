@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Events\AddViewsCountEvents;
 use App\Models\Scopes\GetBlogStatusTrue;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -38,8 +39,7 @@ class Blog extends Model
         });
 
         static::retrieved(function($model){
-            $model->viewsCount += 1;
-            $model->save();
+            event(new AddViewsCountEvents($model));
         });
 
         static::addGlobalScope(new GetBlogStatusTrue);

@@ -22,3 +22,4 @@ yarn-error.log
 /app/README.md
 # /README.md
 /supervisord.log
+/supervisord.pid
