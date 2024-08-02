@@ -5,7 +5,10 @@ namespace App\Http\Middleware;
 use App\Models\User;
 use Closure;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
 use Jerry\JWT\JWT;
 use Symfony\Component\HttpFoundation\Response;
@@ -22,7 +25,7 @@ class VerifyToken
         //Burada ise Token bilgisinden gelen userId ile userı buluyoruz. ve token bilgisi geçmişmi ve geçerlimi onu kontrol ediyoruz
         $decodedToken = JWT::decode($req->query("token"));
         $user = User::find($decodedToken["userId"]);
-        if (!$user) {
+        if (!$user) {  
             return response()->json(["status"=>"Is Not OK", "msg"=>"User is not found"]);
         }
         else if (!Cache::has("loginToken:{$user->id}")) {
@@ -33,11 +36,8 @@ class VerifyToken
             return response()->json(["status"=>"Is Not OK", "msg"=>"Token is Invalid"]);
         }
         
-        $req->attributes->set("userId", $user->id); // burada ise gelen tokena bağlı olarak userId yi decode edip controllera atıyorum
+        // $req->attributes->set("userId", $user->id); // burada ise gelen tokena bağlı olarak userId yi decode edip controllera atıyorum
+        $req->merge(["userId"=>$user->id]);
         return $next($req);
     }
 }
-
-// 
-//     
-// 

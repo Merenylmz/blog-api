@@ -30,7 +30,6 @@ Route::prefix("/categories")->group(function () {
 Route::prefix("/auth")->group(function(){
     Route::post("/login", [AuthController::class, "login"]);
     Route::post("/register", [AuthController::class, "register"]);
-    Route::post("/edituser", [AuthController::class, "editUser"])->middleware("verifyToken");
     Route::get("/logout", [AuthController::class, "logout"])->middleware("verifyToken");
     Route::get("/allusers", [AuthController::class, "allUsers"]);
 });

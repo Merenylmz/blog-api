@@ -24,7 +24,6 @@ class AuthController extends Controller
     use ResponseTrait;
     public function login(Request $req){
         try {
-            
             if (!Auth::attempt($req->all())) {return response()->json(["status"=>"Is Not OK", "msg"=> "User is not found"]);}
             $user = User::find(Auth::user()->id);
             if (!Hash::check($req->input("password"), $user->password)) {
@@ -76,7 +75,7 @@ class AuthController extends Controller
 
     public function logout(Request $req){
         try {
-            $user = User::find($req->attributes->get("userId"));
+            $user = User::find($req->userId);
             if (!$user) {
                 return response()->json(["status"=>"Is Not Ok", "msg"=>"Please give valid user"]);
             }
