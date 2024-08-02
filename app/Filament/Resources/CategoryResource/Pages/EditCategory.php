@@ -14,9 +14,7 @@ class EditCategory extends EditRecord
     protected function getHeaderActions(): array
     {
         return [
-            Actions\DeleteAction::make()->after(function(){
-                Cache::has("allCategory") ?? Cache::forget("allCategory");
-            })
+            Actions\DeleteAction::make()
         ];
     }
     protected function afterSave():void{

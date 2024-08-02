@@ -17,10 +17,6 @@ class EditBlog extends EditRecord
     {
         return [
             Actions\DeleteAction::make()
-            ->after(function(Blog $blog){
-                Storage::disk("public")->delete($blog->fileUrl);
-                Cache::has("allBlog") ?? Cache::forget("allBlog");
-            }),
         ];
     }
 

@@ -21,7 +21,7 @@ class BlogRepository implements BlogRepositoryInterface
     }
 
     public function getPopularBlog(){
-        return $this->blog->orderBy("viewsCount", "desc")->get();
+        return $this->blog->orderBy("viewsCount", "desc")->where("isitActive", true)->get();
     }
 
     public function addComment($data, $id){
@@ -59,7 +59,7 @@ class BlogRepository implements BlogRepositoryInterface
     }
 
     public function getBlogByCategoryId($id){
-        $blogs = $this->blog->whereIn("categoryId", $id)->get();
+        $blogs = $this->blog->whereIn("categoryId", $id)->where("isitActive", true)->get();
        
         return $blogs;
     }
