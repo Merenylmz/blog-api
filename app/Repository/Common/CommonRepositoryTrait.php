@@ -38,7 +38,10 @@ trait CommonRepositoryTrait
 
     public function getBySlug($slug){
         if ($this->model instanceof Blog) {
-            $this->model->isActive()->where("slug", $slug)->firstOrFail();
+            return $this->model->isActive()->where("slug", $slug)->firstOrFail();
+        }
+        if (is_numeric($slug)) {
+            return $this->model->find($slug);
         }
         return $this->model->where("slug", $slug)->first();
     }
