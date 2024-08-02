@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Resources\LoginResource;
 use App\Models\User;
+use App\Traits\ResponseTrait;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
@@ -19,6 +20,8 @@ class AuthController extends Controller
     için farklı bir Cache kaydediyor
     yani dinamik bir sistem sonra kullanıcının profil fotoğrafı varsa onuda bize döndürüyor.
     */
+
+    use ResponseTrait;
     public function login(Request $req){
         try {
             
@@ -65,9 +68,9 @@ class AuthController extends Controller
 
             Cache::has("allUsers") ?? Cache::forget("allUsers");
 
-            return response()->json(["msg"=>"Welcome, {$newUser->name}"]);
+            return $this->successResponse($newUser->name);
         } catch (\Throwable $th) {
-            return response()->json([, "msg"=> $th->getMessage()], 500);
+            return $this->errorResponse($th->getMessage());
         }
     }
 
@@ -83,9 +86,9 @@ class AuthController extends Controller
             $user->last_login_token = null;
             $user->save();
             
-            return response()->json(["status"=>"OK"]);
+            return $this->successResponse("Logouted");
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is not OK", "msg"=> $th->getMessage()], 500);
+            return $this->errorResponse($th->getMessage());
         }
     }
 
@@ -96,9 +99,9 @@ class AuthController extends Controller
             $users = Cache::rememberForever("allUsers", function(){
                 return User::all();
             });
-            return response()->json($users);
+            return $this->successResponse($users);
         } catch (\Throwable $th) {
-            return response()->json(["status"=>"Is not OK", "msg"=> $th->getMessage()], 500);
+            return $this->errorResponse($th->getMessage());
         }
     }
    

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Repository\Common;
+use App\Models\Blog;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
 
@@ -36,6 +37,9 @@ trait CommonRepositoryTrait
     }
 
     public function getBySlug($slug){
+        if ($this->model instanceof Blog) {
+            $this->model->isActive()->where("slug", $slug)->firstOrFail();
+        }
         return $this->model->where("slug", $slug)->first();
     }
 }

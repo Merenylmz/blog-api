@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Events\AddViewsCountEvents;
 use App\Models\Scopes\GetBlogStatusTrue;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -12,7 +13,7 @@ class Blog extends Model
     use HasFactory;
 
     protected $table = "blogs";
-    protected $fillable = ["title","slug", "description", "userId", "categoryId", "fileUrl", "isitActive", "viewsCount", "comments", "tags", "starterDate", "finishDate"];
+    protected $fillable = ["title", "slug", "description", "userId", "categoryId", "fileUrl", "isitActive", "viewsCount", "comments", "tags", "starterDate", "finishDate"];
 
     protected $casts = [
         'tags' => 'array',
@@ -42,7 +43,13 @@ class Blog extends Model
             event(new AddViewsCountEvents($model));
         });
 
-        static::addGlobalScope(new GetBlogStatusTrue);
+        // static::addGlobalScope(new GetBlogStatusTrue);
     }
+
+    public function scopeIsActive($query)
+    {
+        return $query->where('isitActive', true);
+    }
+
    
 }

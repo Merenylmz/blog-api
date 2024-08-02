@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Models\Comment;
 use App\Services\Concrete\BlogService;
+use App\Traits\ResponseTrait;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Storage;
 
 class BlogController extends Controller
 {
+    use ResponseTrait;
     protected $blogService; // Blog Servicei burda global değişken olabilmesi için constructor ile veriyi atıyoruz ve global alanda kullanıyoruz.
     public function __construct(BlogService $blogService) {
         $this->blogService = $blogService; // Burada veriyi aktarıyoruz
@@ -23,9 +25,9 @@ class BlogController extends Controller
         try {
             $blogs = $this->blogService->all(["status"=>true, "key"=>"allBlog"]);
             
-            return response()->json(["blogs"=>$blogs]);
+            return $this->successResponse(["blogs"=> $blogs]);
         } catch (\Throwable $th) {
-            return response()->json(["msg"=>$th->getMessage()], 500);
+            return $this->errorResponse($th->getMessage());
         }
     }
 
@@ -33,9 +35,9 @@ class BlogController extends Controller
     public function getBlogBySlug($slug){
         try {
             $blog = $this->blogService->findBySlug($slug);
-            return response()->json([$blog]);
+            return $this->successResponse($blog);
         } catch (\Throwable $th) {
-            return response()->json(["msg"=>$th->getMessage()], 500);
+            return $this->errorResponse($th->getMessage());
         }
     }
 
@@ -45,9 +47,9 @@ class BlogController extends Controller
     public function addViewsCount(Request $req, $id){
         try {
             $newCount = $this->blogService->addViewsCount($id);
-            return response()->json(["count"=>$newCount]);
+            return $this->successResponse(["count"=>$newCount]);
         } catch (\Throwable $th) {
-            return response()->json(["msg"=>$th->getMessage()], 500);
+            return $this->errorResponse($th->getMessage());
         }
     }
 
@@ -55,9 +57,9 @@ class BlogController extends Controller
     public function getPopularBlogs(){
         try {
             $blogs = $this->blogService->getPopularBlog();
-            return response()->json(["blogs"=>$blogs]);
+            return $this->successResponse(["blogs"=>$blogs]);
         } catch (\Throwable $th) {
-            return response()->json(["msg"=>$th->getMessage()], 500);
+            return $this->errorResponse($th->getMessage());
         }
     }
     //Burada blogumuza yorum ekleyebilmek için bir API yazdık yorumları getirirken bir Cache ile getiriyorduk ve burada Commentde bir güncelleme olduğu için siliyoruz.
@@ -68,9 +70,9 @@ class BlogController extends Controller
                 Cache::forget("allComment");
             }
 
-            return response()->json([$blogs]);
+            return $this->successResponse($blogs);
         } catch (\Throwable $th) {
-            return response()->json(["msg"=>$th->getMessage()], 500);
+            return $this->errorResponse($th->getMessage());
         }
     }
 
@@ -85,9 +87,9 @@ class BlogController extends Controller
                 Cache::put("allComment", $comments,60*15);
             }
  
-            return response()->json(["comments"=>$comments]);
+            return $this->successResponse(["comments"=>$comments]);
         } catch (\Throwable $th) {
-            return response()->json(["msg"=>$th->getMessage()], 500);
+            return $this->errorResponse($th->getMessage());
         }
     }
 
@@ -95,9 +97,9 @@ class BlogController extends Controller
     public function getBlogByCategoryId(Request $req){
         try {
             $blogs = $this->blogService->getBlogByCategoryId($req->input("categories"));
-            return response()->json(["blogs"=>$blogs]);
+            return $this->successResponse(["blogs"=>$blogs]);
         } catch (\Throwable $th) {
-            return response()->json(["msg"=>$th->getMessage()], 500);
+            return $this->errorResponse($th->getMessage());
         }
     }
 }
