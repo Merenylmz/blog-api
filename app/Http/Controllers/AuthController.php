@@ -91,7 +91,6 @@ class AuthController extends Controller
         }
     }
 
-
     //Burada Frontta belirli bir filtreleme işlemi yapmak için Tüm kullanıcıları döndürüyoruz sistemde yavaşlama olmasın diye Cache sistemi kullanıyoruz.
     public function allUsers(){
         try {
