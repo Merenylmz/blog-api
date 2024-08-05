@@ -20,6 +20,8 @@ RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j$(nproc) gd \
     && docker-php-ext-install zip pdo pdo_mysql intl
 
+# RUN /bin/sh -c echo \"host-gateway host.docker.internal\"
+
 # Composer'ı kuruyoruz
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 

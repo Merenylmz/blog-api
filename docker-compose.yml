@@ -5,6 +5,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8181:8181"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     volumes:
       - .:/var/www/html
     # environment:
@@ -23,6 +25,8 @@ services:
     depends_on:
       - db
       - redis
+    # networks:
+    #   - mynetwork
 
   db:
     image: mysql:8.0
@@ -34,11 +38,19 @@ services:
       MYSQL_DATABASE: blogDb
     volumes:
       - dbdata:/var/lib/mysql
+    # networks:
+    #   - mynetwork
 
   redis:
     image: redis:latest
     container_name: redis
     ports:
       - "6379:6379"
+    # networks:
+    #   - mynetwork
 volumes:
   dbdata:
+
+# networks:
+#   mynetwork:
+#     driver: bridge
