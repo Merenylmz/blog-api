@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Storage;
-use Jerry\JWT\JWT;
+use PHPOpenSourceSaver\JWTAuth\Facades\JWTAuth;
 
 class AuthController extends Controller
 {
@@ -22,32 +22,23 @@ class AuthController extends Controller
     */
 
     use ResponseTrait;
+
     public function login(Request $req){
         try {
-            if (!Auth::attempt($req->all())) {return response()->json(["status"=>"Is Not OK", "msg"=> "User is not found"]);}
-            $user = User::find(Auth::user()->id);
-            if (!Hash::check($req->input("password"), $user->password)) {
-                return response()->json(["status"=>"Is Not OK", "msg"=> "Wrong password"]); 
-            } 
-
-            $token = JWT::encode(["userId"=>$user->id, "isitAdmin"=>$user->isitAdmin]);
-            Cache::put("loginToken:{$user->id}", $token, 60*60);
-            $user->last_login_token = $token;
-            $user->save();
-
-
-            $response = ["status"=>"OK", "token"=>$token];
-            if ($user->avatar_url != null) {
-                $avatarUrl = Storage::url($user->avatar_url);
-                array_push($response, url($avatarUrl));
+            $info = $req->only("email", "password");
+            if (!$token = JWTAuth::attempt($info)) {
+                return $this->errorResponse("Unauthorized");
             }
+            $user = Auth::user();
+
+            User::where("id", $user->id)->update(["last_login_token"=>$token]);
+            Cache::put("loginToken:{$user->id}", $token, 60*60);
+
             return (new LoginResource($user))->additional(["token"=>$token]);
         } catch (\Throwable $th) {
             return response()->json(["status"=>"OK", "msg"=> $th->getMessage()], 500);
         }
     }
-
-
     /*
         Burda Kullanıcıyı Sisteme Kaydediyoruz API ile ve yeni kullanıcı eklediğinde Cache ile bütün userları redisten silip  tekrardan güncel halini yüklüyoruz.
         ve Hash kullanarak şifreyi Hashliyoruz
@@ -76,14 +67,12 @@ class AuthController extends Controller
     public function logout(Request $req){
         try {
             $user = User::find($req->userId);
-            if (!$user) {
-                return response()->json(["status"=>"Is Not Ok", "msg"=>"Please give valid user"]);
-            }
-            
             Cache::has("loginToken:{$user->id}") ?? Cache::forget("loginToken:{$user->id}");
 
             $user->last_login_token = null;
             $user->save();
+
+            JWTAuth::invalidate($req->query("token"));
             
             return $this->successResponse("Logouted");
         } catch (\Throwable $th) {

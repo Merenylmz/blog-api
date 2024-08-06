@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use App\Models\User;
+use App\Traits\ResponseTrait;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -10,11 +11,12 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
-use Jerry\JWT\JWT;
+use PHPOpenSourceSaver\JWTAuth\Facades\JWTAuth;
 use Symfony\Component\HttpFoundation\Response;
 
 class VerifyToken
 {
+    use ResponseTrait;
     /**
      * Handle an incoming request.
      *
@@ -23,21 +25,25 @@ class VerifyToken
     public function handle(Request $req, Closure $next): Response
     {
         //Burada ise Token bilgisinden gelen userId ile userı buluyoruz. ve token bilgisi geçmişmi ve geçerlimi onu kontrol ediyoruz
-        $decodedToken = JWT::decode($req->query("token"));
-        $user = User::find($decodedToken["userId"]);
+        $userId = JWTAuth::setToken($req->query("token"))->getPayload()->get("sub");
+        $user = Auth::user();
+        // $decodedToken = JWT::decode($req->query("token"));
         if (!$user) {  
-            return response()->json(["status"=>"Is Not OK", "msg"=>"User is not found"]);
+            return $this->errorResponse("User is Not found");
         }
-        else if (!Cache::has("loginToken:{$user->id}")) {
-            return response()->json(["status"=>"Is Not OK", "msg"=>"Token is Expired"]);
+        else if ($user->id != $userId) {
+            return $this->errorResponse("Invalid Token Try Again");
+        }
+        else if (!Cache::has("loginToken:{$userId}")) {
+            return $this->errorResponse("Token Expired");
         } 
         //burada Databasedeki token bilgisi ile verilen token bilgisi eşleşiyormu ve cachedeki token bilgisi ile verilen token bilgisi eşleşiyormu ona bakıyoruz.  
-        else if (Cache::get("loginToken:{$user->id}") != $req->query("token") && $req->query("loginToken:{$user->id}") != $user->last_login_token) { 
-            return response()->json(["status"=>"Is Not OK", "msg"=>"Token is Invalid"]);
+        else if (Cache::get("loginToken:{$userId}") != $req->query("token") || $req->query("token") != $user->last_login_token) { 
+            return $this->errorResponse("Token is Invalid");
         }
         
         // $req->attributes->set("userId", $user->id); // burada ise gelen tokena bağlı olarak userId yi decode edip controllera atıyorum
-        $req->merge(["userId"=>$user->id]);
+        $req->merge(["userId"=>$userId]);
         return $next($req);
     }
 }
