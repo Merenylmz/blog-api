@@ -25,25 +25,26 @@ class VerifyToken
     public function handle(Request $req, Closure $next): Response
     {
         //Burada ise Token bilgisinden gelen userId ile userı buluyoruz. ve token bilgisi geçmişmi ve geçerlimi onu kontrol ediyoruz
-        $userId = JWTAuth::setToken($req->query("token"))->getPayload()->get("sub");
-        $user = Auth::user();
-        // $decodedToken = JWT::decode($req->query("token"));
-        if (!$user) {  
-            return $this->errorResponse("User is Not found");
-        }
-        else if ($user->id != $userId) {
-            return $this->errorResponse("Invalid Token Try Again");
-        }
-        else if (!Cache::has("loginToken:{$userId}")) {
-            return $this->errorResponse("Token Expired");
-        } 
-        //burada Databasedeki token bilgisi ile verilen token bilgisi eşleşiyormu ve cachedeki token bilgisi ile verilen token bilgisi eşleşiyormu ona bakıyoruz.  
-        else if (Cache::get("loginToken:{$userId}") != $req->query("token") || $req->query("token") != $user->last_login_token) { 
-            return $this->errorResponse("Token is Invalid");
-        }
+        // $userId = JWTAuth::setToken($req->query("token"))->getPayload()->get("sub");
+        // $user = Auth::user();
+        // // $decodedToken = JWT::decode($req->query("token"));
+        // if (!$user) {  
+        //     return $this->errorResponse("User is Not found");
+        // }
+        // else if ($user->id != $userId) {
+        //     return $this->errorResponse("Invalid Token Try Again");
+        // }
+        // else if (!Cache::has("loginToken:{$userId}")) {
+        //     return $this->errorResponse("Token Expired");
+        // } 
+        // //burada Databasedeki token bilgisi ile verilen token bilgisi eşleşiyormu ve cachedeki token bilgisi ile verilen token bilgisi eşleşiyormu ona bakıyoruz.  
+        // else if (Cache::get("loginToken:{$userId}") != $req->query("token") || $req->query("token") != $user->last_login_token) { 
+        //     return $this->errorResponse("Token is Invalid");
+        // }
         
-        // $req->attributes->set("userId", $user->id); // burada ise gelen tokena bağlı olarak userId yi decode edip controllera atıyorum
-        $req->merge(["userId"=>$userId]);
+        // // $req->attributes->set("userId", $user->id); // burada ise gelen tokena bağlı olarak userId yi decode edip controllera atıyorum
+        // $req->merge(["userId"=>$userId]);
+        // dd("Deneme");
         return $next($req);
     }
 }

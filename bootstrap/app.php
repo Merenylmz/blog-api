@@ -22,7 +22,7 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->alias([
             "verifyToken" => VerifyToken::class,
-            'auth.jwt' => Authenticate::class
+            'auth.api' => Authenticate::class
         ]);
     })
     ->withSchedule(function(Schedule $schedule){

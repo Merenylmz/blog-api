@@ -6,33 +6,33 @@ use App\Http\Resources\LoginResource;
 use App\Models\User;
 use App\Traits\ResponseTrait;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
+use Illuminate\Routing\Controllers\Middleware;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Storage;
 use PHPOpenSourceSaver\JWTAuth\Facades\JWTAuth;
 
-class AuthController extends Controller
+class AuthController extends Controller implements HasMiddleware
 {
-    /*
-    Bu Kısımda Login İşlemi Yapıyoruz kullanıcının emailini kontrol edip sistemde varmı ona bakıyoruz sonrasında Hash::check ile sistemdeki
-    şifre ile karşılaştırıyoruz bize eşitse true dönüyor. sonrasında token üretip Cache ile redise ve database' e kaydediyoruz her kullanıcı 
-    için farklı bir Cache kaydediyor
-    yani dinamik bir sistem sonra kullanıcının profil fotoğrafı varsa onuda bize döndürüyor.
-    */
-
     use ResponseTrait;
+
+    public static function middleware(): array
+    {
+        return [
+            new Middleware(middleware: 'auth.api', except: ['login', 'register', 'allUsers']),
+        ];
+    }
 
     public function login(Request $req){
         try {
             $info = $req->only("email", "password");
-            if (!$token = JWTAuth::attempt($info)) {
+            $token = Auth::attempt($info);
+            if (!$token) {
                 return $this->errorResponse("Unauthorized");
             }
             $user = Auth::user();
-
-            User::where("id", $user->id)->update(["last_login_token"=>$token]);
-            Cache::put("loginToken:{$user->id}", $token, 60*60);
 
             return (new LoginResource($user))->additional(["token"=>$token]);
         } catch (\Throwable $th) {
@@ -58,6 +58,11 @@ class AuthController extends Controller
 
             Cache::has("allUsers") ?? Cache::forget("allUsers");
 
+            // $creditenatls = $req->only("email", "password");
+            // $token = Auth::login($creditenatls);
+
+            // dd($token);
+
             return $this->successResponse($newUser->name);
         } catch (\Throwable $th) {
             return $this->errorResponse($th->getMessage());
@@ -66,13 +71,7 @@ class AuthController extends Controller
 
     public function logout(Request $req){
         try {
-            $user = User::find($req->userId);
-            Cache::has("loginToken:{$user->id}") ?? Cache::forget("loginToken:{$user->id}");
-
-            $user->last_login_token = null;
-            $user->save();
-
-            JWTAuth::invalidate($req->query("token"));
+            Auth::logout();
             
             return $this->successResponse("Logouted");
         } catch (\Throwable $th) {
