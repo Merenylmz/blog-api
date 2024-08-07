@@ -28,11 +28,12 @@ class AuthController extends Controller implements HasMiddleware
     public function login(Request $req){
         try {
             $info = $req->only("email", "password");
-            $token = Auth::attempt($info);
+            $token = Auth::guard("api")->attempt($info);
+
             if (!$token) {
                 return $this->errorResponse("Unauthorized");
             }
-            $user = Auth::user();
+            $user = Auth::guard("api")->user();
 
             return (new LoginResource($user))->additional(["token"=>$token]);
         } catch (\Throwable $th) {
@@ -71,7 +72,7 @@ class AuthController extends Controller implements HasMiddleware
 
     public function logout(Request $req){
         try {
-            Auth::logout();
+            Auth::guard("api")->logout();
             
             return $this->successResponse("Logouted");
         } catch (\Throwable $th) {
