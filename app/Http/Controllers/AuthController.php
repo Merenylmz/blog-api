@@ -28,8 +28,7 @@ class AuthController extends Controller implements HasMiddleware
     public function login(Request $req){
         try {
             $info = $req->only("email", "password");
-            $token = Auth::guard("api")->attempt($info);
-
+            $token = Auth::attempt($info);
             if (!$token) {
                 return $this->errorResponse("Unauthorized");
             }
