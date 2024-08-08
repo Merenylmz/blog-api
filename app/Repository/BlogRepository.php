@@ -4,6 +4,7 @@ namespace App\Repository;
 use App\Interface\BlogRepositoryInterface;
 use App\Jobs\NewCommentMailJob;
 use App\Models\Blog;
+use App\Models\Category;
 use App\Models\Comment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
@@ -59,8 +60,13 @@ class BlogRepository implements BlogRepositoryInterface
     }
 
     public function getBlogByCategoryId($id){
-        $blogs = $this->blog->whereIn("categoryId", $id)->where("isitActive", true)->get();
-       
+        $blogs = [];
+        if (!is_numeric($id[0])) {
+            $categoryIds = Category::whereIn("slug", $id)->pluck('id');
+            $blogs = $this->blog->whereIn("categoryId", $categoryIds)->where("isitActive", true)->get();
+        } else {
+            $blogs = $this->blog->whereIn("categoryId", $id)->where("isitActive", true)->get();
+        }
         return $blogs;
     }
 }
