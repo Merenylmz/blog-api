@@ -56,7 +56,7 @@ class AuthController extends Controller implements HasMiddleware
             $newUser->password = Hash::make($req->input("password"));
             $newUser->save();
 
-            Cache::has("allUsers") ?? Cache::forget("allUsers");
+            Cache::has("allUsers") && Cache::forget("allUsers");
 
             // $creditenatls = $req->only("email", "password");
             // $token = Auth::login($creditenatls);

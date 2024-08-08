@@ -28,6 +28,6 @@ class EditBlog extends EditRecord
     // }
 
     protected function afterSave():void{
-        Cache::has("allBlog") ?? Cache::forget("allBlog");
+        Cache::has("allBlog") && Cache::forget("allBlog");
     }
 }

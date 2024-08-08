@@ -20,8 +20,8 @@ class EditPolicy extends EditRecord
 
     protected function afterSave(): void
     {
-        Cache::has("policiesKvkk") ?? Cache::forget("policiesKvkk");
-        Cache::has("policiesPrivacy") ?? Cache::forget("policiesPrivacy");
-        Cache::has("policies") ?? Cache::forget("policies");
+        Cache::has("policiesKvkk") && Cache::forget("policiesKvkk");
+        Cache::has("policiesPrivacy") && Cache::forget("policiesPrivacy");
+        Cache::has("policies") && Cache::forget("policies");
     }
 }

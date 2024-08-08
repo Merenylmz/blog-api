@@ -90,7 +90,7 @@ class BlogResource extends Resource
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make()->after(function(){
-                        Cache::has("allBlog") ?? Cache::forget("allBlog");
+                        Cache::has("allBlog") && Cache::forget("allBlog");
                     }),
                 ]),
             ]);

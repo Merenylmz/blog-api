@@ -18,6 +18,6 @@ class EditCategory extends EditRecord
         ];
     }
     protected function afterSave():void{
-        Cache::has("allCategory") ?? Cache::forget("allCategory");
+        Cache::has("allCategory") && Cache::forget("allCategory");
     }
 }

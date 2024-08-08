@@ -56,7 +56,7 @@ class CategoryResource extends Resource
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make()->after(function(){
-                        Cache::has("allCategory") ?? Cache::forget("allCategory");
+                        Cache::has("allCategory") && Cache::forget("allCategory");
                     }),
                 ]),
             ]);

@@ -29,10 +29,10 @@ class Category extends Model
             if (is_null($model->blogs)) {
                 $model->blogs = [];
             }
-            Cache::has("allCategory") ?? Cache::forget("allCategory");
+            Cache::has("allCategory") && Cache::forget("allCategory");
         });
         static::deleting(function(){
-            Cache::has("allCategory") ?? Cache::forget("allCategory");
+            Cache::has("allCategory") && Cache::forget("allCategory");
         });
     }
 }
