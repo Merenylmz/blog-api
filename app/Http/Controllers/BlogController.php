@@ -96,7 +96,8 @@ class BlogController extends Controller
     //burada ise CategoryId ye bağlı olarak sadece aktif olan blogları getiriyor.
     public function getBlogByCategoryId(Request $req){
         try {
-            $blogs = $this->blogService->getBlogByCategoryId($req->input("categories"));
+            $idsOrSlugs = explode(',', $req->query("category"));
+            $blogs = $this->blogService->getBlogByCategoryId($idsOrSlugs);
             return $this->successResponse(["blogs"=>$blogs]);
         } catch (\Throwable $th) {
             return $this->errorResponse($th->getMessage());
